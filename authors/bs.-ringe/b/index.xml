@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>&lt;b&gt;S.  Ringe*&lt;/b&gt; | Ringe Lab</title>
+    <link>https://sringe.github.io/authors/bs.-ringe/b/</link>
+      <atom:link href="https://sringe.github.io/authors/bs.-ringe/b/index.xml" rel="self" type="application/rss+xml" />
+    <description>&lt;b&gt;S.  Ringe*&lt;/b&gt;</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>&lt;b&gt;S.  Ringe*&lt;/b&gt;</title>
+      <link>https://sringe.github.io/authors/bs.-ringe/b/</link>
+    </image>
+    
+    <item>
+      <title>Confined local oxygen gas promotes electrochemical water oxidation to hydrogen peroxide</title>
+      <link>https://sringe.github.io/publication/xia-2020-ld/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://sringe.github.io/publication/xia-2020-ld/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Double layer charging driven carbon dioxide adsorption limits the rate of electrochemical carbon dioxide reduction on Gold</title>
+      <link>https://sringe.github.io/publication/ringe-2020-yl/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://sringe.github.io/publication/ringe-2020-yl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unified Approach to Implicit and Explicit Solvent Simulations of Electrochemical Reaction Energetics</title>
+      <link>https://sringe.github.io/publication/gauthier-2019-us/</link>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://sringe.github.io/publication/gauthier-2019-us/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Practical Considerations for Continuum Models Applied to Surface Electrochemistry</title>
+      <link>https://sringe.github.io/publication/gauthier-2019-ig/</link>
+      <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://sringe.github.io/publication/gauthier-2019-ig/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Two-Dimensional MoS&lt;sub&gt;2&lt;/sub&gt; Catalysis Transistor by Solid-State Ion Gating Manipulation and Adjustment (SIGMA)</title>
+      <link>https://sringe.github.io/publication/wu-2019-bq/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://sringe.github.io/publication/wu-2019-bq/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Understanding cation effects in electrochemical CO&lt;sub&gt;2&lt;/sub&gt; reduction</title>
+      <link>https://sringe.github.io/publication/ringe-2019-dm/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://sringe.github.io/publication/ringe-2019-dm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Influence of Atomic Surface Structure on the Activity of Ag for the Electrochemical Reduction of CO&lt;sub&gt;2&lt;/sub&gt; to CO</title>
+      <link>https://sringe.github.io/publication/clark-2019-xk/</link>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>https://sringe.github.io/publication/clark-2019-xk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Solvent--Adsorbate Interactions and Adsorbate-Specific Solvent Structure in Carbon Dioxide Reduction on a Stepped Cu Surface</title>
+      <link>https://sringe.github.io/publication/ludwig-2019-gt/</link>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>https://sringe.github.io/publication/ludwig-2019-gt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Challenges in Modeling Electrochemical Reaction Energetics with Polarizable Continuum Models</title>
+      <link>https://sringe.github.io/publication/gauthier-2019-wt/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://sringe.github.io/publication/gauthier-2019-wt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Generalized molecular solvation in non-aqueous solutions by a single parameter implicit solvation scheme</title>
+      <link>https://sringe.github.io/publication/hille-2019-fn/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://sringe.github.io/publication/hille-2019-fn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pH effects on the electrochemical reduction of CO&lt;sub&gt;2&lt;/sub&gt; towards C&lt;sub&gt;2&lt;/sub&gt; products on stepped copper</title>
+      <link>https://sringe.github.io/publication/liu-2019-ng/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://sringe.github.io/publication/liu-2019-ng/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Theoretical Approaches to Describing the Oxygen Reduction Reaction Activity of Single-Atom Catalysts</title>
+      <link>https://sringe.github.io/publication/patel-2018-tq/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>https://sringe.github.io/publication/patel-2018-tq/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Transferable ionic parameters for first-principles Poisson-Boltzmann solvation calculations: Neutral solutes in aqueous monovalent salt solutions</title>
+      <link>https://sringe.github.io/publication/ringe-2017-dm/</link>
+      <pubDate>Sat, 01 Apr 2017 00:00:00 +0000</pubDate>
+      <guid>https://sringe.github.io/publication/ringe-2017-dm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Function-Space-Based Solution Scheme for the Size-Modified Poisson-Boltzmann Equation in Full-Potential DFT</title>
+      <link>https://sringe.github.io/publication/ringe-2016-ti/</link>
+      <pubDate>Mon, 01 Aug 2016 00:00:00 +0000</pubDate>
+      <guid>https://sringe.github.io/publication/ringe-2016-ti/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

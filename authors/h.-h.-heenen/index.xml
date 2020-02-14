@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>H. H.  Heenen | Ringe Lab</title>
+    <link>https://sringe.github.io/authors/h.-h.-heenen/</link>
+      <atom:link href="https://sringe.github.io/authors/h.-h.-heenen/index.xml" rel="self" type="application/rss+xml" />
+    <description>H. H.  Heenen</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>H. H.  Heenen</title>
+      <link>https://sringe.github.io/authors/h.-h.-heenen/</link>
+    </image>
+    
+    <item>
+      <title>Unified Approach to Implicit and Explicit Solvent Simulations of Electrochemical Reaction Energetics</title>
+      <link>https://sringe.github.io/publication/gauthier-2019-us/</link>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://sringe.github.io/publication/gauthier-2019-us/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

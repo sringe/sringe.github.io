@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ringe Lab</title>
+    <link>https://sringe.github.io/authors/shin-seungjae/</link>
+      <atom:link href="https://sringe.github.io/authors/shin-seungjae/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ringe Lab</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 13 Feb 2020 10:52:49 +0900</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Ringe Lab</title>
+      <link>https://sringe.github.io/authors/shin-seungjae/</link>
+    </image>
+    
+    <item>
+      <title>Electrochemistry at electrified interfaces</title>
+      <link>https://sringe.github.io/project/electrochemistrycomplexelectrifiedinterfaces/</link>
+      <pubDate>Thu, 13 Feb 2020 10:52:49 +0900</pubDate>
+      <guid>https://sringe.github.io/project/electrochemistrycomplexelectrifiedinterfaces/</guid>
+      <description>&lt;h1 id=&#34;electrochemistry-at-electrified-interfaces&#34;&gt;Electrochemistry at electrified interfaces&lt;/h1&gt;
+&lt;figure&gt;
+  &lt;img src=&#34;featured_wide.png&#34; alt=&#34;Trulli&#34; style=&#34;width:100%&#34;&gt;
+  &lt;figcaption&gt; &lt;b&gt;Combined quantum-classical modeling of the solid-liquid interface&lt;/b&gt;. Snapshot of a classical water trajectory under the influence of the quantum field of the surface (Au(322)). The contours depict the average oxygen (red) and hydrogen (white) spatial density that effects surface electrochemistry, in this case exemplarily depicted by the *CO&lt;sub&gt;2&lt;/sub&gt; intermediate.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;Recently, a number of studies have found that electrochemical processes in batteries and electrolyzers are highly sensitive to the electrified solid-liquid interface. In addition, increasingly complex catalyst materials, such as carbon materials, single atom catalysts, 2D materials (MoS&lt;sub&gt;2&lt;/sub&gt;, etc.) or semiconductors have been used. So far, adsorption energies of reaction intermediates have been used to rationalize catalyst activities on such materials, while the influence of the bias potential and solvation environment has been ignored. In this project, a recently published QM/MM framework4,5 will be applied to evaluate these materials under realistic environmental conditions. This comprises the optimization of force field parameters and the usage of a currently developed charging scheme. Eventually reactions will be modeled at these interfaces and conclusions drawn about activity descriptors which will lead to generalized catalyst and electrode material design principles.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Related work from our group&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://sringe.github.io/publication/clark-2019-xk&#34;&gt;clark-2019-xk&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://sringe.github.io/publication/ringe-2019-dm&#34;&gt;ringe-2019-dm&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://sringe.github.io/publication/wu-2019-bq&#34;&gt;wu-2019-bq&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
