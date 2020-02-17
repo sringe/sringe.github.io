@@ -162,38 +162,6 @@
     </item>
     
     <item>
-      <title>Landing Page</title>
-      <link>https://ringelab.com/contact/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://ringelab.com/contact/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Landing Page</title>
-      <link>https://ringelab.com/people/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://ringelab.com/people/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Landing Page</title>
-      <link>https://ringelab.com/publications/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://ringelab.com/publications/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Landing Page</title>
-      <link>https://ringelab.com/research/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://ringelab.com/research/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>pH effects on the electrochemical reduction of CO&lt;sub&gt;2&lt;/sub&gt; towards C&lt;sub&gt;2&lt;/sub&gt; products on stepped copper</title>
       <link>https://ringelab.com/publication/liu-2019-ng/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
@@ -222,6 +190,38 @@
       <link>https://ringelab.com/publication/ringe-2016-ti/</link>
       <pubDate>Mon, 01 Aug 2016 00:00:00 +0000</pubDate>
       <guid>https://ringelab.com/publication/ringe-2016-ti/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://ringelab.com/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ringelab.com/contact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://ringelab.com/people/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ringelab.com/people/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://ringelab.com/publications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ringelab.com/publications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://ringelab.com/research/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ringelab.com/research/</guid>
       <description></description>
     </item>
     
