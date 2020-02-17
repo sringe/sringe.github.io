@@ -1,46 +1,46 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>J. A.  Gauthier | Ringe Lab</title>
-    <link>https://sringe.github.io/authors/j.-a.-gauthier/</link>
-      <atom:link href="https://sringe.github.io/authors/j.-a.-gauthier/index.xml" rel="self" type="application/rss+xml" />
+    <title>J. A.  Gauthier | RingeLab</title>
+    <link>https://ringelab.com/authors/j.-a.-gauthier/</link>
+      <atom:link href="https://ringelab.com/authors/j.-a.-gauthier/index.xml" rel="self" type="application/rss+xml" />
     <description>J. A.  Gauthier</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Dec 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>J. A.  Gauthier</title>
-      <link>https://sringe.github.io/authors/j.-a.-gauthier/</link>
+      <link>https://ringelab.com/authors/j.-a.-gauthier/</link>
     </image>
     
     <item>
       <title>Unified Approach to Implicit and Explicit Solvent Simulations of Electrochemical Reaction Energetics</title>
-      <link>https://sringe.github.io/publication/gauthier-2019-us/</link>
+      <link>https://ringelab.com/publication/gauthier-2019-us/</link>
       <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>https://sringe.github.io/publication/gauthier-2019-us/</guid>
+      <guid>https://ringelab.com/publication/gauthier-2019-us/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Practical Considerations for Continuum Models Applied to Surface Electrochemistry</title>
-      <link>https://sringe.github.io/publication/gauthier-2019-ig/</link>
+      <link>https://ringelab.com/publication/gauthier-2019-ig/</link>
       <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>https://sringe.github.io/publication/gauthier-2019-ig/</guid>
+      <guid>https://ringelab.com/publication/gauthier-2019-ig/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Solvent--Adsorbate Interactions and Adsorbate-Specific Solvent Structure in Carbon Dioxide Reduction on a Stepped Cu Surface</title>
-      <link>https://sringe.github.io/publication/ludwig-2019-gt/</link>
+      <link>https://ringelab.com/publication/ludwig-2019-gt/</link>
       <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://sringe.github.io/publication/ludwig-2019-gt/</guid>
+      <guid>https://ringelab.com/publication/ludwig-2019-gt/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Challenges in Modeling Electrochemical Reaction Energetics with Polarizable Continuum Models</title>
-      <link>https://sringe.github.io/publication/gauthier-2019-wt/</link>
+      <link>https://ringelab.com/publication/gauthier-2019-wt/</link>
       <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://sringe.github.io/publication/gauthier-2019-wt/</guid>
+      <guid>https://ringelab.com/publication/gauthier-2019-wt/</guid>
       <description></description>
     </item>
     

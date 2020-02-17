@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects | Ringe Lab</title>
-    <link>https://sringe.github.io/project/</link>
-      <atom:link href="https://sringe.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    <title>Projects | RingeLab</title>
+    <link>https://ringelab.com/project/</link>
+      <atom:link href="https://ringelab.com/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 13 Feb 2020 10:52:49 +0900</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Projects</title>
-      <link>https://sringe.github.io/project/</link>
+      <link>https://ringelab.com/project/</link>
     </image>
     
     <item>
       <title>Electrochemistry at electrified interfaces</title>
-      <link>https://sringe.github.io/project/electrochemistrycomplexelectrifiedinterfaces/</link>
+      <link>https://ringelab.com/project/electrochemistrycomplexelectrifiedinterfaces/</link>
       <pubDate>Thu, 13 Feb 2020 10:52:49 +0900</pubDate>
-      <guid>https://sringe.github.io/project/electrochemistrycomplexelectrifiedinterfaces/</guid>
+      <guid>https://ringelab.com/project/electrochemistrycomplexelectrifiedinterfaces/</guid>
       <description>&lt;h1 id=&#34;electrochemistry-at-electrified-interfaces&#34;&gt;Electrochemistry at electrified interfaces&lt;/h1&gt;
 &lt;figure&gt;
   &lt;img src=&#34;featured_wide.png&#34; alt=&#34;Trulli&#34; style=&#34;width:100%&#34;&gt;
@@ -25,19 +25,19 @@
 &lt;p&gt;Recently, a number of studies have found that electrochemical processes in batteries and electrolyzers are highly sensitive to the electrified solid-liquid interface. In addition, increasingly complex catalyst materials, such as carbon materials, single atom catalysts, 2D materials (MoS&lt;sub&gt;2&lt;/sub&gt;, etc.) or semiconductors have been used. So far, adsorption energies of reaction intermediates have been used to rationalize catalyst activities on such materials, while the influence of the bias potential and solvation environment has been ignored. In this project, a recently published QM/MM framework4,5 will be applied to evaluate these materials under realistic environmental conditions. This comprises the optimization of force field parameters and the usage of a currently developed charging scheme. Eventually reactions will be modeled at these interfaces and conclusions drawn about activity descriptors which will lead to generalized catalyst and electrode material design principles.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Related work from our group&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;
-&lt;a href=&#34;https://sringe.github.io/publication/clark-2019-xk&#34;&gt;clark-2019-xk&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;https://ringelab.com/publication/clark-2019-xk&#34;&gt;clark-2019-xk&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;
-&lt;a href=&#34;https://sringe.github.io/publication/ringe-2019-dm&#34;&gt;ringe-2019-dm&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;https://ringelab.com/publication/ringe-2019-dm&#34;&gt;ringe-2019-dm&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;
-&lt;a href=&#34;https://sringe.github.io/publication/wu-2019-bq&#34;&gt;wu-2019-bq&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;https://ringelab.com/publication/wu-2019-bq&#34;&gt;wu-2019-bq&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Multi-scale electrochemical system design</title>
-      <link>https://sringe.github.io/project/multiscaledesign/</link>
+      <link>https://ringelab.com/project/multiscaledesign/</link>
       <pubDate>Thu, 13 Feb 2020 10:52:49 +0900</pubDate>
-      <guid>https://sringe.github.io/project/multiscaledesign/</guid>
+      <guid>https://ringelab.com/project/multiscaledesign/</guid>
       <description>&lt;h1 id=&#34;multi-scale-electrochemical-system-design&#34;&gt;Multi-scale electrochemical system design&lt;/h1&gt;
 &lt;figure&gt;
   &lt;img src=&#34;featured_wide.png&#34; alt=&#34;Trulli&#34; style=&#34;width:100%&#34;&gt;
@@ -46,15 +46,15 @@
 &lt;p&gt;For a long time, planar, crystalline electrodes have been predominantly used to catalyze energy conversion processes. The simplicity of these systems enabled DFT simulations to unravel binding energy descriptors for electrocatalytic activity and develop efficient catalyst screening approaches. However, the intrinsic limitations of electrode engineering in two dimensions has triggered developments towards the use of 3D-structured electrodes. Nowadays, in particular the use of porous electrodes, enables to selectively design the arrangement, strain, environment and volume density of active sites and maximize the mass-loading based activity of expensive catalysts. Porous electrodes are thus a state-of-the-art means for many electrochemical reactions, such as ORR, HER and OER. Particularly strong effects have been found for CO&lt;sub&gt;2&lt;/sub&gt; and CO reduction, with critical enhancements of valuable C&lt;sub&gt;2+&lt;/sub&gt; (carbohydrates and alcohols at least two carbon atoms) product formation on copper, and CO formation on gold and silver. Despite the significance of these effects in a wide range of energy conversion processes, the physical complexity of the systems has largely limited a detailed understanding and strategic design of porous electrodes. The goal of this project is to develop a my group will be to develop a cutting edge &lt;i&gt;multi-scale&lt;/i&gt; framework for modeling electrochemical energy conversion in nano-structured electrodes. Ultimately, this leads to generalized design principles that take both mass transport and reaction kinetics into account. The CatINT software which is under continuous development enables to achieve this task.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Related work from our group&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;
-&lt;a href=&#34;https://sringe.github.io/publication/ringe-2020-yl&#34;&gt;ringe-2019-dm&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;https://ringelab.com/publication/ringe-2020-yl&#34;&gt;ringe-2019-dm&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Research interest and motivation</title>
-      <link>https://sringe.github.io/project/generalresearchgoals/</link>
+      <link>https://ringelab.com/project/generalresearchgoals/</link>
       <pubDate>Thu, 13 Feb 2020 10:52:49 +0900</pubDate>
-      <guid>https://sringe.github.io/project/generalresearchgoals/</guid>
+      <guid>https://ringelab.com/project/generalresearchgoals/</guid>
       <description>&lt;h1 id=&#34;research-interest-and-motivation&#34;&gt;Research interest and motivation&lt;/h1&gt;
 &lt;figure&gt;
   &lt;img src=&#34;overview.png&#34; alt=&#34;Trulli&#34; style=&#34;width:60%&#34;&gt;
