@@ -223,16 +223,15 @@
   
   
     
-    
   
   
-  <meta property="twitter:card" content="summary">
+  <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="RingeLab">
   <meta property="og:url" content="https://ringelab.com/research/">
   <meta property="og:title" content=" | RingeLab">
-  <meta property="og:description" content=""><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
-  <meta property="twitter:image" content="img/map[gravatar:%!s(bool=false) shape:circle]"><meta property="og:locale" content="en-us">
+  <meta property="og:description" content=""><meta property="og:image" content="https://ringelab.com/research/featured.png">
+  <meta property="twitter:image" content="https://ringelab.com/research/featured.png"><meta property="og:locale" content="en-us">
   
     
     
@@ -543,7 +542,41 @@
 
 
 
-    
+    <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+</head>
+<a href="../project_general/generalresearchgoals/" style="color: rgb(0,0,0)">
+<img src="featured.png" alt="" class="center" width=40%>
+</a>
+<figcaption><a href="../project_general/generalresearchgoals/" style="color: rgb(0,0,0)"><p style="font-size: 1.4rem"><b>General research interest</b></p></a><p style="font-size: 0.9rem">First-principles, multi-scale simulations for energy conversion and storage.</p></figcaption>
+<!--
+{{ $do_link := true }}
+{{if $do_link}}<a href="{{ $link }}" {{ $target | safeHTMLAttr }}>{{end}}
+  <img src="{{ $image.RelPermalink }}" alt="">
+{{if $do_link}}</a>{{end}}
+<img src="featured.png" alt>
+</a>
+<a href="project/GeneralResearchGoals/">
+<div class="col-12 col-md-3 order-first {{$order}}">
+  {{ $resource := ($item.Resources.ByType "image").GetMatch "*featured*" }}
+  {{ with $resource }}
+  {{ $resource := 
+  {{ $image := .Resize "540x" }}
+  {{if $do_link}}<a href="{{ $link }}" {{ $target | safeHTMLAttr }}>{{end}}
+    <img src="{{ $image.RelPermalink }}" alt="">
+  {{if $do_link}}</a>{{end}}
+  {{end}}
+</div>
+-->
+<hr>
+
 
     
 
@@ -661,8 +694,6 @@
 
 
 
-  
-
 
 
 
@@ -710,99 +741,12 @@
       </div>
 
     </div>
-    <div class="col-12 col-md-3 order-first order-md-2">
+    <div class="col-12 col-md-3 order-first ">
       
       
       
       <a href="/project/multiscaledesign/" >
         <img src="/project/multiscaledesign/featured_hu995b1913a8f8a05bec6e0964b0e818a3_922466_540x0_resize_lanczos_2.png" alt="">
-      </a>
-      
-    </div>
-  </div>
-</div>
-
-        
-
-      
-
-        
-        
-        
-
-        
-          
-
-
-
-
-  
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-<div class="col-lg-12 project-item isotope-item ">
-  <div class="row align-items-center">
-    <div class="col-12 col-md-9">
-      <h6 class="article-title mb-0 mt-0"><a href="/project/generalresearchgoals/" >Research interest and motivation</a></h6>
-
-      
-      <div class="article-style">
-        First-principles, multi-scale simulations for energy conversion and storage.
-      </div>
-      
-
-      <div class="btn-links">
-        
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-
-    </div>
-    <div class="col-12 col-md-3 order-first ">
-      
-      
-      
-      <a href="/project/generalresearchgoals/" >
-        <img src="/project/generalresearchgoals/featured_huc65667836e0d9104190cfd895094bfa5_1272679_540x0_resize_lanczos_2.png" alt="">
       </a>
       
     </div>

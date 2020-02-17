@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Project_generals | RingeLab</title>
+    <link>https://ringelab.com/project_general/</link>
+      <atom:link href="https://ringelab.com/project_general/index.xml" rel="self" type="application/rss+xml" />
+    <description>Project_generals</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 13 Feb 2020 10:52:49 +0900</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Project_generals</title>
+      <link>https://ringelab.com/project_general/</link>
+    </image>
+    
+    <item>
+      <title>Research interest and motivation</title>
+      <link>https://ringelab.com/project_general/generalresearchgoals/</link>
+      <pubDate>Thu, 13 Feb 2020 10:52:49 +0900</pubDate>
+      <guid>https://ringelab.com/project_general/generalresearchgoals/</guid>
+      <description>&lt;h1 id=&#34;research-interest-and-motivation&#34;&gt;Research interest and motivation&lt;/h1&gt;
+&lt;figure&gt;
+  &lt;img src=&#34;overview.png&#34; alt=&#34;Trulli&#34; style=&#34;width:60%&#34;&gt;
+  &lt;figcaption&gt; Our research focuses on machine learning assisted, first-principles and &lt;i&gt;in operando&lt;/i&gt; design of energy conversion (electrolyzers, fuel cells), energy harvesting (solar cells) and energy storage (batteries) materials.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;Our world today is facing an unprecedented environmental challenge, with the energy demand steadily increasing, the CO&lt;sub&gt;2&lt;/sub&gt; concentration in the atmosphere reaching record-high levels in the human history, and oil, gas and coal being estimated to last for around 50&amp;ndash;100 years. The already initiated global drive towards renewable energies is limited by an efficient and carbon-neutral conversion and storage of electrical and chemical energy. A central role is played by the electrochemical reduction of the greenhouse CO&lt;sub&gt;2&lt;/sub&gt; gas (CO&lt;sub&gt;2&lt;/sub&gt;R), which offers an environmentally highly valuable route to fuels, but is still not economically feasible due to catalysts exhibiting high overpotentials and poor product selectivity.  At the same time, hydrogen gas, which is essential for the chemical industry, is almost exclusively harvested via carbon-intensive steam reforming. The sustainable alternative, electrochemical water splitting, is again limited by high overpotentials making the process economically intractable. The recent environmental changes have, however, increased the political and economic momentum towards carbon-neutral harvesting and conversion of energy.&lt;/p&gt;
+&lt;p&gt;The main focus of our research group is the computational discovery of economically competitive energy conversion and storage systems, comprising solar cells, batteries, capacitors, fuel cells and electrolyzers. The central challenge is to develop a much more directed and systematic material screening framework based on detailed physical and chemical understanding of the processes and their reaction environment. In particular in the field of electrocatalysis, the discovery of increasingly more complex, nano-structured and multi-component active catalysts has significantly decreased scientific comprehension and lead to a critically high level of experience- and trial-and-error-based search for new materials. Simulations can help in increasing the scientific component in the search for new materials, but are required to be accurate on multiple scales and consider the actual &lt;i&gt;operando&lt;/i&gt; environmental conditions of the materials.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
