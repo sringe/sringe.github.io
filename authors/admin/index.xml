@@ -17,20 +17,7 @@
       <link>https://ringelab.com/project/electrochemistrycomplexelectrifiedinterfaces/</link>
       <pubDate>Thu, 13 Feb 2020 10:52:49 +0900</pubDate>
       <guid>https://ringelab.com/project/electrochemistrycomplexelectrifiedinterfaces/</guid>
-      <description>&lt;h1 id=&#34;electrochemistry-at-electrified-interfaces&#34;&gt;Electrochemistry at electrified interfaces&lt;/h1&gt;
-&lt;figure&gt;
-  &lt;img src=&#34;featured_wide.png&#34; alt=&#34;Trulli&#34; style=&#34;width:100%&#34;&gt;
-  &lt;figcaption&gt; &lt;b&gt;Combined quantum-classical modeling of the solid-liquid interface&lt;/b&gt;. Snapshot of a classical water trajectory under the influence of the quantum field of the surface (Au(322)). The contours depict the average oxygen (red) and hydrogen (white) spatial density that effects surface electrochemistry, in this case exemplarily depicted by the *CO&lt;sub&gt;2&lt;/sub&gt; intermediate.&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;p&gt;Recently, a number of studies have found that electrochemical processes in batteries and electrolyzers are highly sensitive to the electrified solid-liquid interface. In addition, increasingly complex catalyst materials, such as carbon materials, single atom catalysts, 2D materials (MoS&lt;sub&gt;2&lt;/sub&gt;, etc.) or semiconductors have been used. So far, adsorption energies of reaction intermediates have been used to rationalize catalyst activities on such materials, while the influence of the bias potential and solvation environment has been ignored. In this project, a recently published QM/MM framework4,5 will be applied to evaluate these materials under realistic environmental conditions. This comprises the optimization of force field parameters and the usage of a currently developed charging scheme. Eventually reactions will be modeled at these interfaces and conclusions drawn about activity descriptors which will lead to generalized catalyst and electrode material design principles.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Related work from our group&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://ringelab.com/publication/clark-2019-xk&#34;&gt;clark-2019-xk&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://ringelab.com/publication/ringe-2019-dm&#34;&gt;ringe-2019-dm&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://ringelab.com/publication/wu-2019-bq&#34;&gt;wu-2019-bq&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description></description>
     </item>
     
     <item>
@@ -38,16 +25,7 @@
       <link>https://ringelab.com/project/multiscaledesign/</link>
       <pubDate>Thu, 13 Feb 2020 10:52:49 +0900</pubDate>
       <guid>https://ringelab.com/project/multiscaledesign/</guid>
-      <description>&lt;h1 id=&#34;multi-scale-electrochemical-system-design&#34;&gt;Multi-scale electrochemical system design&lt;/h1&gt;
-&lt;figure&gt;
-  &lt;img src=&#34;featured_wide.png&#34; alt=&#34;Trulli&#34; style=&#34;width:100%&#34;&gt;
-  &lt;figcaption&gt; &lt;b&gt;Multi-scale modeling approach for electrochemical energy conversion&lt;/b&gt;. Understanding electrochemistry requires a detailed modeling of electrochemical reaction kinetics, but also mass transport, both under applied bias potential. Porous electrodes give rise to particularly interesting mass transport phenomena, which interplay with reaction kinetics is only little understood.&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;p&gt;For a long time, planar, crystalline electrodes have been predominantly used to catalyze energy conversion processes. The simplicity of these systems enabled DFT simulations to unravel binding energy descriptors for electrocatalytic activity and develop efficient catalyst screening approaches. However, the intrinsic limitations of electrode engineering in two dimensions has triggered developments towards the use of 3D-structured electrodes. Nowadays, in particular the use of porous electrodes, enables to selectively design the arrangement, strain, environment and volume density of active sites and maximize the mass-loading based activity of expensive catalysts. Porous electrodes are thus a state-of-the-art means for many electrochemical reactions, such as ORR, HER and OER. Particularly strong effects have been found for CO&lt;sub&gt;2&lt;/sub&gt; and CO reduction, with critical enhancements of valuable C&lt;sub&gt;2+&lt;/sub&gt; (carbohydrates and alcohols at least two carbon atoms) product formation on copper, and CO formation on gold and silver. Despite the significance of these effects in a wide range of energy conversion processes, the physical complexity of the systems has largely limited a detailed understanding and strategic design of porous electrodes. The goal of this project is to develop a my group will be to develop a cutting edge &lt;i&gt;multi-scale&lt;/i&gt; framework for modeling electrochemical energy conversion in nano-structured electrodes. Ultimately, this leads to generalized design principles that take both mass transport and reaction kinetics into account. The CatINT software which is under continuous development enables to achieve this task.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Related work from our group&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://ringelab.com/publication/ringe-2020-yl&#34;&gt;ringe-2019-dm&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description></description>
     </item>
     
     <item>
@@ -55,14 +33,7 @@
       <link>https://ringelab.com/project_general/generalresearchgoals/</link>
       <pubDate>Thu, 13 Feb 2020 10:52:49 +0900</pubDate>
       <guid>https://ringelab.com/project_general/generalresearchgoals/</guid>
-      <description>&lt;h1 id=&#34;research-interest-and-motivation&#34;&gt;Research interest and motivation&lt;/h1&gt;
-&lt;figure&gt;
-  &lt;img src=&#34;overview.png&#34; alt=&#34;Trulli&#34; style=&#34;width:60%&#34;&gt;
-  &lt;figcaption&gt; Our research focuses on machine learning assisted, first-principles and &lt;i&gt;in operando&lt;/i&gt; design of energy conversion (electrolyzers, fuel cells), energy harvesting (solar cells) and energy storage (batteries) materials.&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;p&gt;Our world today is facing an unprecedented environmental challenge, with the energy demand steadily increasing, the CO&lt;sub&gt;2&lt;/sub&gt; concentration in the atmosphere reaching record-high levels in the human history, and oil, gas and coal being estimated to last for around 50&amp;ndash;100 years. The already initiated global drive towards renewable energies is limited by an efficient and carbon-neutral conversion and storage of electrical and chemical energy. A central role is played by the electrochemical reduction of the greenhouse CO&lt;sub&gt;2&lt;/sub&gt; gas (CO&lt;sub&gt;2&lt;/sub&gt;R), which offers an environmentally highly valuable route to fuels, but is still not economically feasible due to catalysts exhibiting high overpotentials and poor product selectivity.  At the same time, hydrogen gas, which is essential for the chemical industry, is almost exclusively harvested via carbon-intensive steam reforming. The sustainable alternative, electrochemical water splitting, is again limited by high overpotentials making the process economically intractable. The recent environmental changes have, however, increased the political and economic momentum towards carbon-neutral harvesting and conversion of energy.&lt;/p&gt;
-&lt;p&gt;The main focus of our research group is the computational discovery of economically competitive energy conversion and storage systems, comprising solar cells, batteries, capacitors, fuel cells and electrolyzers. The central challenge is to develop a much more directed and systematic material screening framework based on detailed physical and chemical understanding of the processes and their reaction environment. In particular in the field of electrocatalysis, the discovery of increasingly more complex, nano-structured and multi-component active catalysts has significantly decreased scientific comprehension and lead to a critically high level of experience- and trial-and-error-based search for new materials. Simulations can help in increasing the scientific component in the search for new materials, but are required to be accurate on multiple scales and consider the actual &lt;i&gt;operando&lt;/i&gt; environmental conditions of the materials.&lt;/p&gt;
-</description>
+      <description></description>
     </item>
     
   </channel>
