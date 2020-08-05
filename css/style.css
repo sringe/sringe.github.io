@@ -15,6 +15,7 @@ html {
 
 .root.twitter-timeline .tweet {
   padding: 7px 10px;
+  display: inline-block;
   border-bottom: 1px solid white; }
 .root.twitter-timeline a,
 .root.twitter-timeline a:visited {
