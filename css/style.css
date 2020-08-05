@@ -1,10 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700|Istok+Web|Oxygen:300,700,400|Varela+Round|Chivo|Telex);
 html {
-  color: red !important; }
+  color: black !important; }
 
 @media (max-width: 767px) {
   html {
-    width: 50%; } }
+    width: 100%; } }
 @media (min-width: 768px) {
   html {
     width: 560px; } }
@@ -24,6 +24,8 @@ html {
 .root.twitter-timeline .hashtag,
 .root.twitter-timeline .profile {
   text-decoration: none; }
+.root.twitter-timeline .author {
+  display: none;}
   .root.twitter-timeline .u-url:hover,
   .root.twitter-timeline .expand:hover,
   .root.twitter-timeline .hashtag:hover,
