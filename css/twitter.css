@@ -8,7 +8,7 @@ html {
 @media (min-width: 768px) {
   html {
     width: 560px; } }
-.root.timeline.twitter-timeline {
+.twitter-timeline a {
   background-color: #f0f7fc;}
 .root.timeline.twitter-timeline p {
 position:relative;
