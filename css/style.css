@@ -24,14 +24,17 @@ html {
 .root.twitter-timeline .hashtag,
 .root.twitter-timeline .profile {
   text-decoration: none; }
-.root.twitter-timeline .profile {
-  display: none;}
   .root.twitter-timeline .u-url:hover,
   .root.twitter-timeline .expand:hover,
   .root.twitter-timeline .hashtag:hover,
   .root.twitter-timeline .profile:hover {
     text-decoration: underline;
     color: #fff; }
+
+.root.twitter-timeline .profile {
+  display: none;}
+.root.twitter-timeline .author {
+  display: none;}
 
 .u-photo,
 .full-name,
