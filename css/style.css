@@ -16,6 +16,7 @@ html {
 .root.twitter-timeline .tweet {
   padding: 7px 10px;
   display: inline-block;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
   border-bottom: 1px solid white; }
 .root.twitter-timeline a,
 .root.twitter-timeline a:visited {
@@ -31,6 +32,9 @@ html {
   .root.twitter-timeline .profile:hover {
     text-decoration: underline;
     color: #fff; }
+
+.root.twitter-timeline a:visited {
+   display: none}
 
 .root.twitter-timeline .profile {
   display: none;}
