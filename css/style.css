@@ -24,7 +24,7 @@ html {
 .root.twitter-timeline .hashtag,
 .root.twitter-timeline .profile {
   text-decoration: none; }
-.root.twitter-timeline .author {
+.root.twitter-timeline .profile {
   display: none;}
   .root.twitter-timeline .u-url:hover,
   .root.twitter-timeline .expand:hover,
