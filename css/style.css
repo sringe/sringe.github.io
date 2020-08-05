@@ -8,37 +8,37 @@ html {
 @media (min-width: 768px) {
   html {
     width: 560px; } }
-.root.timeline.twitter-timeline {
+.timeline.twitter-timeline {
   background-color: #2c3e50; }
-.root.timeline.twitter-timeline p, .root.timeline.twitter-timeline a, .root.timeline.twitter-timeline ol, .root.timeline.twitter-timeline ul, .root.timeline.twitter-timeline li {
+.timeline.twitter-timeline p, .timeline.twitter-timeline a, .timeline.twitter-timeline ol, .timeline.twitter-timeline ul, .timeline.twitter-timeline li {
     font-family: "Oxygen", "Ubuntu", "Helvetica Neue", Helvetica, arial, sans-serif; }
 
-.root.twitter-timeline .tweet {
+.twitter-timeline .tweet {
   padding: 7px 10px;
   display: inline-block;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
   border-bottom: 1px solid black; }
-.root.twitter-timeline a,
-.root.twitter-timeline a:visited {
+.twitter-timeline a,
+.twitter-timeline a:visited {
   text-decoration: underline; }
-.root.twitter-timeline .u-url,
-.root.twitter-timeline .expand,
-.root.twitter-timeline .hashtag,
-.root.twitter-timeline .profile {
+.twitter-timeline .u-url,
+.twitter-timeline .expand,
+.twitter-timeline .hashtag,
+.twitter-timeline .profile {
   text-decoration: none; }
-  .root.twitter-timeline .u-url:hover,
-  .root.twitter-timeline .expand:hover,
-  .root.twitter-timeline .hashtag:hover,
-  .root.twitter-timeline .profile:hover {
+  .twitter-timeline .u-url:hover,
+  .twitter-timeline .expand:hover,
+  .twitter-timeline .hashtag:hover,
+  .twitter-timeline .profile:hover {
     text-decoration: underline;
     color: #fff; }
 
-.root.twitter-timeline a:visited {
+.twitter-timeline a:visited {
    display: none}
 
-.root.twitter-timeline .profile {
+.twitter-timeline .profile {
   display: none;}
-.root.twitter-timeline .author {
+.twitter-timeline .author {
   display: none;}
 
 .u-photo,
