@@ -790,14 +790,48 @@
   
   
     <div class="col-24 col-lg-12">
-
+                <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
               
-                <a class="twitter-timeline" href="https://twitter.com/RingeStefan" 
-                data-chrome="noheader nofooter noborders transparent noscrollbar" 
-                data-tweet-limit="4" dnt="true">Tweets by RingeLab</a>
-                <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-               
-               <script type="application/javascript" src="https://gist.githubusercontent.com/mpukit/423cfb4e5d073288e10d34d4c73ba37d/raw/b63b66341f44c148642a6c3c0c2268d539fd0878/twitter-override.js"></script>
+                <div class="twitter-feed">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                              
+                                <a class="twitter-timeline" href="https://twitter.com/RingeStefan" 
+                                data-chrome="noheader nofooter noborders transparent noscrollbar" 
+                                data-tweet-limit="4" dnt="true">Tweets by UPMC Physician Education</a>
+                                <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
+                <script>
+                        $('.twitter-feed').delegate('#twitter-widget-0', 'DOMSubtreeModified propertychange', function () {
+                            customizeTweetMedia();
+                        });
+                        
+                        var customizeTweetMedia = function () {
+                            
+                            $('.twitter-feed').find('.twitter-timeline').contents().find('img.Avatar').css('display', 'none');
+                            $('.twitter-feed').find('.twitter-timeline').contents().find('.timeline-Tweet-author').remove();
+                            $('.twitter-feed').find('.twitter-timeline').contents().find('span.TweetAuthor-avatar.Identity-avatar').remove();
+                            $('.twitter-feed').find('.twitter-timeline').contents().find('span.TweetAuthor-screenName').css('font-size', '16px');
+                            $('.twitter-feed').find('.twitter-timeline').contents().find('span.TweetAuthor-screenName').css('font-family', 'Raleway');    
+                            $('.twitter-feed').find('.twitter-timeline').contents().find('p.timeline-tweet-text').css('font-family', 'Cabin');
+                            $('.twitter-feed').find('.twitter-timeline').contents().find('p.timeline-tweet-text').css('font-size', '18px');
+                            $('.twitter-feed').find('.twitter-timeline').contents().find('p.timeline-tweet-text').css('line-height', '1.6');
+                            $('.twitter-feed').find('.twitter-timeline').contents().find('ul.timeline-tweet-actions').css('display', 'none');
+                        
+                            
+                            $('.twitter-feed').find('.twitter-timeline').contents().find('.timeline-TweetList').bind('DOMSubtreeModified propertychange', function () {
+                                customizeTweetMedia(this);
+                            });
+                         }
+                </script>
+
     </div>
   
 </div>
