@@ -790,6 +790,7 @@
   
   
     <div class="col-24 col-lg-12">
+                <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
                 <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
               
                 <div class="twitter-feed">
@@ -799,7 +800,7 @@
                               
                                 <a class="twitter-timeline" href="https://twitter.com/RingeStefan" 
                                 data-chrome="noheader nofooter noborders transparent noscrollbar" 
-                                data-tweet-limit="4" dnt="true">Tweets by UPMC Physician Education</a>
+                                data-tweet-limit="8" dnt="true">RingeLab Live</a>
                                 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
                                
                             </div>
@@ -807,7 +808,6 @@
                     </div>
                 </div>
                 
-                <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
                 <script>
                         $('.twitter-feed').delegate('#twitter-widget-0', 'DOMSubtreeModified propertychange', function () {
                             customizeTweetMedia();
@@ -815,15 +815,30 @@
                         
                         var customizeTweetMedia = function () {
                             
+                            $('.twitter-feed').find('.twitter-timeline').contents().find('.timeline-Header').css('display','block');
+                            $('.twitter-feed').find('.twitter-timeline').contents().find('.timeline-Header').css('background-color','#e6e6e6');
+                            $('.twitter-feed').find('.twitter-timeline').contents().find('.timeline-Header-title').css('border-collapse','separate');
+                            $('.twitter-feed').find('.twitter-timeline').contents().find('.timeline-Header-title').css('border-radius','25px');
+                            $('.twitter-feed').find('.twitter-timeline').contents().find('.timeline-Header-byline').remove();
+                            $('.twitter-feed').find('.twitter-timeline').contents().find('.timeline-InformationCircle').remove();
                             $('.twitter-feed').find('.twitter-timeline').contents().find('img.Avatar').css('display', 'none');
                             $('.twitter-feed').find('.twitter-timeline').contents().find('.timeline-Tweet-author').remove();
+                            $('.twitter-feed').find('.twitter-timeline').contents().find('.timeline-Tweet-media').css('width','30%');
+                            $('.twitter-feed').find('.twitter-timeline').contents().find('.timeline-Tweet-media').css('margin','auto');
                             $('.twitter-feed').find('.twitter-timeline').contents().find('span.TweetAuthor-avatar.Identity-avatar').remove();
-                            $('.twitter-feed').find('.twitter-timeline').contents().find('span.TweetAuthor-screenName').css('font-size', '16px');
-                            $('.twitter-feed').find('.twitter-timeline').contents().find('span.TweetAuthor-screenName').css('font-family', 'Raleway');    
-                            $('.twitter-feed').find('.twitter-timeline').contents().find('p.timeline-tweet-text').css('font-family', 'Cabin');
+                            $('.twitter-feed').find('.twitter-timeline').contents().find('span.TweetAuthor-screenName').css('font-size', '18px');
+                            $('.twitter-feed').find('.twitter-timeline').contents().find('span.TweetAuthor-screenName').css('font-family', 'Tahoma');    
+                            $('.twitter-feed').find('.twitter-timeline').contents().find('.timeline-TweetList-tweet').css('border-bottom','2px solid #cfcfcf');
+                            $('.twitter-feed').find('.twitter-timeline').contents().find('p.timeline-tweet-text').css('margin-bottom', '0px');
+                            $('.twitter-feed').find('.twitter-timeline').contents().find('p.timeline-tweet-text').css('margin-left', '12px');
+                            $('.twitter-feed').find('.twitter-timeline').contents().find('p.timeline-tweet-text').css('margin-inline-start', '12px');
+
+                            $('.twitter-feed').find('.twitter-timeline').contents().find('.timeline-Tweet-timestamp').css('font-size','18px');
+                            $('.twitter-feed').find('.twitter-timeline').contents().find('p.timeline-tweet-text').css('font-family', 'Tahoma');
                             $('.twitter-feed').find('.twitter-timeline').contents().find('p.timeline-tweet-text').css('font-size', '18px');
                             $('.twitter-feed').find('.twitter-timeline').contents().find('p.timeline-tweet-text').css('line-height', '1.6');
                             $('.twitter-feed').find('.twitter-timeline').contents().find('ul.timeline-tweet-actions').css('display', 'none');
+                            $('.twitter-feed').find('.twitter-timeline').contents().find('.timeline-Footer u-cf').css('display','block');
                         
                             
                             $('.twitter-feed').find('.twitter-timeline').contents().find('.timeline-TweetList').bind('DOMSubtreeModified propertychange', function () {
