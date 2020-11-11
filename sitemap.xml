@@ -12,7 +12,17 @@
   </url>
   
   <url>
+    <loc>https://ringelab.com/publication/ludwig-2020-atomistic/</loc>
+    <lastmod>2020-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ringelab.com/authors/</loc>
+    <lastmod>2020-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ringelab.com/authors/c.-f.-dickens/</loc>
     <lastmod>2020-11-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -37,6 +47,26 @@
   </url>
   
   <url>
+    <loc>https://ringelab.com/authors/j.-a.-gauthier/</loc>
+    <lastmod>2020-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ringelab.com/authors/j.-k.-n%C3%B8rskov/</loc>
+    <lastmod>2020-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ringelab.com/authors/k.-chan/</loc>
+    <lastmod>2020-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ringelab.com/authors/k.-s.-brown/</loc>
+    <lastmod>2020-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ringelab.com/publication_types/</loc>
     <lastmod>2020-11-01T00:00:00+00:00</lastmod>
   </url>
@@ -53,6 +83,11 @@
   
   <url>
     <loc>https://ringelab.com/authors/s.-h.-joo/</loc>
+    <lastmod>2020-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ringelab.com/authors/t.-ludwig/</loc>
     <lastmod>2020-11-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -182,11 +217,6 @@
   </url>
   
   <url>
-    <loc>https://ringelab.com/authors/k.-chan/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://ringelab.com/authors/k.-jiang/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url>
@@ -222,17 +252,7 @@
   </url>
   
   <url>
-    <loc>https://ringelab.com/authors/c.-f.-dickens/</loc>
-    <lastmod>2019-12-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://ringelab.com/authors/h.-h.-heenen/</loc>
-    <lastmod>2019-12-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ringelab.com/authors/j.-a.-gauthier/</loc>
     <lastmod>2019-12-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -347,22 +367,7 @@
   </url>
   
   <url>
-    <loc>https://ringelab.com/authors/j.-k.-n%C3%B8rskov/</loc>
-    <lastmod>2019-03-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ringelab.com/authors/k.-s.-brown/</loc>
-    <lastmod>2019-03-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://ringelab.com/publication/ludwig-2019-gt/</loc>
-    <lastmod>2019-03-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ringelab.com/authors/t.-ludwig/</loc>
     <lastmod>2019-03-01T00:00:00+00:00</lastmod>
   </url>
   
