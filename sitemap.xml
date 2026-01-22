@@ -67,12 +67,82 @@
   
   <url>
     <loc>https://ringelab.com/publication_types/2/</loc>
-    <lastmod>2025-11-17T00:00:00+00:00</lastmod>
+    <lastmod>2025-12-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://ringelab.com/authors/</loc>
-    <lastmod>2025-11-17T00:00:00+00:00</lastmod>
+    <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ringelab.com/publication/minha-2026/</loc>
+    <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ringelab.com/authors/h.-koo/</loc>
+    <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ringelab.com/authors/h.-y.-woo/</loc>
+    <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ringelab.com/authors/j.-kim/</loc>
+    <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ringelab.com/authors/j.-m.-ha/</loc>
+    <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ringelab.com/authors/j.-seo/</loc>
+    <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ringelab.com/authors/j.-w.-jang/</loc>
+    <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ringelab.com/authors/j.-y.-kim/</loc>
+    <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ringelab.com/publication_types/</loc>
+    <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ringelab.com/publication/</loc>
+    <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ringelab.com/authors/s.-lee/</loc>
+    <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ringelab.com/authors/w.-j.-byun/</loc>
+    <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ringelab.com/authors/w.-lee/</loc>
+    <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ringelab.com/authors/y.-lee/</loc>
+    <lastmod>2025-12-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -106,21 +176,6 @@
   </url>
   
   <url>
-    <loc>https://ringelab.com/authors/j.-y.-kim/</loc>
-    <lastmod>2025-11-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ringelab.com/publication_types/</loc>
-    <lastmod>2025-11-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ringelab.com/publication/</loc>
-    <lastmod>2025-11-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://ringelab.com/authors/s.-j.-park/</loc>
     <lastmod>2025-11-17T00:00:00+00:00</lastmod>
   </url>
@@ -142,11 +197,6 @@
   
   <url>
     <loc>https://ringelab.com/authors/y.-jung/</loc>
-    <lastmod>2025-11-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ringelab.com/authors/y.-lee/</loc>
     <lastmod>2025-11-17T00:00:00+00:00</lastmod>
   </url>
   
@@ -252,11 +302,6 @@
   
   <url>
     <loc>https://ringelab.com/authors/s.-in/</loc>
-    <lastmod>2025-04-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ringelab.com/authors/s.-lee/</loc>
     <lastmod>2025-04-23T00:00:00+00:00</lastmod>
   </url>
   
@@ -377,11 +422,6 @@
   
   <url>
     <loc>https://ringelab.com/authors/h.-i.-kim/</loc>
-    <lastmod>2024-08-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ringelab.com/authors/j.-kim/</loc>
     <lastmod>2024-08-25T00:00:00+00:00</lastmod>
   </url>
   
@@ -1428,6 +1468,10 @@
   
   <url>
     <loc>https://ringelab.com/authors/bs.-ringe/b/</loc>
+  </url>
+  
+  <url>
+    <loc>https://ringelab.com/authors/bs.-xu/b/</loc>
   </url>
   
   <url>
