@@ -21,10 +21,42 @@
     </item>
     
     <item>
+      <title>A big congrats to Sumin, for winning the 우수 Prize in the 2026 KU BK21 Chem Fair!</title>
+      <link>https://ringelab.com/post/11th_post/</link>
+      <pubDate>Mon, 26 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://ringelab.com/post/11th_post/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Welcome Suyeon, who&#39;s joining us as a Master student!</title>
+      <link>https://ringelab.com/post/10th_post/</link>
+      <pubDate>Fri, 23 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://ringelab.com/post/10th_post/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Our new paper in Advanced Energy Materials is out! A big congrats to Shuran Xu!</title>
+      <link>https://ringelab.com/post/9th_post/</link>
+      <pubDate>Tue, 06 Jan 2026 10:20:10 +0900</pubDate>
+      <guid>https://ringelab.com/post/9th_post/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Conjugated Polyelectrolytes with Tunable Ionic Side Chains for Iodide-Mediated Pt Reduction in Photoelectrochemical H&lt;sub&gt;2&lt;/sub&gt; Generation</title>
       <link>https://ringelab.com/publication/minha-2026/</link>
       <pubDate>Sun, 28 Dec 2025 00:00:00 +0000</pubDate>
       <guid>https://ringelab.com/publication/minha-2026/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Our new paper in Nano Energy is out! A big congrats to Adith RV!</title>
+      <link>https://ringelab.com/post/8th_post/</link>
+      <pubDate>Fri, 21 Nov 2025 10:20:10 +0900</pubDate>
+      <guid>https://ringelab.com/post/8th_post/</guid>
       <description></description>
     </item>
     
@@ -37,10 +69,50 @@
     </item>
     
     <item>
+      <title>Check out my talk in the IPAM Workshop!</title>
+      <link>https://ringelab.com/post/7th_post/</link>
+      <pubDate>Fri, 31 Oct 2025 10:20:10 +0900</pubDate>
+      <guid>https://ringelab.com/post/7th_post/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ringelab at KCS Fall 2025!</title>
+      <link>https://ringelab.com/post/5th_post/</link>
+      <pubDate>Sat, 25 Oct 2025 10:20:10 +0900</pubDate>
+      <guid>https://ringelab.com/post/5th_post/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Our new paper in JACS is out! A huge congratulations to Abbas!</title>
+      <link>https://ringelab.com/post/6th_post/</link>
+      <pubDate>Mon, 20 Oct 2025 10:20:10 +0900</pubDate>
+      <guid>https://ringelab.com/post/6th_post/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Understanding Electrochemical CO&lt;sub&gt;2&lt;/sub&gt; Reduction Selectivity of Cu Binary Alloys from Electronic Structure Descriptors</title>
       <link>https://ringelab.com/publication/yujin-2025/</link>
       <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://ringelab.com/publication/yujin-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Happy to host Prof. Wenxing Yang from Westlake University, China!</title>
+      <link>https://ringelab.com/post/4th_post/</link>
+      <pubDate>Thu, 16 Oct 2025 10:20:10 +0900</pubDate>
+      <guid>https://ringelab.com/post/4th_post/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Our students Adith RV and Byungmin attended the IPAM Workshop in UCLA, and presented their research</title>
+      <link>https://ringelab.com/post/3rd_post/</link>
+      <pubDate>Mon, 13 Oct 2025 10:20:10 +0900</pubDate>
+      <guid>https://ringelab.com/post/3rd_post/</guid>
       <description></description>
     </item>
     
@@ -51,21 +123,21 @@
       <guid>https://ringelab.com/alumni/</guid>
       <description>&lt;style&gt;
 .full-width-table-wrapper {
-  width: 100vw;
-  position: relative;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
-  overflow-x: auto;
+  width: 100%;
+  max-width: 20000px;
+  margin: 0 auto;
+  overflow-x: hidden;
 }
 .alumni-table {
   width: 100%;
   table-layout: auto;
+  border-collapse: collapse;
 }
 .alumni-table th, .alumni-table td {
-  padding: 8px;
+  padding: 8px 10px;
   text-align: left;
+  vertical-align: top;
+  white-space: normal;
 }
 &lt;/style&gt;
 &lt;div class=&#34;full-width-table-wrapper&#34;&gt;
@@ -421,9 +493,9 @@
     
     <item>
       <title>Please follow Prof. Stefan Ringe on [&lt;span style=&#39;color: #4C98C8;&#39;&gt;Linkedin&lt;/span&gt;](https://www.linkedin.com/in/stefan-ringe-7b604877/)</title>
-      <link>https://ringelab.com/post/initial_post/</link>
+      <link>https://ringelab.com/post/1st_post/</link>
       <pubDate>Thu, 13 Feb 2020 10:20:10 +0900</pubDate>
-      <guid>https://ringelab.com/post/initial_post/</guid>
+      <guid>https://ringelab.com/post/1st_post/</guid>
       <description></description>
     </item>
     
