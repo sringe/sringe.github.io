@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>seungchang-han | RingeLab</title>
+    <link>https://ringelab.com/authors/seungchang-han/</link>
+      <atom:link href="https://ringelab.com/authors/seungchang-han/index.xml" rel="self" type="application/rss+xml" />
+    <description>seungchang-han</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 13 Apr 2026 10:20:10 +0900</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>seungchang-han</title>
+      <link>https://ringelab.com/authors/seungchang-han/</link>
+    </image>
+    
+    <item>
+      <title>Our new paper is out in Nature Catalysis! A huge congratulations to Seungchang Han!</title>
+      <link>https://ringelab.com/post/18th_post/</link>
+      <pubDate>Mon, 13 Apr 2026 10:20:10 +0900</pubDate>
+      <guid>https://ringelab.com/post/18th_post/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

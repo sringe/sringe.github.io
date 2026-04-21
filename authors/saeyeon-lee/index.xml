@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>saeyeon-lee | RingeLab</title>
+    <link>https://ringelab.com/authors/saeyeon-lee/</link>
+      <atom:link href="https://ringelab.com/authors/saeyeon-lee/index.xml" rel="self" type="application/rss+xml" />
+    <description>saeyeon-lee</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 03 Apr 2026 10:20:10 +0900</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>saeyeon-lee</title>
+      <link>https://ringelab.com/authors/saeyeon-lee/</link>
+    </image>
+    
+    <item>
+      <title>Saeyeon Lee completes her 6 month research stay in UCSD!</title>
+      <link>https://ringelab.com/post/17th_post/</link>
+      <pubDate>Fri, 03 Apr 2026 10:20:10 +0900</pubDate>
+      <guid>https://ringelab.com/post/17th_post/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
