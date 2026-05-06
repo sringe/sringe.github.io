@@ -5,12 +5,20 @@
     <link>https://ringelab.com/authors/dianwei-hou/</link>
       <atom:link href="https://ringelab.com/authors/dianwei-hou/index.xml" rel="self" type="application/rss+xml" />
     <description>RingeLab</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 02 Apr 2026 10:20:10 +0900</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 24 Apr 2026 10:20:10 +0900</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>RingeLab</title>
       <link>https://ringelab.com/authors/dianwei-hou/</link>
     </image>
+    
+    <item>
+      <title>Time for another cake, from Dianwei!</title>
+      <link>https://ringelab.com/post/19th_post/</link>
+      <pubDate>Fri, 24 Apr 2026 10:20:10 +0900</pubDate>
+      <guid>https://ringelab.com/post/19th_post/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Our new paper in Nature Communications is out! A big congrats to Dianwei Hou!</title>
