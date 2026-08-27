@@ -18,6 +18,7 @@
     
     
     
+    
   
   
 
@@ -199,7 +200,8 @@
   
   
   
-  <link rel="stylesheet" href="/css/academic.css">
+  
+  <link rel="stylesheet" href="/css/academic.bdd07d44c50687628b5c45f71138b39a.css">
 
   
 
@@ -212,8 +214,8 @@
   
 
   <link rel="manifest" href="/index.webmanifest">
-  <link rel="icon" type="image/png" href="/images/icon_hub4511a7a53b68a692bfd3505f81db8a7_1687_32x32_fill_lanczos_center_2.png">
-  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hub4511a7a53b68a692bfd3505f81db8a7_1687_192x192_fill_lanczos_center_2.png">
+  <link rel="icon" type="image/png" href="/images/icon_hu_2b0fb8393afb65ff.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu_9bbf6088c36a8587.png">
 
   <link rel="canonical" href="https://ringelab.com/research/">
 
@@ -298,6 +300,8 @@
 
 
 
+  
+
 
 <link href="https://fonts.googleapis.com/css?family=Baloo+2&display=swap" rel="stylesheet">
 
@@ -306,9 +310,9 @@
 
     
     <div class="d-none d-lg-inline-flex">
-        <a class="navbar-brand" href="/"><span style="font-family: 'Baloo 2', cursive;font-size:28px;text-align: center;">Ringe<span style="color: #b0b0b0">Lab</span><span style="font-size: 0.7rem;color: #b0b0b0"><i>Computational Modeling Lab</i></span></span>
-        
-        </a>
+        <a class="navbar-brand" href="/">
+          <img class="navbar-logo" src="/images/logo_hu_67d9881c3bd53ecd.png" alt="RingeLab">
+	  </a>
     </div>
     
 
@@ -322,8 +326,7 @@
     
     
     <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
-      <a class="navbar-brand" href="/">
-      <span style="font-family: 'Baloo 2'">Ringe<span style="color: #b0b0b0">Lab</span></span></a>
+      <a class="navbar-brand" href="/"><img src="/images/logo_hu_67d9881c3bd53ecd.png" alt="RingeLab"></a>
     </div>
     
 
@@ -340,38 +343,44 @@
         
         
         
-          
-        
 
         
         
         
         
         
-        
-          
-          
-          
-            
-          
-          
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#about"><span>Home</span></a>
+          <a class="nav-link  active" href="/" data-target="[]"><span>Home</span></a>
         </li>
 
         
         
 
         
+        
+        
+        
+        
+          
+        
+          
+        
         <li class="nav-item dropdown">
-          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>Members</span><span class="caret"></span>
+          <a href="/people/" class="nav-link dropdown-toggle"
+             aria-haspopup="true" aria-expanded="false"><span>Members</span><span class="caret"></span>
           </a>
           <div class="dropdown-menu">
             
-              <a class="dropdown-item" href="/people/"><span>Current Members</span></a>
+              
+              
+              
+              <a class="dropdown-item is-overview" href="/people/"><span>Current Members</span></a>
             
+              
+              
+              
               <a class="dropdown-item" href="/alumni/"><span>Alumni</span></a>
             
           </div>
@@ -381,17 +390,42 @@
         
 
         
+        
+        
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
         <li class="nav-item dropdown">
-          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>Research</span><span class="caret"></span>
+          <a href="/research/" class="nav-link dropdown-toggle active"
+             aria-haspopup="true" aria-expanded="false"><span>Research</span><span class="caret"></span>
           </a>
           <div class="dropdown-menu">
             
-              <a class="dropdown-item" href="/research/"><span>Research Overview</span></a>
+              
+              
+              
+              <a class="dropdown-item active is-overview" href="/research/"><span>Research Overview</span></a>
             
+              
+              
+              
               <a class="dropdown-item" href="/project/solvationandelectrifiedinterfaces/"><span>Solvation and Electrified Interfaces</span></a>
             
+              
+              
+              
               <a class="dropdown-item" href="/project/materialscreening/"><span>Materials Screening</span></a>
             
+              
+              
+              
               <a class="dropdown-item" href="/project/multiscalemodeling/"><span>Multiscale modeling</span></a>
             
           </div>
@@ -401,14 +435,43 @@
         
 
         
+        
+        
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
         <li class="nav-item dropdown">
-          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>Software</span><span class="caret"></span>
+          <a href="/development/" class="nav-link dropdown-toggle"
+             aria-haspopup="true" aria-expanded="false"><span>Software</span><span class="caret"></span>
           </a>
           <div class="dropdown-menu">
             
-              <a class="dropdown-item" href="/software/mpbe/"><span>MPBE/FHI-aims</span></a>
+              
+              
+              
+              <a class="dropdown-item is-overview" href="/development/"><span>Software Overview</span></a>
             
+              
+              
+              
+              <a class="dropdown-item" href="/software/catmapinterface/"><span>CatmapInterface.jl</span></a>
+            
+              
+              
+              
               <a class="dropdown-item" href="/software/catint/"><span>CatINT/COMSOL</span></a>
+            
+              
+              
+              
+              <a class="dropdown-item" href="/software/mpbe/"><span>MPBE/FHI-aims</span></a>
             
           </div>
         </li>
@@ -496,6 +559,24 @@
       
 
       
+      
+      
+      <li class="nav-item nav-item-translate">
+        
+        <button type="button" class="nav-link js-translate-toggle notranslate"
+                translate="no" aria-pressed="false"
+                data-source="en"
+                data-target="ko"
+                data-label-target="한국어"
+                data-label-original="EN">
+          <i class="fas fa-language" aria-hidden="true"></i>
+          <span class="js-translate-label">한국어</span>
+        </button>
+      </li>
+      
+      
+
+      
 
       
 
@@ -548,360 +629,227 @@
   
   
 
-  <section id="projects" class="home-section wg-portfolio   "  >
+  <section id="subgroups" class="home-section wg-subgroups   "  >
     <div class="container">
       
 
 
 
+<div class="container">
+  <h2 class="headline"><span>RESEARCH</span></h2>
+  <p class="subgroups-intro">We work across three connected scales, from the electronic structure of a catalyst surface up to the behaviour of a full electrolyser.</p>
+  
 
-
-
-
-
-
-
-<div class="margin-auto">
-
-  <div class="center-text">
+  <div class="subgroup-grid js-subgroups">
     
-    
-  </div>
-  <div>
-
-
-    <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-</style>
-</head>
-<!--
-<a href="../project_general/generalresearchgoals/" style="color: black">
-</a>
-width=75% class="center" alt=""
-../project/SolvationAndElectrifiedInterfaces/
--->
-<img src="featured.png" usemap="#image-map" width="75%" class="center">
-<map name="image-map">
-    <area href="../project/materialscreening/" alt="material screening" title="material screening" coords="10,300,240,590" shape="rect">
-    <area href="../project/solvationandelectrifiedinterfaces/" alt="solvation &amp; electrified interfaces" title="solvation &amp; electrified interfaces" coords="250,300,550,590" shape="rect">
-    <area href="../project/multiscalemodeling/" alt="kinetics &amp; mass transport" title="kinetics &amp; mass transport" coords="560,300,800,590" shape="rect">
-</map>
-<br>
-<ul>
-  <li> Our world today is facing an unprecedented environmental challenge, with the energy demand steadily increasing, the CO<sub>2</sub> concentration in the atmosphere reaching record-high levels in the human history, and oil, gas and coal being estimated to last for around 50--100 years. Renewable electric energy from solar cells is now available on a cost-efficient level, and the carbon-neutral conversion of this electric energy and its storage has now risen to be the most significant challenge for humanity.
-  <li> Electrochemical energy conversion and storage provides in this respect sustainable solutions which are expected to sky-rocket over the next years and become as important as never before to save our planet. Unfortunately, most such processes are not yet industrially competitive, albeit an immense research effort has been made over the last decades. A central role in the future sustainable energy landscape is played by the electrochemical reduction of the greenhouse CO<sub>2</sub> gas (CO<sub>2</sub>R), which offers an environmentally highly valuable route to fuels, but is still not economically feasible due to catalysts exhibiting high overpotentials and poor product selectivity.  At the same time, hydrogen gas, which is essential for the chemical industry, is almost exclusively harvested via carbon-intensive steam reforming. The sustainable alternative, electrochemical water splitting, is again limited by high overpotentials making the process economically intractable. The recent environmental changes have, however, increased the political and economic momentum towards carbon-neutral harvesting and conversion of energy.
-  <li> In the age of computing, simulations based on quantum chemistry have become an indispensible and highly promising tool to approach this global problem. With the rise of machine learning, quantum chemistry is expected to become even more essential to understand electrochemical processes and the structure of materials, or to perform high-throughput screening of energy materials approaching the gigantic chemical search space that only computational science can handle.
-  <li> Our group is working at the front of computational energy science following essentially two paths. On the one hand, we are working on both the fundamental side and try to understand energy conversion and storage on the microscopic and multi-scale. This will provide new insights about the physics and chemistry of such processes which will increase our understanding and help us to develop novel solutions with unprecedented performance. On the other hand, we try to screen catalyst and electrode materials from the chemical design space to develop highly optimized materials for energy science. For both paths, we work also closely together with many great experimentalists, at many leading universities in Korea, Europe and America! We welcome any interested student to follow us on this exciting path and persue a successful career in computational energy science!
-</ul>
-<!--
-<figcaption><a href="../project_general/generalresearchgoals/" style="color: rgb(0,0,0)"><p style="font-size: 1.6rem"><b>General research interest</b></p></a><p style="font-size: 1.0rem">First-principles, multi-scale computational modeling for energy conversion and storage.</p></figcaption>
--->
-<!--
-{{ $do_link := true }}
-{{if $do_link}}<a href="{{ $link }}" {{ $target | safeHTMLAttr }}>{{end}}
-  <img src="{{ $image.RelPermalink }}" alt="">
-{{if $do_link}}</a>{{end}}
-<img src="featured.png" alt>
-</a>
-<a href="project/GeneralResearchGoals/">
-<div class="col-12 col-md-3 order-first {{$order}}">
-  {{ $resource := ($item.Resources.ByType "image").GetMatch "*featured*" }}
-  {{ with $resource }}
-  {{ $resource := 
-  {{ $image := .Resize "540x" }}
-  {{if $do_link}}<a href="{{ $link }}" {{ $target | safeHTMLAttr }}>{{end}}
-    <img src="{{ $image.RelPermalink }}" alt="">
-  {{if $do_link}}</a>{{end}}
-  {{end}}
-</div>
--->
-<hr>
-
-
-    
-
-    <div class=" row js-layout-row project-showcase mt-5">
       
+      <section class="subgroup-card" style="--subgroup-color: #b07a5c">
 
-        
-        
-        
-
-        
+        <button type="button" class="subgroup-head js-subgroup-toggle"
+                aria-expanded="false" aria-controls="subgroup-1">
+          
+            
+            <span class="subgroup-figure">
+              <img src="/media/research/subgroup_materials.png" width="910" height="893"
+                   alt="Materials" loading="lazy">
+            </span>
+            
           
 
+          <span class="subgroup-head-text">
+            <span class="subgroup-title">Materials</span>
+            <span class="subgroup-summary">What the catalyst is made of, and how it changes while it works.</span>
+          </span>
 
+          <span class="subgroup-more" aria-hidden="true">
+            <span class="subgroup-more-label">Details</span>
+            <span class="subgroup-chevron"></span>
+          </span>
+        </button>
 
+        <div class="subgroup-detail" id="subgroup-1">
+          
+          <div class="subgroup-detail-clip">
+            <div class="subgroup-detail-inner">
+            <p class="subgroup-text">Electronic-structure calculations of the catalyst itself: which sites are active, how adsorbates bind, and how the surface reorganises under reaction conditions. The questions that set everything downstream are decided here — activity and selectivity descriptors, the reaction mechanism, and whether a material stays intact at operating potential.</p>
 
-  
+            
+            <ul class="subgroup-topics">
+              <li>Adsorption and reaction energetics from density functional theory</li><li>Implicit solvation and the reaction environment of the double layer</li><li>Transient oxidation states and sub-surface oxygen</li><li>Grain boundaries and surface reconstruction</li><li>High-throughput screening for activity and selectivity descriptors</li>
+            </ul>
+            
 
+            
+            <div class="subgroup-links">
+              
+              <a class="subgroup-link is-primary"
+                 href="/project/materialscreening/">Materials screening &rarr;</a>
+              
+            </div>
+            
 
+            
+            
+            <div class="subgroup-people">
+              <span class="subgroup-people-label">Members</span>
+              
+                
+                <a class="subgroup-person" href="/authors/abbas/">Hafiz Ghulam Abbas</a>
+                
+              
+                
+                <a class="subgroup-person" href="/authors/adith/">Adith Ramakrishnan Velmurugan</a>
+                
+              
+            </div>
+            
+            </div>
+          </div>
+        </div>
 
-
-
-
-
-
-  
-
-
-
-
-
-
-
-<div class="col-lg-12 project-item isotope-item ">
-  <div class="row align-items-center">
-    <div class="col-12 col-md-9">
-      <h6 class="article-title mb-0 mt-0"><a href="/project/materialscreening/" >High-throughput computational search for high performance energy materials</a></h6>
-
+      </section>
+    
       
-      <div class="article-style">
-        Developing descriptors for electrochemical conversion processes which can be used to initialize high-throughput search for new materials, driven by fast machine learning techniques.
-      </div>
-      
+      <section class="subgroup-card" style="--subgroup-color: #3f9184">
 
-      <div class="btn-links">
-        
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-
-    </div>
-    <div class="col-12 col-md-3 order-first ">
-      
-      
-      
-      <a href="/project/materialscreening/" >
-        <img src="/project/materialscreening/featured_portfolio_hu9d10ceff6168980283905388821b6fe1_315890_540x0_resize_lanczos_2.png" alt="">
-      </a>
-      
-    </div>
-  </div>
-</div>
-
-        
-
-      
-
-        
-        
-        
-
-        
+        <button type="button" class="subgroup-head js-subgroup-toggle"
+                aria-expanded="false" aria-controls="subgroup-2">
+          
+            
+            <span class="subgroup-figure">
+              <img src="/media/research/subgroup_interfaces.png" width="1000" height="775"
+                   alt="Reactive solid–liquid interfaces" loading="lazy">
+            </span>
+            
           
 
+          <span class="subgroup-head-text">
+            <span class="subgroup-title">Reactive solid–liquid interfaces</span>
+            <span class="subgroup-summary">The electrified interface where the reaction actually happens.</span>
+          </span>
 
+          <span class="subgroup-more" aria-hidden="true">
+            <span class="subgroup-more-label">Details</span>
+            <span class="subgroup-chevron"></span>
+          </span>
+        </button>
 
+        <div class="subgroup-detail" id="subgroup-2">
+          
+          <div class="subgroup-detail-clip">
+            <div class="subgroup-detail-inner">
+            <p class="subgroup-text">The region between catalyst and electrolyte, where the electric double layer, the local pH and the ion distribution together decide the rate. We model the interface explicitly and with continuum theory, and connect the two so that the atomistic picture can be carried into conditions an experiment can reach.</p>
 
-  
+            
+            <ul class="subgroup-topics">
+              <li>Electric double layer structure and surface charging models</li><li>Cation and field effects on reaction kinetics</li><li>Local pH, chemical reactions and buffer equilibria</li><li>Ion diffusion, migration and steric repulsion</li><li>Implicit solvent methods for electrified interfaces</li>
+            </ul>
+            
 
+            
+            <div class="subgroup-links">
+              
+              <a class="subgroup-link is-primary"
+                 href="/project/solvationandelectrifiedinterfaces/">Solvation and electrified interfaces &rarr;</a>
+              
+              <a class="subgroup-link"
+                 href="/software/mpbe/">MPBE solvation module &rarr;</a>
+              
+            </div>
+            
 
+            
+            
+            <div class="subgroup-people">
+              <span class="subgroup-people-label">Members</span>
+              
+                
+                <a class="subgroup-person" href="/authors/admin/">Stefan Ringe</a>
+                
+              
+                
+                <a class="subgroup-person" href="/authors/dianwei-hou/">Dianwei Hou</a>
+                
+              
+                
+                <a class="subgroup-person" href="/authors/horbatenko-yevhen/">Yevhen Horbatenko</a>
+                
+              
+            </div>
+            
+            </div>
+          </div>
+        </div>
 
-
-
-
-
-
-  
-
-
-
-
-  
-
-
-
-
-<div class="col-lg-12 project-item isotope-item ">
-  <div class="row align-items-center">
-    <div class="col-12 col-md-9">
-      <h6 class="article-title mb-0 mt-0"><a href="/project/multiscalemodeling/" >Multi-scale modeling</a></h6>
-
+      </section>
+    
       
-      <div class="article-style">
-        Optimizing energy conversion systems at multiple time and size scales, from atomistic to continuum.
-      </div>
-      
+      <section class="subgroup-card" style="--subgroup-color: #4a648c">
 
-      <div class="btn-links">
-        
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-
-    </div>
-    <div class="col-12 col-md-3 order-first order-md-2">
-      
-      
-      
-      <a href="/project/multiscalemodeling/" >
-        <img src="/project/multiscalemodeling/featured_portfolio_hu97f8c145bd67aeb6d2bde54406dc6dac_546307_540x0_resize_lanczos_2.png" alt="">
-      </a>
-      
-    </div>
-  </div>
-</div>
-
-        
-
-      
-
-        
-        
-        
-
-        
+        <button type="button" class="subgroup-head js-subgroup-toggle"
+                aria-expanded="false" aria-controls="subgroup-3">
+          
+            
+            <span class="subgroup-figure">
+              <img src="/media/research/subgroup_multiscale.png" width="825" height="865"
+                   alt="Multi-scale modeling" loading="lazy">
+            </span>
+            
           
 
+          <span class="subgroup-head-text">
+            <span class="subgroup-title">Multi-scale modeling</span>
+            <span class="subgroup-summary">From a single active site to a working electrolyser.</span>
+          </span>
 
+          <span class="subgroup-more" aria-hidden="true">
+            <span class="subgroup-more-label">Details</span>
+            <span class="subgroup-chevron"></span>
+          </span>
+        </button>
 
+        <div class="subgroup-detail" id="subgroup-3">
+          
+          <div class="subgroup-detail-clip">
+            <div class="subgroup-detail-inner">
+            <p class="subgroup-text">Coupling the interface description to transport across a whole device: reactions, diffusion, migration and convection through a porous gas diffusion electrode. This is where a catalyst that looks good on paper meets the cell it has to work in, and where cell design turns out to govern which products come out.</p>
 
-  
+            
+            <ul class="subgroup-topics">
+              <li>Porous gas diffusion electrodes and multi-phase transport</li><li>Poisson–Nernst–Planck and electroneutrality models</li><li>Kinetics, porosity and surface roughness</li><li>Digital twins of reported experimental electrolysers</li><li>Product selectivity across the catalyst layer</li>
+            </ul>
+            
 
+            
+            <div class="subgroup-links">
+              
+              <a class="subgroup-link is-primary"
+                 href="/project/multiscalemodeling/">Multi-scale modeling &rarr;</a>
+              
+            </div>
+            
 
+            
+            
+            <div class="subgroup-people">
+              <span class="subgroup-people-label">Members</span>
+              
+                
+                <a class="subgroup-person" href="/authors/adith/">Adith Ramakrishnan Velmurugan</a>
+                
+              
+                
+                <a class="subgroup-person" href="/authors/han-seungchang/">한승창<br/> Seungchang Han</a>
+                
+              
+            </div>
+            
+            </div>
+          </div>
+        </div>
 
-
-
-
-
-
-  
-
-
-
-
-
-
-
-<div class="col-lg-12 project-item isotope-item ">
-  <div class="row align-items-center">
-    <div class="col-12 col-md-9">
-      <h6 class="article-title mb-0 mt-0"><a href="/project/solvationandelectrifiedinterfaces/" >Tackling electrified interfaces using density functional theory and machine learning</a></h6>
-
-      
-      <div class="article-style">
-        Employing machine learning techniques for accelerated sampling of liquid molecules phase space to understand the nature of electrified interfaces in energy conversion and storage applications.
-      </div>
-      
-
-      <div class="btn-links">
-        
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-
-    </div>
-    <div class="col-12 col-md-3 order-first ">
-      
-      
-      
-      <a href="/project/solvationandelectrifiedinterfaces/" >
-        <img src="/project/solvationandelectrifiedinterfaces/featured_portfolio_hu8be4ace13c4bfd253596757399e219ca_2138356_540x0_resize_lanczos_2.png" alt="">
-      </a>
-      
-    </div>
-  </div>
-</div>
-
-        
-
-      
-    </div>
-
+      </section>
+    
   </div>
 </div>
 
@@ -1007,9 +955,25 @@ width=75% class="center" alt=""
       
     
     
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
     
     
-    <script src="/js/academic.min.a8d7005002cb4a052fd6d721e83df9ba.js"></script>
+    
+    <script src="/js/academic.min.46d5098e53045fd052145079ba3b66bd.js"></script>
 
     
 

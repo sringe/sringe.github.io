@@ -7,10 +7,18 @@
     <description>RingeLab</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 05 Apr 2022 10:52:49 +0900</lastBuildDate>
     <image>
-      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <url>https://ringelab.com/images/logo_hu_ba2ad517f46bfe15.png</url>
       <title>RingeLab</title>
       <link>https://ringelab.com/authors/dongwonkim/</link>
     </image>
+    
+    <item>
+      <title></title>
+      <link>https://ringelab.com/authors/dongwonkim/</link>
+      <pubDate>Tue, 05 Apr 2022 10:52:49 +0900</pubDate>
+      <guid>https://ringelab.com/authors/dongwonkim/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>High-throughput computational search for high performance energy materials</title>

@@ -18,6 +18,7 @@
     
     
     
+    
   
   
 
@@ -199,7 +200,8 @@
   
   
   
-  <link rel="stylesheet" href="/css/academic.css">
+  
+  <link rel="stylesheet" href="/css/academic.bdd07d44c50687628b5c45f71138b39a.css">
 
   
 
@@ -212,8 +214,8 @@
   
 
   <link rel="manifest" href="/index.webmanifest">
-  <link rel="icon" type="image/png" href="/images/icon_hub4511a7a53b68a692bfd3505f81db8a7_1687_32x32_fill_lanczos_center_2.png">
-  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hub4511a7a53b68a692bfd3505f81db8a7_1687_192x192_fill_lanczos_center_2.png">
+  <link rel="icon" type="image/png" href="/images/icon_hu_2b0fb8393afb65ff.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu_9bbf6088c36a8587.png">
 
   <link rel="canonical" href="https://ringelab.com/my-publications/">
 
@@ -298,6 +300,8 @@
 
 
 
+  
+
 
 <link href="https://fonts.googleapis.com/css?family=Baloo+2&display=swap" rel="stylesheet">
 
@@ -306,9 +310,9 @@
 
     
     <div class="d-none d-lg-inline-flex">
-        <a class="navbar-brand" href="/"><span style="font-family: 'Baloo 2', cursive;font-size:28px;text-align: center;">Ringe<span style="color: #b0b0b0">Lab</span><span style="font-size: 0.7rem;color: #b0b0b0"><i>Computational Modeling Lab</i></span></span>
-        
-        </a>
+        <a class="navbar-brand" href="/">
+          <img class="navbar-logo" src="/images/logo_hu_67d9881c3bd53ecd.png" alt="RingeLab">
+	  </a>
     </div>
     
 
@@ -322,8 +326,7 @@
     
     
     <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
-      <a class="navbar-brand" href="/">
-      <span style="font-family: 'Baloo 2'">Ringe<span style="color: #b0b0b0">Lab</span></span></a>
+      <a class="navbar-brand" href="/"><img src="/images/logo_hu_67d9881c3bd53ecd.png" alt="RingeLab"></a>
     </div>
     
 
@@ -340,38 +343,44 @@
         
         
         
-          
-        
 
         
         
         
         
         
-        
-          
-          
-          
-            
-          
-          
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#about"><span>Home</span></a>
+          <a class="nav-link  active" href="/" data-target="[]"><span>Home</span></a>
         </li>
 
         
         
 
         
+        
+        
+        
+        
+          
+        
+          
+        
         <li class="nav-item dropdown">
-          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>Members</span><span class="caret"></span>
+          <a href="/people/" class="nav-link dropdown-toggle"
+             aria-haspopup="true" aria-expanded="false"><span>Members</span><span class="caret"></span>
           </a>
           <div class="dropdown-menu">
             
-              <a class="dropdown-item" href="/people/"><span>Current Members</span></a>
+              
+              
+              
+              <a class="dropdown-item is-overview" href="/people/"><span>Current Members</span></a>
             
+              
+              
+              
               <a class="dropdown-item" href="/alumni/"><span>Alumni</span></a>
             
           </div>
@@ -381,17 +390,42 @@
         
 
         
+        
+        
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
         <li class="nav-item dropdown">
-          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>Research</span><span class="caret"></span>
+          <a href="/research/" class="nav-link dropdown-toggle"
+             aria-haspopup="true" aria-expanded="false"><span>Research</span><span class="caret"></span>
           </a>
           <div class="dropdown-menu">
             
-              <a class="dropdown-item" href="/research/"><span>Research Overview</span></a>
+              
+              
+              
+              <a class="dropdown-item is-overview" href="/research/"><span>Research Overview</span></a>
             
+              
+              
+              
               <a class="dropdown-item" href="/project/solvationandelectrifiedinterfaces/"><span>Solvation and Electrified Interfaces</span></a>
             
+              
+              
+              
               <a class="dropdown-item" href="/project/materialscreening/"><span>Materials Screening</span></a>
             
+              
+              
+              
               <a class="dropdown-item" href="/project/multiscalemodeling/"><span>Multiscale modeling</span></a>
             
           </div>
@@ -401,14 +435,43 @@
         
 
         
+        
+        
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
         <li class="nav-item dropdown">
-          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>Software</span><span class="caret"></span>
+          <a href="/development/" class="nav-link dropdown-toggle"
+             aria-haspopup="true" aria-expanded="false"><span>Software</span><span class="caret"></span>
           </a>
           <div class="dropdown-menu">
             
-              <a class="dropdown-item" href="/software/mpbe/"><span>MPBE/FHI-aims</span></a>
+              
+              
+              
+              <a class="dropdown-item is-overview" href="/development/"><span>Software Overview</span></a>
             
+              
+              
+              
+              <a class="dropdown-item" href="/software/catmapinterface/"><span>CatmapInterface.jl</span></a>
+            
+              
+              
+              
               <a class="dropdown-item" href="/software/catint/"><span>CatINT/COMSOL</span></a>
+            
+              
+              
+              
+              <a class="dropdown-item" href="/software/mpbe/"><span>MPBE/FHI-aims</span></a>
             
           </div>
         </li>
@@ -493,6 +556,24 @@
       <li class="nav-item">
         <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
       </li>
+      
+
+      
+      
+      
+      <li class="nav-item nav-item-translate">
+        
+        <button type="button" class="nav-link js-translate-toggle notranslate"
+                translate="no" aria-pressed="false"
+                data-source="en"
+                data-target="ko"
+                data-label-target="한국어"
+                data-label-original="EN">
+          <i class="fas fa-language" aria-hidden="true"></i>
+          <span class="js-translate-label">한국어</span>
+        </button>
+      </li>
+      
       
 
       
@@ -601,15 +682,16 @@
   
 
 
+
+
+  <h2 class="headline"><span>Publications</span></h2>
+
+
+
 <div class="row">
     
-<center>
-         
 
 
-         
-
-</center>
 </div>
 
 <div class="rowcover">
@@ -889,7 +971,7 @@
     <div class="col-md-2">
     
     <a href="/publication/beomil-2023/" >
-            <img src="/publication/beomil-2023/cover_hue0b7da6bf0b350f0969d2f44a8719055_6193163_500x0_resize_q90_lanczos.jpg" alt="" style="width:100%">
+            <img src="/publication/beomil-2023/cover_hu_310e4008f9a1f364.jpg" alt="" style="width:100%">
     </a>
     </div>
     
@@ -946,7 +1028,7 @@
     <div class="col-md-2">
     
     <a href="/publication/hong-2023/" >
-            <img src="/publication/hong-2023/cover_hu5ec2c037429e13a9b2bfe8284a0d451d_881211_500x0_resize_q90_lanczos.jpg" alt="" style="width:100%">
+            <img src="/publication/hong-2023/cover_hu_b4acb4edb623f25c.jpg" alt="" style="width:100%">
     </a>
     </div>
     
@@ -1147,7 +1229,7 @@
     <div class="col-md-2">
     
     <a href="/publication/kim-2021-qz/" >
-            <img src="/publication/kim-2021-qz/cover_hue39cfc9b1ff417a826cdd057e04918fc_835395_500x0_resize_q90_lanczos.jpg" alt="" style="width:100%">
+            <img src="/publication/kim-2021-qz/cover_hu_250742de07e6123f.jpg" alt="" style="width:100%">
     </a>
     </div>
     
@@ -1220,7 +1302,7 @@
     <div class="col-md-2">
     
     <a href="/publication/lee-2020/" >
-            <img src="/publication/lee-2020/cover_hu4908b6f6e7b4476a735192def737beaf_8020844_500x0_resize_q90_lanczos.jpg" alt="" style="width:100%">
+            <img src="/publication/lee-2020/cover_hu_9fb6b156b4878985.jpg" alt="" style="width:100%">
     </a>
     </div>
     
@@ -1325,7 +1407,7 @@
     <div class="col-md-2">
     
     <a href="/publication/ringe-2019-dm/" >
-            <img src="/publication/ringe-2019-dm/cover_hu5da997952d6aa068cb19712496cfa3ba_423752_500x0_resize_lanczos_2.png" alt="" style="width:100%">
+            <img src="/publication/ringe-2019-dm/cover_hu_e47b179ab8bb1f9b.png" alt="" style="width:100%">
     </a>
     </div>
     
@@ -1446,7 +1528,7 @@
     <div class="col-md-2">
     
     <a href="/publication/ringe-2017-dm/" >
-            <img src="/publication/ringe-2017-dm/cover_hucf166c3c3928dbf52f3db1b9879a31db_868451_500x0_resize_lanczos_2.png" alt="" style="width:100%">
+            <img src="/publication/ringe-2017-dm/cover_hu_9a0e63aa72584899.png" alt="" style="width:100%">
     </a>
     </div>
     
@@ -1551,8 +1633,35 @@
 
 
 
+
+
+
   
-  <span><b>R. V. Adith†</b></span>, <span>K. Asghar</span>, <span>J. Wicks</span>, <span>E. H. Sargent</span>, <span>S. Ringe*</span>
+  
+    
+      
+        
+        
+          
+        
+      
+        
+        
+          
+        
+      
+        
+        
+          
+        
+      
+    
+  
+
+
+
+  
+  <span><a href="/authors/adith/"><b>R. V. Adith†</b></a></span>, <span><a href="/authors/ashgar-kamal/">K. Asghar</a></span>, <span>J. Wicks</span>, <span>E. H. Sargent</span>, <span><a href="/authors/admin/">S. Ringe*</a></span>
 
   </div>
   
@@ -1582,18 +1691,12 @@
   
 
   
-  <span class="article-volume">
-    <span>,</span>
-    
-    <span><i></i></span>
-  </span>
+  
+  
+  
+  <span>.</span>
 
-  <span class="article-pages">
-    <span>,</span>
-    
-    
-    <span>.</span>
-  </span>
+  
 
   
   
@@ -1631,8 +1734,10 @@
 
 
 
+
 <button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/adith-2026-ees/cite.bib">
+        data-filename="/publication/adith-2026-ees/cite.bib"
+        data-citation="R. V. Adith et al., Energy Environ. Sci. 2026.">
   Cite
 </button>
 
@@ -1656,6 +1761,25 @@
 
 
 
+  
+  
+    
+      
+      
+    
+  
+
+<a class="btn btn-outline-secondary my-1 mr-1 js-citation-count btn-sm"
+   data-doi="10.1039/d6ee02654k"
+   href="https://scholar.google.com/scholar?q=First-principles&#43;multi-scale&#43;design&#43;of&#43;gas&#43;diffusion&#43;electrodes&#43;for&#43;electrochemical&#43;CO2&#43;reduction" target="_blank" rel="noopener"
+   title="Citing articles on Google Scholar (count via OpenAlex)" hidden>
+  Cited by <span class="js-citation-value">0</span>
+</a>
+
+
+
+
+
 
     </div>
     
@@ -1667,7 +1791,7 @@
     
     
     <a href="/publication/adith-2026-ees/" >
-            <img src="/publication/adith-2026-ees/featured_hu1bb9180fecca9ee469ce81d342108f60_7036966_500x0_resize_lanczos_2.png" alt="" height="500" width="500">
+            <img src="/publication/adith-2026-ees/featured_hu_a73088608282dbf.png" alt="" height="500" width="500">
     </a>
     
   </div>
@@ -1742,8 +1866,30 @@
 
 
 
+
+
+
   
-  <span>B. Kim†</span>, <span><b>S. Han†</b></span>, <span>S. Wang</span>, <span><b>S. Ringe*</b></span>, <span>J. Oh*</span>
+  
+    
+      
+        
+        
+          
+        
+      
+        
+        
+          
+        
+      
+    
+  
+
+
+
+  
+  <span>B. Kim†</span>, <span><a href="/authors/han-seungchang/"><b>S. Han†</b></a></span>, <span>S. Wang</span>, <span><a href="/authors/admin/"><b>S. Ringe*</b></a></span>, <span>J. Oh*</span>
 
   </div>
   
@@ -1773,18 +1919,16 @@
   
 
   
-  <span class="article-volume">
-    <span>,</span>
-    
-    <span><i>9</i></span>
-  </span>
+  
+  
+  <span class="article-volume"><span>,</span> <span><i>9</i></span></span>
+  
+  
+  <span class="article-pages"><span>,</span> 471-481</span>
+  
+  <span>.</span>
 
-  <span class="article-pages">
-    <span>,</span>
-    
-    471-481
-    <span>.</span>
-  </span>
+  
 
   
   
@@ -1822,8 +1966,10 @@
 
 
 
+
 <button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/beomil-2026/cite.bib">
+        data-filename="/publication/beomil-2026/cite.bib"
+        data-citation="B. Kim et al., Nat. Catal. 2026, 9, 471-481.">
   Cite
 </button>
 
@@ -1847,6 +1993,25 @@
 
 
 
+  
+  
+    
+      
+      
+    
+  
+
+<a class="btn btn-outline-secondary my-1 mr-1 js-citation-count btn-sm"
+   data-doi="10.1038/s41929-026-01526-7"
+   href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=7697746081435974978,16709141793982071482,3915476959573409499,18442172296159202482" target="_blank" rel="noopener"
+   title="Citing articles on Google Scholar (count via OpenAlex)">
+  Cited by <span class="js-citation-value">5</span>
+</a>
+
+
+
+
+
 
     </div>
     
@@ -1858,7 +2023,7 @@
     
     
     <a href="/publication/beomil-2026/" >
-            <img src="/publication/beomil-2026/featured_hub7a160317f910b0c3a998ce3970d4933_684862_500x0_resize_q90_lanczos.jpg" alt="" height="500" width="500">
+            <img src="/publication/beomil-2026/featured_hu_b5541390d23d86f6.jpg" alt="" height="500" width="500">
     </a>
     
   </div>
@@ -1933,8 +2098,30 @@
 
 
 
+
+
+
   
-  <span>S. Palchowdhury†</span>, <span><b>S. Ringe</b></span>, <span><b>S. Lee</b></span>, <span>M. Cho*</span>
+  
+    
+      
+        
+        
+          
+        
+      
+        
+        
+          
+        
+      
+    
+  
+
+
+
+  
+  <span>S. Palchowdhury†</span>, <span><a href="/authors/admin/"><b>S. Ringe</b></a></span>, <span><a href="/authors/sayeon-lee/"><b>S. Lee</b></a></span>, <span>M. Cho*</span>
 
   </div>
   
@@ -1964,18 +2151,16 @@
   
 
   
-  <span class="article-volume">
-    <span>,</span>
-    
-    <span><i>164</i></span>
-  </span>
+  
+  
+  <span class="article-volume"><span>,</span> <span><i>164</i></span></span>
+  
+  
+  <span class="article-pages"><span>,</span> 121102</span>
+  
+  <span>.</span>
 
-  <span class="article-pages">
-    <span>,</span>
-    
-    121102
-    <span>.</span>
-  </span>
+  
 
   
   
@@ -2013,8 +2198,10 @@
 
 
 
+
 <button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/sourav-2026/cite.bib">
+        data-filename="/publication/sourav-2026/cite.bib"
+        data-citation="S. Palchowdhury et al., J. Chem. Phys. 2026, 164, 121102.">
   Cite
 </button>
 
@@ -2038,6 +2225,25 @@
 
 
 
+  
+  
+    
+      
+      
+    
+  
+
+<a class="btn btn-outline-secondary my-1 mr-1 js-citation-count btn-sm"
+   data-doi="10.1063/5.0314584"
+   href="https://scholar.google.com/scholar?q=Atomic&#43;origins&#43;of&#43;electrochemical&#43;stability&#43;in&#43;acetate-based&#43;dual-cation&#43;water-in-salt&#43;electrolytes" target="_blank" rel="noopener"
+   title="Citing articles on Google Scholar (count via OpenAlex)" hidden>
+  Cited by <span class="js-citation-value">0</span>
+</a>
+
+
+
+
+
 
     </div>
     
@@ -2049,7 +2255,7 @@
     
     
     <a href="/publication/sourav-2026/" >
-            <img src="/publication/sourav-2026/featured_hud93e6e228151ea3a32e00f8a1bd86a93_174108_500x0_resize_q90_lanczos.jpeg" alt="" height="500" width="500">
+            <img src="/publication/sourav-2026/featured_hu_ebf433cf44677134.jpeg" alt="" height="500" width="500">
     </a>
     
   </div>
@@ -2124,8 +2330,35 @@
 
 
 
+
+
+
   
-  <span><b>D. Hou†</b></span>, <span><b>Y. Horbatenko</b></span>, <span><b>S. Ringe*</b></span>, <span>M. Cho*</span>
+  
+    
+      
+        
+        
+          
+        
+      
+        
+        
+          
+        
+      
+        
+        
+          
+        
+      
+    
+  
+
+
+
+  
+  <span><a href="/authors/dianwei-hou/"><b>D. Hou†</b></a></span>, <span><a href="/authors/horbatenko-yevhen/"><b>Y. Horbatenko</b></a></span>, <span><a href="/authors/admin/"><b>S. Ringe*</b></a></span>, <span>M. Cho*</span>
 
   </div>
   
@@ -2155,18 +2388,16 @@
   
 
   
-  <span class="article-volume">
-    <span>,</span>
-    
-    <span><i>17</i></span>
-  </span>
+  
+  
+  <span class="article-volume"><span>,</span> <span><i>17</i></span></span>
+  
+  
+  <span class="article-pages"><span>,</span> 4792</span>
+  
+  <span>.</span>
 
-  <span class="article-pages">
-    <span>,</span>
-    
-    4792
-    <span>.</span>
-  </span>
+  
 
   
   
@@ -2204,8 +2435,10 @@
 
 
 
+
 <button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/dianwei-2026/cite.bib">
+        data-filename="/publication/dianwei-2026/cite.bib"
+        data-citation="D. Hou et al., Nat. Commun. 2026, 17, 4792.">
   Cite
 </button>
 
@@ -2229,6 +2462,25 @@
 
 
 
+  
+  
+    
+      
+      
+    
+  
+
+<a class="btn btn-outline-secondary my-1 mr-1 js-citation-count btn-sm"
+   data-doi="10.1038/s41467-026-71053-3"
+   href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=15282603378938514953,7371250031525629854,10873082232414084473" target="_blank" rel="noopener"
+   title="Citing articles on Google Scholar (count via OpenAlex)">
+  Cited by <span class="js-citation-value">3</span>
+</a>
+
+
+
+
+
 
     </div>
     
@@ -2240,7 +2492,7 @@
     
     
     <a href="/publication/dianwei-2026/" >
-            <img src="/publication/dianwei-2026/featured_hu8d71b15420ab571cbcc29b5dc03a3b5c_425019_500x0_resize_lanczos_2.png" alt="" height="500" width="500">
+            <img src="/publication/dianwei-2026/featured_hu_43d99d1ecb1f0287.png" alt="" height="500" width="500">
     </a>
     
   </div>
@@ -2315,8 +2567,30 @@
 
 
 
+
+
+
   
-  <span>J. M. Ha†</span>, <span>J. Kim†</span>, <span><b>S. Xu†</b></span>, <span>Y. Lee</span>, <span>S. Lee</span>, <span>H. Koo</span>, <span>W. J. Byun</span>, <span>J. Seo</span>, <span>W. Lee*</span>, <span>J. W. Jang</span>, <span><b>S. Ringe*</b></span>, <span>J. Y. Kim*</span>, <span>H. Y. Woo*</span>
+  
+    
+      
+        
+        
+          
+        
+      
+        
+        
+          
+        
+      
+    
+  
+
+
+
+  
+  <span>J. M. Ha†</span>, <span>J. Kim†</span>, <span><a href="/authors/shuran-xu/"><b>S. Xu†</b></a></span>, <span>Y. Lee</span>, <span>S. Lee</span>, <span>H. Koo</span>, <span>W. J. Byun</span>, <span>J. Seo</span>, <span>W. Lee*</span>, <span>J. W. Jang</span>, <span><a href="/authors/admin/"><b>S. Ringe*</b></a></span>, <span>J. Y. Kim*</span>, <span>H. Y. Woo*</span>
 
   </div>
   
@@ -2346,18 +2620,16 @@
   
 
   
-  <span class="article-volume">
-    <span>,</span>
-    
-    <span><i>0</i></span>
-  </span>
+  
+  
+  <span class="article-volume"><span>,</span> <span><i>0</i></span></span>
+  
+  
+  <span class="article-pages"><span>,</span> e05450</span>
+  
+  <span>.</span>
 
-  <span class="article-pages">
-    <span>,</span>
-    
-    e05450
-    <span>.</span>
-  </span>
+  
 
   
   
@@ -2395,8 +2667,10 @@
 
 
 
+
 <button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/minha-2026/cite.bib">
+        data-filename="/publication/minha-2026/cite.bib"
+        data-citation="J. M. Ha et al., Adv Energy Mater 2025, 0, e05450.">
   Cite
 </button>
 
@@ -2420,6 +2694,25 @@
 
 
 
+  
+  
+    
+      
+      
+    
+  
+
+<a class="btn btn-outline-secondary my-1 mr-1 js-citation-count btn-sm"
+   data-doi="10.1002/aenm.202505450"
+   href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=11942118811113111522" target="_blank" rel="noopener"
+   title="Citing articles on Google Scholar (count via OpenAlex)">
+  Cited by <span class="js-citation-value">2</span>
+</a>
+
+
+
+
+
 
     </div>
     
@@ -2431,7 +2724,7 @@
     
     
     <a href="/publication/minha-2026/" >
-            <img src="/publication/minha-2026/featured_hu8e229689b2011811afb8c127c5becfbb_491813_500x0_resize_q90_lanczos.jpg" alt="" height="500" width="500">
+            <img src="/publication/minha-2026/featured_hu_69c151f834e2877c.jpg" alt="" height="500" width="500">
     </a>
     
   </div>
@@ -2506,8 +2799,30 @@
 
 
 
+
+
+
   
-  <span>Y. Jung†</span>, <span><b>Adith.R.V</b>†</span>, <span>I. Kim</span>, <span>H. Kim</span>, <span>G. W. Kim</span>, <span>J. Y. Kim</span>, <span>J. Jeon</span>, <span>Y. Lee</span>, <span>J. C. Lee</span>, <span>S. J. Park</span>, <span>Y. A. Cha</span>, <span><b>S. Ringe*</b></span>, <span>D. H. Nam*</span>, <span>Y. C.Joo*</span>
+  
+    
+      
+        
+        
+          
+        
+      
+        
+        
+          
+        
+      
+    
+  
+
+
+
+  
+  <span>Y. Jung†</span>, <span><a href="/authors/adith/"><b>Adith.R.V</b>†</a></span>, <span>I. Kim</span>, <span>H. Kim</span>, <span>G. W. Kim</span>, <span>J. Y. Kim</span>, <span>J. Jeon</span>, <span>Y. Lee</span>, <span>J. C. Lee</span>, <span>S. J. Park</span>, <span>Y. A. Cha</span>, <span><a href="/authors/admin/"><b>S. Ringe*</b></a></span>, <span>D. H. Nam*</span>, <span>Y. C.Joo*</span>
 
   </div>
   
@@ -2537,18 +2852,16 @@
   
 
   
-  <span class="article-volume">
-    <span>,</span>
-    
-    <span><i>147</i></span>
-  </span>
+  
+  
+  <span class="article-volume"><span>,</span> <span><i>147</i></span></span>
+  
+  
+  <span class="article-pages"><span>,</span> 111602</span>
+  
+  <span>.</span>
 
-  <span class="article-pages">
-    <span>,</span>
-    
-    111602
-    <span>.</span>
-  </span>
+  
 
   
   
@@ -2586,8 +2899,10 @@
 
 
 
+
 <button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/yjung-2025/cite.bib">
+        data-filename="/publication/yjung-2025/cite.bib"
+        data-citation="Y. Jung et al., Nano Energy 2025, 147, 111602.">
   Cite
 </button>
 
@@ -2611,6 +2926,25 @@
 
 
 
+  
+  
+    
+      
+      
+    
+  
+
+<a class="btn btn-outline-secondary my-1 mr-1 js-citation-count btn-sm"
+   data-doi="10.1016/j.nanoen.2025.111602"
+   href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=10765413622349216166,13946395547981619509" target="_blank" rel="noopener"
+   title="Citing articles on Google Scholar (count via OpenAlex)">
+  Cited by <span class="js-citation-value">3</span>
+</a>
+
+
+
+
+
 
     </div>
     
@@ -2622,7 +2956,7 @@
     
     
     <a href="/publication/yjung-2025/" >
-            <img src="/publication/yjung-2025/featured_hu497860e4b4eda59087cbb8f50fcd7980_762679_500x0_resize_q90_lanczos.jpg" alt="" height="500" width="500">
+            <img src="/publication/yjung-2025/featured_hu_317e0a415237b44f.jpg" alt="" height="500" width="500">
     </a>
     
   </div>
@@ -2697,8 +3031,30 @@
 
 
 
+
+
+
   
-  <span>Y.  Jung†</span>, <span><b>H. G. Abbas</b>†</span>, <span>S. Kim†</span>, <span>B. Kim†</span>, <span>J. Cho</span>, <span>s. Han</span>, <span>H. Song</span>, <span>Y. Takaoka</span>, <span>J. T. Song</span>, <span>T. Ishihara</span>, <span>C. H. Choi*</span>, <span><b>S. Ringe*</b></span>, <span>J. Oh*</span>
+  
+    
+      
+        
+        
+          
+        
+      
+        
+        
+          
+        
+      
+    
+  
+
+
+
+  
+  <span>Y.  Jung†</span>, <span><a href="/authors/abbas/"><b>H. G. Abbas</b>†</a></span>, <span>S. Kim†</span>, <span>B. Kim†</span>, <span>J. Cho</span>, <span>s. Han</span>, <span>H. Song</span>, <span>Y. Takaoka</span>, <span>J. T. Song</span>, <span>T. Ishihara</span>, <span>C. H. Choi*</span>, <span><a href="/authors/admin/"><b>S. Ringe*</b></a></span>, <span>J. Oh*</span>
 
   </div>
   
@@ -2728,18 +3084,16 @@
   
 
   
-  <span class="article-volume">
-    <span>,</span>
-    
-    <span><i>147</i></span>
-  </span>
+  
+  
+  <span class="article-volume"><span>,</span> <span><i>147</i></span></span>
+  
+  
+  <span class="article-pages"><span>,</span> 39796-39804</span>
+  
+  <span>.</span>
 
-  <span class="article-pages">
-    <span>,</span>
-    
-    39796-39804
-    <span>.</span>
-  </span>
+  
 
   
   
@@ -2777,8 +3131,10 @@
 
 
 
+
 <button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/yujin-2025/cite.bib">
+        data-filename="/publication/yujin-2025/cite.bib"
+        data-citation="Y. Jung et al., J. Am. Chem. Soc. 2025, 147, 39796-39804.">
   Cite
 </button>
 
@@ -2802,6 +3158,25 @@
 
 
 
+  
+  
+    
+      
+      
+    
+  
+
+<a class="btn btn-outline-secondary my-1 mr-1 js-citation-count btn-sm"
+   data-doi="10.1021/jacs.5c14093"
+   href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=967374093254961170" target="_blank" rel="noopener"
+   title="Citing articles on Google Scholar (count via OpenAlex)">
+  Cited by <span class="js-citation-value">37</span>
+</a>
+
+
+
+
+
 
     </div>
     
@@ -2813,7 +3188,7 @@
     
     
     <a href="/publication/yujin-2025/" >
-            <img src="/publication/yujin-2025/featured_hufb69300fa2688a6c4a3db1e5fe1718c7_181729_500x0_resize_q90_lanczos.jpeg" alt="" height="500" width="500">
+            <img src="/publication/yujin-2025/featured_hu_8cbd2dd6daea0da1.jpeg" alt="" height="500" width="500">
     </a>
     
   </div>
@@ -2888,8 +3263,35 @@
 
 
 
+
+
+
   
-  <span>S. Lee†</span>, <span>Y. Lee†</span>, <span><b>H. G. Abbas</b>†</span>, <span>S. Li</span>, <span><b>S. Y. Kim</b></span>, <span>K. Lee</span>, <span>S. Li</span>, <span>E. J. Lee</span>, <span>J. Choi</span>, <span>H. Ahn</span>, <span>I. Y. Kim</span>, <span>S. In</span>, <span><b>S. Ringe*</b></span>, <span>Y. J. Jang*</span>, <span>J. Yang*</span>
+  
+    
+      
+        
+        
+          
+        
+      
+        
+        
+          
+        
+      
+        
+        
+          
+        
+      
+    
+  
+
+
+
+  
+  <span>S. Lee†</span>, <span>Y. Lee†</span>, <span><a href="/authors/abbas/"><b>H. G. Abbas</b>†</a></span>, <span>S. Li</span>, <span><a href="/authors/seoyeong-kim/"><b>S. Y. Kim</b></a></span>, <span>K. Lee</span>, <span>S. Li</span>, <span>E. J. Lee</span>, <span>J. Choi</span>, <span>H. Ahn</span>, <span>I. Y. Kim</span>, <span>S. In</span>, <span><a href="/authors/admin/"><b>S. Ringe*</b></a></span>, <span>Y. J. Jang*</span>, <span>J. Yang*</span>
 
   </div>
   
@@ -2919,18 +3321,16 @@
   
 
   
-  <span class="article-volume">
-    <span>,</span>
-    
-    <span><i>25</i></span>
-  </span>
+  
+  
+  <span class="article-volume"><span>,</span> <span><i>25</i></span></span>
+  
+  
+  <span class="article-pages"><span>,</span> 7351-7360</span>
+  
+  <span>.</span>
 
-  <span class="article-pages">
-    <span>,</span>
-    
-    7351-7360
-    <span>.</span>
-  </span>
+  
 
   
   
@@ -2968,8 +3368,10 @@
 
 
 
+
 <button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/soyeon-2025/cite.bib">
+        data-filename="/publication/soyeon-2025/cite.bib"
+        data-citation="S. Lee et al., Nano Lett. 2025, 25, 7351-7360.">
   Cite
 </button>
 
@@ -2993,6 +3395,25 @@
 
 
 
+  
+  
+    
+      
+      
+    
+  
+
+<a class="btn btn-outline-secondary my-1 mr-1 js-citation-count btn-sm"
+   data-doi="10.1021/acs.nanolett.5c00529"
+   href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=14233860711154526969" target="_blank" rel="noopener"
+   title="Citing articles on Google Scholar (count via OpenAlex)">
+  Cited by <span class="js-citation-value">15</span>
+</a>
+
+
+
+
+
 
     </div>
     
@@ -3004,7 +3425,7 @@
     
     
     <a href="/publication/soyeon-2025/" >
-            <img src="/publication/soyeon-2025/featured_hu6487c2101578d51169d5c46efdc96ee0_250161_500x0_resize_lanczos_2.png" alt="" height="500" width="500">
+            <img src="/publication/soyeon-2025/featured_hu_2d945c3859707159.png" alt="" height="500" width="500">
     </a>
     
   </div>
@@ -3079,8 +3500,25 @@
 
 
 
+
+
+
   
-  <span><b>S. Ringe*</b></span>, <span>G. Raabe*</span>
+  
+    
+      
+        
+        
+          
+        
+      
+    
+  
+
+
+
+  
+  <span><a href="/authors/admin/"><b>S. Ringe*</b></a></span>, <span>G. Raabe*</span>
 
   </div>
   
@@ -3110,18 +3548,16 @@
   
 
   
-  <span class="article-volume">
-    <span>,</span>
-    
-    <span><i>51</i></span>
-  </span>
+  
+  
+  <span class="article-volume"><span>,</span> <span><i>51</i></span></span>
+  
+  
+  <span class="article-pages"><span>,</span> 101671</span>
+  
+  <span>.</span>
 
-  <span class="article-pages">
-    <span>,</span>
-    
-    101671
-    <span>.</span>
-  </span>
+  
 
   
   
@@ -3159,8 +3595,10 @@
 
 
 
+
 <button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/ringe-2025/cite.bib">
+        data-filename="/publication/ringe-2025/cite.bib"
+        data-citation="S. Ringe et al., Curr Opin Electrochem 2025, 51, 101671.">
   Cite
 </button>
 
@@ -3184,6 +3622,25 @@
 
 
 
+  
+  
+    
+      
+      
+    
+  
+
+<a class="btn btn-outline-secondary my-1 mr-1 js-citation-count btn-sm"
+   data-doi="10.1016/j.coelec.2025.101671"
+   href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=16598111813010293592" target="_blank" rel="noopener"
+   title="Citing articles on Google Scholar (count via OpenAlex)">
+  Cited by <span class="js-citation-value">2</span>
+</a>
+
+
+
+
+
 
     </div>
     
@@ -3195,7 +3652,7 @@
     
     
     <a href="/publication/ringe-2025/" >
-            <img src="/publication/ringe-2025/featured_hudf93f204777eaf7cf88385d6751d06c7_663940_500x0_resize_q90_lanczos.jpg" alt="" height="500" width="500">
+            <img src="/publication/ringe-2025/featured_hu_cfa2e133971cdf41.jpg" alt="" height="500" width="500">
     </a>
     
   </div>
@@ -3270,8 +3727,35 @@
 
 
 
+
+
+
   
-  <span>B.  Jeong*†</span>, <span><b>H. G. Abbas</b>†</span>, <span>B. P. Klein†</span>, <span>G. Bae</span>, <span><b>Adith. R. V</b></span>, <span>C. H. Choi</span>, <span>G. Kim</span>, <span>D. Kim</span>, <span>K. Kim</span>, <span>B. J. Cha</span>, <span>Y. D. Kim</span>, <span>F. Jaouen</span>, <span>R. J. Maurer*</span>, <span><b>S. Ringe*</b></span>
+  
+    
+      
+        
+        
+          
+        
+      
+        
+        
+          
+        
+      
+        
+        
+          
+        
+      
+    
+  
+
+
+
+  
+  <span>B.  Jeong*†</span>, <span><a href="/authors/abbas/"><b>H. G. Abbas</b>†</a></span>, <span>B. P. Klein†</span>, <span>G. Bae</span>, <span><a href="/authors/adith/"><b>Adith. R. V</b></a></span>, <span>C. H. Choi</span>, <span>G. Kim</span>, <span>D. Kim</span>, <span>K. Kim</span>, <span>B. J. Cha</span>, <span>Y. D. Kim</span>, <span>F. Jaouen</span>, <span>R. J. Maurer*</span>, <span><a href="/authors/admin/"><b>S. Ringe*</b></a></span>
 
   </div>
   
@@ -3301,18 +3785,16 @@
   
 
   
-  <span class="article-volume">
-    <span>,</span>
-    
-    <span><i>64</i></span>
-  </span>
+  
+  
+  <span class="article-volume"><span>,</span> <span><i>64</i></span></span>
+  
+  
+  <span class="article-pages"><span>,</span> e202420673</span>
+  
+  <span>.</span>
 
-  <span class="article-pages">
-    <span>,</span>
-    
-    e202420673
-    <span>.</span>
-  </span>
+  
 
   
   
@@ -3350,8 +3832,10 @@
 
 
 
+
 <button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/beomgyun-2025/cite.bib">
+        data-filename="/publication/beomgyun-2025/cite.bib"
+        data-citation="B. Jeong et al., Angew Chem Int Ed Engl 2025, 64, e202420673.">
   Cite
 </button>
 
@@ -3375,6 +3859,25 @@
 
 
 
+  
+  
+    
+      
+      
+    
+  
+
+<a class="btn btn-outline-secondary my-1 mr-1 js-citation-count btn-sm"
+   data-doi="10.1002/anie.202420673"
+   href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=8317863989188733769" target="_blank" rel="noopener"
+   title="Citing articles on Google Scholar (count via OpenAlex)">
+  Cited by <span class="js-citation-value">5</span>
+</a>
+
+
+
+
+
 
     </div>
     
@@ -3386,7 +3889,7 @@
     
     
     <a href="/publication/beomgyun-2025/" >
-            <img src="/publication/beomgyun-2025/featured_hu63b451994ef075aae572935fe0ab6d87_1432544_500x0_resize_lanczos_2.png" alt="" height="500" width="500">
+            <img src="/publication/beomgyun-2025/featured_hu_dbe7db7f3750ca9.png" alt="" height="500" width="500">
     </a>
     
   </div>
@@ -3461,8 +3964,35 @@
 
 
 
+
+
+
   
-  <span>S. Ji†</span>, <span><b>H. G. Abbas</b>†</span>, <span><b>S. Y. Kim</b>†</span>, <span>H. C. Lee</span>, <span>K. Lee</span>, <span>S. Li</span>, <span>S. Choe</span>, <span>H. Ahn</span>, <span><b>S. Ringe</b>*</span>, <span>J. Yang*</span>
+  
+    
+      
+        
+        
+          
+        
+      
+        
+        
+          
+        
+      
+        
+        
+          
+        
+      
+    
+  
+
+
+
+  
+  <span>S. Ji†</span>, <span><a href="/authors/abbas/"><b>H. G. Abbas</b>†</a></span>, <span><a href="/authors/seoyeong-kim/"><b>S. Y. Kim</b>†</a></span>, <span>H. C. Lee</span>, <span>K. Lee</span>, <span>S. Li</span>, <span>S. Choe</span>, <span>H. Ahn</span>, <span><a href="/authors/admin/"><b>S. Ringe</b>*</a></span>, <span>J. Yang*</span>
 
   </div>
   
@@ -3492,18 +4022,16 @@
   
 
   
-  <span class="article-volume">
-    <span>,</span>
-    
-    <span><i>5</i></span>
-  </span>
+  
+  
+  <span class="article-volume"><span>,</span> <span><i>5</i></span></span>
+  
+  
+  <span class="article-pages"><span>,</span> 2400300</span>
+  
+  <span>.</span>
 
-  <span class="article-pages">
-    <span>,</span>
-    
-    2400300
-    <span>.</span>
-  </span>
+  
 
   
   
@@ -3541,8 +4069,10 @@
 
 
 
+
 <button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/ji-2024/cite.bib">
+        data-filename="/publication/ji-2024/cite.bib"
+        data-citation="S. Ji et al., Small Sci. 2024, 5, 2400300.">
   Cite
 </button>
 
@@ -3566,6 +4096,25 @@
 
 
 
+  
+  
+    
+      
+      
+    
+  
+
+<a class="btn btn-outline-secondary my-1 mr-1 js-citation-count btn-sm"
+   data-doi="10.1002/smsc.202400300"
+   href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=4311769589462236591" target="_blank" rel="noopener"
+   title="Citing articles on Google Scholar (count via OpenAlex)">
+  Cited by <span class="js-citation-value">5</span>
+</a>
+
+
+
+
+
 
     </div>
     
@@ -3577,7 +4126,7 @@
     
     
     <a href="/publication/ji-2024/" >
-            <img src="/publication/ji-2024/featured_hu58950c71f4d6dfd0577948d17c9f9e61_179390_500x0_resize_q90_lanczos.jpg" alt="" height="500" width="500">
+            <img src="/publication/ji-2024/featured_hu_fddb610af2c6d143.jpg" alt="" height="500" width="500">
     </a>
     
   </div>
@@ -3652,8 +4201,25 @@
 
 
 
+
+
+
   
-  <span><b>S. Ringe*</b></span>
+  
+    
+      
+        
+        
+          
+        
+      
+    
+  
+
+
+
+  
+  <span><a href="/authors/admin/"><b>S. Ringe*</b></a></span>
 
   </div>
   
@@ -3683,18 +4249,16 @@
   
 
   
-  <span class="article-volume">
-    <span>,</span>
-    
-    <span><i>7</i></span>
-  </span>
+  
+  
+  <span class="article-volume"><span>,</span> <span><i>7</i></span></span>
+  
+  
+  <span class="article-pages"><span>,</span> 955-956</span>
+  
+  <span>.</span>
 
-  <span class="article-pages">
-    <span>,</span>
-    
-    955-956
-    <span>.</span>
-  </span>
+  
 
   
   
@@ -3732,8 +4296,10 @@
 
 
 
+
 <button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/ringe-2024/cite.bib">
+        data-filename="/publication/ringe-2024/cite.bib"
+        data-citation="S. Ringe, Nat. Catal. 2024, 7, 955-956.">
   Cite
 </button>
 
@@ -3757,6 +4323,25 @@
 
 
 
+  
+  
+    
+      
+      
+    
+  
+
+<a class="btn btn-outline-secondary my-1 mr-1 js-citation-count btn-sm"
+   data-doi="10.1038/s41929-024-01224-2"
+   href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=15274568600064441096" target="_blank" rel="noopener"
+   title="Citing articles on Google Scholar (count via OpenAlex)">
+  Cited by <span class="js-citation-value">1</span>
+</a>
+
+
+
+
+
 
     </div>
     
@@ -3768,7 +4353,7 @@
     
     
     <a href="/publication/ringe-2024/" >
-            <img src="/publication/ringe-2024/featured_huab6a40ec9536f957c568d677da4d6ebe_266423_500x0_resize_lanczos_2.png" alt="" height="500" width="500">
+            <img src="/publication/ringe-2024/featured_hu_7855313965892b8f.png" alt="" height="500" width="500">
     </a>
     
   </div>
@@ -3843,8 +4428,35 @@
 
 
 
+
+
+
   
-  <span>C.  Won†</span>, <span>S. Kim†</span>, <span><b>D. Kwak</b>†</span>, <span>T. Kim</span>, <span>J. Kim</span>, <span>E. Lee</span>, <span>S. Kim</span>, <span><b>Adith. R. V</b></span>, <span><b>S. Ringe*</b></span>, <span>H. I. Kim*</span>, <span>K. Jin*</span>
+  
+    
+      
+        
+        
+          
+        
+      
+        
+        
+          
+        
+      
+        
+        
+          
+        
+      
+    
+  
+
+
+
+  
+  <span>C.  Won†</span>, <span>S. Kim†</span>, <span><a href="/authors/kwak-dongvin/"><b>D. Kwak</b>†</a></span>, <span>T. Kim</span>, <span>J. Kim</span>, <span>E. Lee</span>, <span>S. Kim</span>, <span><a href="/authors/adith/"><b>Adith. R. V</b></a></span>, <span><a href="/authors/admin/"><b>S. Ringe*</b></a></span>, <span>H. I. Kim*</span>, <span>K. Jin*</span>
 
   </div>
   
@@ -3874,18 +4486,16 @@
   
 
   
-  <span class="article-volume">
-    <span>,</span>
-    
-    <span><i>63</i></span>
-  </span>
+  
+  
+  <span class="article-volume"><span>,</span> <span><i>63</i></span></span>
+  
+  
+  <span class="article-pages"><span>,</span> e202411260</span>
+  
+  <span>.</span>
 
-  <span class="article-pages">
-    <span>,</span>
-    
-    e202411260
-    <span>.</span>
-  </span>
+  
 
   
   
@@ -3923,8 +4533,10 @@
 
 
 
+
 <button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/won-2024/cite.bib">
+        data-filename="/publication/won-2024/cite.bib"
+        data-citation="C. Won et al., Angew Chem Int Ed Engl 2024, 63, e202411260.">
   Cite
 </button>
 
@@ -3948,6 +4560,25 @@
 
 
 
+  
+  
+    
+      
+      
+    
+  
+
+<a class="btn btn-outline-secondary my-1 mr-1 js-citation-count btn-sm"
+   data-doi="10.1002/anie.202411260 "
+   href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=2249145128636117595" target="_blank" rel="noopener"
+   title="Citing articles on Google Scholar (count via OpenAlex)">
+  Cited by <span class="js-citation-value">11</span>
+</a>
+
+
+
+
+
 
     </div>
     
@@ -3959,7 +4590,7 @@
     
     
     <a href="/publication/won-2024/" >
-            <img src="/publication/won-2024/featured_hu1c2bcd6de41f58d3583bb6271074ccbb_1444756_500x0_resize_q90_lanczos.jpeg" alt="" height="500" width="500">
+            <img src="/publication/won-2024/featured_hu_c7883ed018a99640.jpeg" alt="" height="500" width="500">
     </a>
     
   </div>
@@ -4034,8 +4665,30 @@
 
 
 
+
+
+
   
-  <span>S.  Kim†</span>, <span>S. Lebègue*</span>, <span><b>S.  Ringe*</b></span>, <span>H.  Kim*</span>
+  
+    
+      
+        
+        
+          
+        
+      
+        
+        
+          
+        
+      
+    
+  
+
+
+
+  
+  <span><a href="/authors/kim-sejun/">S.  Kim†</a></span>, <span>S. Lebègue*</span>, <span><a href="/authors/admin/"><b>S.  Ringe*</b></a></span>, <span>H.  Kim*</span>
 
   </div>
   
@@ -4065,18 +4718,16 @@
   
 
   
-  <span class="article-volume">
-    <span>,</span>
-    
-    <span><i>15</i></span>
-  </span>
+  
+  
+  <span class="article-volume"><span>,</span> <span><i>15</i></span></span>
+  
+  
+  <span class="article-pages"><span>,</span> 4575-4580</span>
+  
+  <span>.</span>
 
-  <span class="article-pages">
-    <span>,</span>
-    
-    4575-4580
-    <span>.</span>
-  </span>
+  
 
   
   
@@ -4114,8 +4765,10 @@
 
 
 
+
 <button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/sejun-2024/cite.bib">
+        data-filename="/publication/sejun-2024/cite.bib"
+        data-citation="S. Kim et al., J. Phys. Chem. Lett. 2024, 15, 4575-4580.">
   Cite
 </button>
 
@@ -4139,6 +4792,25 @@
 
 
 
+  
+  
+    
+      
+      
+    
+  
+
+<a class="btn btn-outline-secondary my-1 mr-1 js-citation-count btn-sm"
+   data-doi="10.1021/acs.jpclett.4c00752"
+   href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=13004919874815470801" target="_blank" rel="noopener"
+   title="Citing articles on Google Scholar (count via OpenAlex)">
+  Cited by <span class="js-citation-value">5</span>
+</a>
+
+
+
+
+
 
     </div>
     
@@ -4150,7 +4822,7 @@
     
     
     <a href="/publication/sejun-2024/" >
-            <img src="/publication/sejun-2024/featured_hu6cf803e3f5ba3b83eb20f36f454ad93e_140496_500x0_resize_q90_lanczos.jpeg" alt="" height="500" width="500">
+            <img src="/publication/sejun-2024/featured_hu_75f953fdce711b58.jpeg" alt="" height="500" width="500">
     </a>
     
   </div>
@@ -4225,8 +4897,25 @@
 
 
 
+
+
+
   
-  <span>S. M. R. Islam</span>, <span>F. Khezeli</span>, <span><b>S. Ringe</b></span>, <span>C. Plaisance*</span>
+  
+    
+      
+        
+        
+          
+        
+      
+    
+  
+
+
+
+  
+  <span>S. M. R. Islam</span>, <span>F. Khezeli</span>, <span><a href="/authors/admin/"><b>S. Ringe</b></a></span>, <span>C. Plaisance*</span>
 
   </div>
   
@@ -4256,18 +4945,16 @@
   
 
   
-  <span class="article-volume">
-    <span>,</span>
-    
-    <span><i>159</i></span>
-  </span>
+  
+  
+  <span class="article-volume"><span>,</span> <span><i>159</i></span></span>
+  
+  
+  <span class="article-pages"><span>,</span> 234117</span>
+  
+  <span>.</span>
 
-  <span class="article-pages">
-    <span>,</span>
-    
-    234117
-    <span>.</span>
-  </span>
+  
 
   
   
@@ -4305,8 +4992,10 @@
 
 
 
+
 <button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/islam-2023/cite.bib">
+        data-filename="/publication/islam-2023/cite.bib"
+        data-citation="S. M. R. Islam et al., J. Chem. Phys. 2023, 159, 234117.">
   Cite
 </button>
 
@@ -4330,6 +5019,25 @@
 
 
 
+  
+  
+    
+      
+      
+    
+  
+
+<a class="btn btn-outline-secondary my-1 mr-1 js-citation-count btn-sm"
+   data-doi="10.1063/5.0176308"
+   href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=13305430480599481603,17862148230758346487,16303934810820098266" target="_blank" rel="noopener"
+   title="Citing articles on Google Scholar (count via OpenAlex)">
+  Cited by <span class="js-citation-value">134</span>
+</a>
+
+
+
+
+
 
     </div>
     
@@ -4341,7 +5049,7 @@
     
     
     <a href="/publication/islam-2023/" >
-            <img src="/publication/islam-2023/featured_huc768b520e7404b1f946f6403d7e2f5cd_231703_500x0_resize_q90_lanczos.jpeg" alt="" height="500" width="500">
+            <img src="/publication/islam-2023/featured_hu_6f7478a82b337035.jpeg" alt="" height="500" width="500">
     </a>
     
   </div>
@@ -4416,8 +5124,25 @@
 
 
 
+
+
+
   
-  <span>M.  Park†</span>, <span>S. Cho†</span>, <span>J.Yang</span>, <span>V. W. Lau</span>, <span>K. H. Kim</span>, <span>J. H. Park</span>, <span><b>S.  Ringe*</b></span>, <span>Y. M. Kang*</span>
+  
+    
+      
+        
+        
+          
+        
+      
+    
+  
+
+
+
+  
+  <span>M.  Park†</span>, <span>S. Cho†</span>, <span>J.Yang</span>, <span>V. W. Lau</span>, <span>K. H. Kim</span>, <span>J. H. Park</span>, <span><a href="/authors/admin/"><b>S.  Ringe*</b></a></span>, <span>Y. M. Kang*</span>
 
   </div>
   
@@ -4447,18 +5172,16 @@
   
 
   
-  <span class="article-volume">
-    <span>,</span>
-    
-    <span><i>145</i></span>
-  </span>
+  
+  
+  <span class="article-volume"><span>,</span> <span><i>145</i></span></span>
+  
+  
+  <span class="article-pages"><span>,</span> 15425-15434</span>
+  
+  <span>.</span>
 
-  <span class="article-pages">
-    <span>,</span>
-    
-    15425-15434
-    <span>.</span>
-  </span>
+  
 
   
   
@@ -4496,8 +5219,10 @@
 
 
 
+
 <button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/park-2023/cite.bib">
+        data-filename="/publication/park-2023/cite.bib"
+        data-citation="M. Park et al., J. Am. Chem. Soc. 2023, 145, 15425-15434.">
   Cite
 </button>
 
@@ -4521,6 +5246,25 @@
 
 
 
+  
+  
+    
+      
+      
+    
+  
+
+<a class="btn btn-outline-secondary my-1 mr-1 js-citation-count btn-sm"
+   data-doi="10.1021/jacs.3c03619"
+   href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=17525344943196979892" target="_blank" rel="noopener"
+   title="Citing articles on Google Scholar (count via OpenAlex)">
+  Cited by <span class="js-citation-value">11</span>
+</a>
+
+
+
+
+
 
     </div>
     
@@ -4532,7 +5276,7 @@
     
     
     <a href="/publication/park-2023/" >
-            <img src="/publication/park-2023/featured_hu078ee0c29d122edb2b884dca97f42f70_103589_500x0_resize_q90_lanczos.jpeg" alt="" height="500" width="500">
+            <img src="/publication/park-2023/featured_hu_1b28c6095cb0f66d.jpeg" alt="" height="500" width="500">
     </a>
     
   </div>
@@ -4607,8 +5351,35 @@
 
 
 
+
+
+
   
-  <span>B.  Kim†</span>, <span>Y. C. Tan†</span>, <span><b>Y. Ryu†</b></span>, <span>K.Jang</span>, <span><b>H. G. Abbas</b></span>, <span>T. Kang</span>, <span>H. Choi</span>, <span>K. S. Lee</span>, <span>S. Park</span>, <span>W. Kim</span>, <span>P.P. Choi*</span>, <span><b>S.  Ringe*</b></span>, <span>J.  Oh*</span>
+  
+    
+      
+        
+        
+          
+        
+      
+        
+        
+          
+        
+      
+        
+        
+          
+        
+      
+    
+  
+
+
+
+  
+  <span>B.  Kim†</span>, <span>Y. C. Tan†</span>, <span><a href="/authors/ryu-yeonkyeong/"><b>Y. Ryu†</b></a></span>, <span>K.Jang</span>, <span><a href="/authors/abbas/"><b>H. G. Abbas</b></a></span>, <span>T. Kang</span>, <span>H. Choi</span>, <span>K. S. Lee</span>, <span>S. Park</span>, <span>W. Kim</span>, <span>P.P. Choi*</span>, <span><a href="/authors/admin/"><b>S.  Ringe*</b></a></span>, <span>J.  Oh*</span>
 
   </div>
   
@@ -4638,18 +5409,16 @@
   
 
   
-  <span class="article-volume">
-    <span>,</span>
-    
-    <span><i>8</i></span>
-  </span>
+  
+  
+  <span class="article-volume"><span>,</span> <span><i>8</i></span></span>
+  
+  
+  <span class="article-pages"><span>,</span> 3356–3364</span>
+  
+  <span>.</span>
 
-  <span class="article-pages">
-    <span>,</span>
-    
-    3356–3364
-    <span>.</span>
-  </span>
+  
 
   
   
@@ -4687,8 +5456,10 @@
 
 
 
+
 <button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/beomil-2023/cite.bib">
+        data-filename="/publication/beomil-2023/cite.bib"
+        data-citation="B. Kim et al., ACS Energy Lett. 2023, 8, 3356–3364.">
   Cite
 </button>
 
@@ -4712,6 +5483,25 @@
 
 
 
+  
+  
+    
+      
+      
+    
+  
+
+<a class="btn btn-outline-secondary my-1 mr-1 js-citation-count btn-sm"
+   data-doi="10.1021/acsenergylett.3c00418"
+   href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=8737579107100521716" target="_blank" rel="noopener"
+   title="Citing articles on Google Scholar (count via OpenAlex)">
+  Cited by <span class="js-citation-value">75</span>
+</a>
+
+
+
+
+
 
 <a class="btn btn-outline-secondary my-1 mr-1 btn-sm" href="../publication/beomil-2023/cover.jpg" target="_blank" rel="noopener">
   COVER
@@ -4729,7 +5519,7 @@
     
     
     <a href="/publication/beomil-2023/" >
-            <img src="/publication/beomil-2023/featured_huc13e55e874ae65796512ed24d035b017_38135_500x0_resize_q90_lanczos.jpeg" alt="" height="500" width="500">
+            <img src="/publication/beomil-2023/featured_hu_a285aa8e31557516.jpeg" alt="" height="500" width="500">
     </a>
     
   </div>
@@ -4804,8 +5594,25 @@
 
 
 
+
+
+
   
-  <span><b>S. Ringe*</b></span>
+  
+    
+      
+        
+        
+          
+        
+      
+    
+  
+
+
+
+  
+  <span><a href="/authors/admin/"><b>S. Ringe*</b></a></span>
 
   </div>
   
@@ -4835,18 +5642,16 @@
   
 
   
-  <span class="article-volume">
-    <span>,</span>
-    
-    <span><i>14</i></span>
-  </span>
+  
+  
+  <span class="article-volume"><span>,</span> <span><i>14</i></span></span>
+  
+  
+  <span class="article-pages"><span>,</span> 2598</span>
+  
+  <span>.</span>
 
-  <span class="article-pages">
-    <span>,</span>
-    
-    2598
-    <span>.</span>
-  </span>
+  
 
   
   
@@ -4884,8 +5689,10 @@
 
 
 
+
 <button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/ringe-2023-screening/cite.bib">
+        data-filename="/publication/ringe-2023-screening/cite.bib"
+        data-citation="S. Ringe, Nat. Commun. 2023, 14, 2598.">
   Cite
 </button>
 
@@ -4909,6 +5716,25 @@
 
 
 
+  
+  
+    
+      
+      
+    
+  
+
+<a class="btn btn-outline-secondary my-1 mr-1 js-citation-count btn-sm"
+   data-doi="10.1038/s41467-023-37929-4"
+   href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=5461019771005854818,15298358788854052125" target="_blank" rel="noopener"
+   title="Citing articles on Google Scholar (count via OpenAlex)">
+  Cited by <span class="js-citation-value">108</span>
+</a>
+
+
+
+
+
 
     </div>
     
@@ -4920,7 +5746,7 @@
     
     
     <a href="/publication/ringe-2023-screening/" >
-            <img src="/publication/ringe-2023-screening/featured_hu906de21faf6011f12e2e17e4c5b28b54_71380_500x0_resize_q90_lanczos.jpg" alt="" height="500" width="500">
+            <img src="/publication/ringe-2023-screening/featured_hu_74f401f2c1ac2acc.jpg" alt="" height="500" width="500">
     </a>
     
   </div>
@@ -4995,8 +5821,25 @@
 
 
 
+
+
+
   
-  <span><b>S. Ringe*</b></span>
+  
+    
+      
+        
+        
+          
+        
+      
+    
+  
+
+
+
+  
+  <span><a href="/authors/admin/"><b>S. Ringe*</b></a></span>
 
   </div>
   
@@ -5026,18 +5869,16 @@
   
 
   
-  <span class="article-volume">
-    <span>,</span>
-    
-    <span><i>39</i></span>
-  </span>
+  
+  
+  <span class="article-volume"><span>,</span> <span><i>39</i></span></span>
+  
+  
+  <span class="article-pages"><span>,</span> 101268</span>
+  
+  <span>.</span>
 
-  <span class="article-pages">
-    <span>,</span>
-    
-    101268
-    <span>.</span>
-  </span>
+  
 
   
   
@@ -5075,8 +5916,10 @@
 
 
 
+
 <button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/ringe-2023-cation/cite.bib">
+        data-filename="/publication/ringe-2023-cation/cite.bib"
+        data-citation="S. Ringe, Curr Opin Electrochem 2023, 39, 101268.">
   Cite
 </button>
 
@@ -5100,6 +5943,25 @@
 
 
 
+  
+  
+    
+      
+      
+    
+  
+
+<a class="btn btn-outline-secondary my-1 mr-1 js-citation-count btn-sm"
+   data-doi="10.1016/j.coelec.2023.101268"
+   href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=9544315898559406002" target="_blank" rel="noopener"
+   title="Citing articles on Google Scholar (count via OpenAlex)">
+  Cited by <span class="js-citation-value">64</span>
+</a>
+
+
+
+
+
 
     </div>
     
@@ -5111,7 +5973,7 @@
     
     
     <a href="/publication/ringe-2023-cation/" >
-            <img src="/publication/ringe-2023-cation/featured_hud8c575eaa8e89d277a3fccdb0d676b51_27816_500x0_resize_q90_lanczos.jpg" alt="" height="500" width="500">
+            <img src="/publication/ringe-2023-cation/featured_hu_a1b0f621627073c1.jpg" alt="" height="500" width="500">
     </a>
     
   </div>
@@ -5186,8 +6048,30 @@
 
 
 
+
+
+
   
-  <span>S. Hong†</span>, <span><b>H. G. Abbas†</b></span>, <span>K. Jang†</span>, <span>K. K. Patra</span>, <span>B. Kim</span>, <span>B. U. Choi</span>, <span>H. Song</span>, <span>K. S. Lee</span>, <span>P. P. Choi*</span>, <span><b>S. Ringe*</b></span>, <span>J. Oh*</span>
+  
+    
+      
+        
+        
+          
+        
+      
+        
+        
+          
+        
+      
+    
+  
+
+
+
+  
+  <span>S. Hong†</span>, <span><a href="/authors/abbas/"><b>H. G. Abbas†</b></a></span>, <span>K. Jang†</span>, <span>K. K. Patra</span>, <span>B. Kim</span>, <span>B. U. Choi</span>, <span>H. Song</span>, <span>K. S. Lee</span>, <span>P. P. Choi*</span>, <span><a href="/authors/admin/"><b>S. Ringe*</b></a></span>, <span>J. Oh*</span>
 
   </div>
   
@@ -5217,18 +6101,16 @@
   
 
   
-  <span class="article-volume">
-    <span>,</span>
-    
-    <span><i>35</i></span>
-  </span>
+  
+  
+  <span class="article-volume"><span>,</span> <span><i>35</i></span></span>
+  
+  
+  <span class="article-pages"><span>,</span> 2208996</span>
+  
+  <span>.</span>
 
-  <span class="article-pages">
-    <span>,</span>
-    
-    2208996
-    <span>.</span>
-  </span>
+  
 
   
   
@@ -5266,8 +6148,10 @@
 
 
 
+
 <button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/hong-2023/cite.bib">
+        data-filename="/publication/hong-2023/cite.bib"
+        data-citation="S. Hong et al., Adv. Mater. 2023, 35, 2208996.">
   Cite
 </button>
 
@@ -5291,6 +6175,25 @@
 
 
 
+  
+  
+    
+      
+      
+    
+  
+
+<a class="btn btn-outline-secondary my-1 mr-1 js-citation-count btn-sm"
+   data-doi="10.1002/adma.202208996"
+   href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=8581494118110279093,1434891844355807737" target="_blank" rel="noopener"
+   title="Citing articles on Google Scholar (count via OpenAlex)">
+  Cited by <span class="js-citation-value">86</span>
+</a>
+
+
+
+
+
 
 <a class="btn btn-outline-secondary my-1 mr-1 btn-sm" href="../publication/hong-2023/cover.jpg" target="_blank" rel="noopener">
   COVER
@@ -5308,7 +6211,7 @@
     
     
     <a href="/publication/hong-2023/" >
-            <img src="/publication/hong-2023/featured_hu69cc726a082bbc9449f26c04f4902fcb_75535_500x0_resize_q90_lanczos.jpeg" alt="" height="500" width="500">
+            <img src="/publication/hong-2023/featured_hu_30687fb80d9c943c.jpeg" alt="" height="500" width="500">
     </a>
     
   </div>
@@ -5383,8 +6286,30 @@
 
 
 
+
+
+
   
-  <span>J.H. Yu†</span>, <span>K. P. Singh†</span>, <span>S. Kim</span>, <span>T. H. Kang</span>, <span>K. S. Lee</span>, <span>H. Kim*</span>, <span><b>S. Ringe*</b></span>, <span>J. S. Yu*</span>
+  
+    
+      
+        
+        
+          
+        
+      
+        
+        
+          
+        
+      
+    
+  
+
+
+
+  
+  <span>J.H. Yu†</span>, <span>K. P. Singh†</span>, <span><a href="/authors/kim-sejun/">S. Kim</a></span>, <span>T. H. Kang</span>, <span>K. S. Lee</span>, <span>H. Kim*</span>, <span><a href="/authors/admin/"><b>S. Ringe*</b></a></span>, <span>J. S. Yu*</span>
 
   </div>
   
@@ -5414,18 +6339,16 @@
   
 
   
-  <span class="article-volume">
-    <span>,</span>
-    
-    <span><i>11</i></span>
-  </span>
+  
+  
+  <span class="article-volume"><span>,</span> <span><i>11</i></span></span>
+  
+  
+  <span class="article-pages"><span>,</span> 6413-6427</span>
+  
+  <span>.</span>
 
-  <span class="article-pages">
-    <span>,</span>
-    
-    6413-6427
-    <span>.</span>
-  </span>
+  
 
   
   
@@ -5463,8 +6386,10 @@
 
 
 
+
 <button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/hoon-2023/cite.bib">
+        data-filename="/publication/hoon-2023/cite.bib"
+        data-citation="J.H. Yu et al., J. Mater. Chem. A. 2023, 11, 6413-6427.">
   Cite
 </button>
 
@@ -5488,6 +6413,25 @@
 
 
 
+  
+  
+    
+      
+      
+    
+  
+
+<a class="btn btn-outline-secondary my-1 mr-1 js-citation-count btn-sm"
+   data-doi="10.1039/D2TA09110K"
+   href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=985741171736974739" target="_blank" rel="noopener"
+   title="Citing articles on Google Scholar (count via OpenAlex)">
+  Cited by <span class="js-citation-value">20</span>
+</a>
+
+
+
+
+
 
     </div>
     
@@ -5499,7 +6443,7 @@
     
     
     <a href="/publication/hoon-2023/" >
-            <img src="/publication/hoon-2023/featured_hu35e7c96f6b254ef7cb248e2594d351a2_246909_500x0_resize_lanczos_2.png" alt="" height="500" width="500">
+            <img src="/publication/hoon-2023/featured_hu_281a334a3260137d.png" alt="" height="500" width="500">
     </a>
     
   </div>
@@ -5574,8 +6518,25 @@
 
 
 
+
+
+
   
-  <span>S. J Shin†</span>, <span>H. Choi†</span>, <span><b>S. Ringe</b></span>, <span>D. H. Won</span>, <span>H. S. Oh</span>, <span>D. H Kim</span>, <span>T. Lee</span>, <span>D. H. Nam</span>, <span>H. K. Kim*</span>, <span>C. H. Choi*</span>
+  
+    
+      
+        
+        
+          
+        
+      
+    
+  
+
+
+
+  
+  <span>S. J Shin†</span>, <span>H. Choi†</span>, <span><a href="/authors/admin/"><b>S. Ringe</b></a></span>, <span>D. H. Won</span>, <span>H. S. Oh</span>, <span>D. H Kim</span>, <span>T. Lee</span>, <span>D. H. Nam</span>, <span>H. K. Kim*</span>, <span>C. H. Choi*</span>
 
   </div>
   
@@ -5605,18 +6566,16 @@
   
 
   
-  <span class="article-volume">
-    <span>,</span>
-    
-    <span><i>13</i></span>
-  </span>
+  
+  
+  <span class="article-volume"><span>,</span> <span><i>13</i></span></span>
+  
+  
+  <span class="article-pages"><span>,</span> 5482</span>
+  
+  <span>.</span>
 
-  <span class="article-pages">
-    <span>,</span>
-    
-    5482
-    <span>.</span>
-  </span>
+  
 
   
   
@@ -5654,8 +6613,10 @@
 
 
 
+
 <button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/jae-2022/cite.bib">
+        data-filename="/publication/jae-2022/cite.bib"
+        data-citation="S. J Shin et al., Nat. Commun. 2022, 13, 5482.">
   Cite
 </button>
 
@@ -5679,6 +6640,25 @@
 
 
 
+  
+  
+    
+      
+      
+    
+  
+
+<a class="btn btn-outline-secondary my-1 mr-1 js-citation-count btn-sm"
+   data-doi="10.1038/s41467-022-33199-8"
+   href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=8532174924863766517,9371320162777759188,8803739327410451105" target="_blank" rel="noopener"
+   title="Citing articles on Google Scholar (count via OpenAlex)">
+  Cited by <span class="js-citation-value">223</span>
+</a>
+
+
+
+
+
 
     </div>
     
@@ -5690,7 +6670,7 @@
     
     
     <a href="/publication/jae-2022/" >
-            <img src="/publication/jae-2022/featured_hu2bb088d06fbdf25ce4d2e0d8525043c5_871984_500x0_resize_lanczos_2.png" alt="" height="500" width="500">
+            <img src="/publication/jae-2022/featured_hu_b3f1969600af5665.png" alt="" height="500" width="500">
     </a>
     
   </div>
@@ -5765,8 +6745,25 @@
 
 
 
+
+
+
   
-  <span>S. Byun†</span>, <span>Z. Liu†</span>, <span>D. O. Shin†</span>, <span>K. Kim†</span>, <span>J. Choi</span>, <span>Y. Roh</span>, <span>D. Jin</span>, <span>S. Jung</span>, <span>K. -G. Kim</span>, <span>Y. -G. Lee*</span>, <span><b>S. Ringe*</b></span>, <span>Y.M. Lee*</span>
+  
+    
+      
+        
+        
+          
+        
+      
+    
+  
+
+
+
+  
+  <span>S. Byun†</span>, <span>Z. Liu†</span>, <span>D. O. Shin†</span>, <span>K. Kim†</span>, <span>J. Choi</span>, <span>Y. Roh</span>, <span>D. Jin</span>, <span>S. Jung</span>, <span>K. -G. Kim</span>, <span>Y. -G. Lee*</span>, <span><a href="/authors/admin/"><b>S. Ringe*</b></a></span>, <span>Y.M. Lee*</span>
 
   </div>
   
@@ -5796,18 +6793,16 @@
   
 
   
-  <span class="article-volume">
-    <span>,</span>
-    
-    <span><i>7</i></span>
-  </span>
+  
+  
+  <span class="article-volume"><span>,</span> <span><i>7</i></span></span>
+  
+  
+  <span class="article-pages"><span>,</span> e12509</span>
+  
+  <span>.</span>
 
-  <span class="article-pages">
-    <span>,</span>
-    
-    e12509
-    <span>.</span>
-  </span>
+  
 
   
   
@@ -5845,8 +6840,10 @@
 
 
 
+
 <button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/byun-2022/cite.bib">
+        data-filename="/publication/byun-2022/cite.bib"
+        data-citation="S. Byun et al., Energy Environ. Mater. 2022, 7, e12509.">
   Cite
 </button>
 
@@ -5870,6 +6867,25 @@
 
 
 
+  
+  
+    
+      
+      
+    
+  
+
+<a class="btn btn-outline-secondary my-1 mr-1 js-citation-count btn-sm"
+   data-doi="10.1002/eem2.12509"
+   href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=7317735393524896803" target="_blank" rel="noopener"
+   title="Citing articles on Google Scholar (count via OpenAlex)">
+  Cited by <span class="js-citation-value">15</span>
+</a>
+
+
+
+
+
 
     </div>
     
@@ -5881,7 +6897,7 @@
     
     
     <a href="/publication/byun-2022/" >
-            <img src="/publication/byun-2022/featured_hu81969c70334f053f0906c9198a8be1b3_158390_500x0_resize_q90_lanczos.jpeg" alt="" height="500" width="500">
+            <img src="/publication/byun-2022/featured_hu_504fd2374a1e92d5.jpeg" alt="" height="500" width="500">
     </a>
     
   </div>
@@ -5956,8 +6972,30 @@
 
 
 
+
+
+
   
-  <span>K. K.  Patra†</span>, <span>Z.  Liu†</span>, <span>H.  Lee†</span>, <span>S.  Hong</span>, <span>H.  Song</span>, <span>H. G.  Abbas</span>, <span>Y.  Kwon*</span>, <span><b>S.  Ringe*</b></span>, <span>J.  Oh*</span>
+  
+    
+      
+        
+        
+          
+        
+      
+        
+        
+          
+        
+      
+    
+  
+
+
+
+  
+  <span>K. K.  Patra†</span>, <span>Z.  Liu†</span>, <span>H.  Lee†</span>, <span>S.  Hong</span>, <span>H.  Song</span>, <span><a href="/authors/abbas/">H. G.  Abbas</a></span>, <span>Y.  Kwon*</span>, <span><a href="/authors/admin/"><b>S.  Ringe*</b></a></span>, <span>J.  Oh*</span>
 
   </div>
   
@@ -5987,18 +7025,16 @@
   
 
   
-  <span class="article-volume">
-    <span>,</span>
-    
-    <span><i>12</i></span>
-  </span>
+  
+  
+  <span class="article-volume"><span>,</span> <span><i>12</i></span></span>
+  
+  
+  <span class="article-pages"><span>,</span> 10973 - 10983</span>
+  
+  <span>.</span>
 
-  <span class="article-pages">
-    <span>,</span>
-    
-    10973 - 10983
-    <span>.</span>
-  </span>
+  
 
   
   
@@ -6036,8 +7072,10 @@
 
 
 
+
 <button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/patra-2022-ln/cite.bib">
+        data-filename="/publication/patra-2022-ln/cite.bib"
+        data-citation="K. K. Patra et al., ACS Catal. 2022, 12, 10973 - 10983.">
   Cite
 </button>
 
@@ -6061,6 +7099,25 @@
 
 
 
+  
+  
+    
+      
+      
+    
+  
+
+<a class="btn btn-outline-secondary my-1 mr-1 js-citation-count btn-sm"
+   data-doi="10.1021/acscatal.2c02669"
+   href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=11130068497891263843" target="_blank" rel="noopener"
+   title="Citing articles on Google Scholar (count via OpenAlex)">
+  Cited by <span class="js-citation-value">124</span>
+</a>
+
+
+
+
+
 
     </div>
     
@@ -6072,7 +7129,7 @@
     
     
     <a href="/publication/patra-2022-ln/" >
-            <img src="/publication/patra-2022-ln/featured_huff8239126c5b74c2f5fe4b88cd1036fb_287082_500x0_resize_q90_lanczos.jpeg" alt="" height="500" width="500">
+            <img src="/publication/patra-2022-ln/featured_hu_a258e5ff41ef61c9.jpeg" alt="" height="500" width="500">
     </a>
     
   </div>
@@ -6147,8 +7204,30 @@
 
 
 
+
+
+
   
-  <span><b>S.  Kim</b></span>, <span>S.  Lebègue</span>, <span><b>S.  Ringe*</b></span>, <span>H.  Kim*</span>
+  
+    
+      
+        
+        
+          
+        
+      
+        
+        
+          
+        
+      
+    
+  
+
+
+
+  
+  <span><a href="/authors/kim-sejun/"><b>S.  Kim</b></a></span>, <span>S.  Lebègue</span>, <span><a href="/authors/admin/"><b>S.  Ringe*</b></a></span>, <span>H.  Kim*</span>
 
   </div>
   
@@ -6178,18 +7257,16 @@
   
 
   
-  <span class="article-volume">
-    <span>,</span>
-    
-    <span><i>13</i></span>
-  </span>
+  
+  
+  <span class="article-volume"><span>,</span> <span><i>13</i></span></span>
+  
+  
+  <span class="article-pages"><span>,</span> 7574 - 7582</span>
+  
+  <span>.</span>
 
-  <span class="article-pages">
-    <span>,</span>
-    
-    7574 - 7582
-    <span>.</span>
-  </span>
+  
 
   
   
@@ -6227,8 +7304,10 @@
 
 
 
+
 <button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/kim-2022-sv/cite.bib">
+        data-filename="/publication/kim-2022-sv/cite.bib"
+        data-citation="S. Kim et al., J. Phys. Chem. Lett. 2022, 13, 7574 - 7582.">
   Cite
 </button>
 
@@ -6252,191 +7331,19 @@
 
 
 
-
-    </div>
-    
-
-  </div>
-  <div class="ml-4">
-    
-    
-    
-    
-    <a href="/publication/kim-2022-sv/" >
-            <img src="/publication/kim-2022-sv/featured_huf79a79d7c9ba8efc27c735b8067dbbec_170281_500x0_resize_lanczos_2.png" alt="" height="500" width="500">
-    </a>
-    
-  </div>
-</div>
-
- 
-<hr style="height:2px;border-width:0;color:gray;background-color:gray">
-
-
-      
+  
+  
     
       
       
-        
-
-
-
-
-
-
-
-
-  
-  
-
-
-
-
-
-
-  
-
-
-
-<div class="media stream-item">
-  <div class="media-body">
-      <h1 class="article-title mb-0 mt-0">
-       <a href="/publication/tetteh-2022-rm/" >Strained Pt(221) Facet in a PtCo@Pt-Rich Catalyst Boosts Oxygen Reduction and Hydrogen Evolution Activity</a>
-         
-      </h1>
-
-
-
-
-    <div class="stream-meta article-metadata">
-
-      
-       
-        
-
-
-
-
-<div class="metadata">
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-  
-  
-  <div>
     
-
-
-
-
-  
-  <span>E. B.  Tetteh†</span>, <span>C.  Gyan-Barimah†</span>, <span>H.  Lee†</span>, <span>T.  Kang</span>, <span>S.  Kang</span>, <span><b>S.  Ringe*</b></span>, <span>J.  Yu*</span>
-
-  </div>
-  
   
 
-
-  
-  
-  <span class="pub-publication">
-    
-      <em>ACS Appl. Mater. Interfaces</em>
-     
-  </span>
-  
-
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-    
-    <span><b>2022</b></span>
-  </span>
-  
-  
-
-  
-  <span class="article-volume">
-    <span>,</span>
-    
-    <span><i>14</i></span>
-  </span>
-
-  <span class="article-pages">
-    <span>,</span>
-    
-    25246 - 25256
-    <span>.</span>
-  </span>
-
-  
-  
-
-  
-  
-  
-
-  
-  
-
-
-  
-  
-</div>
-
-
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/tetteh-2022-rm/cite.bib">
-  Cite
-</button>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1021/acsami.2c00398" target="_blank" rel="noopener">
-  DOI
+<a class="btn btn-outline-secondary my-1 mr-1 js-citation-count btn-sm"
+   data-doi="10.1021/acs.jpclett.2c01808"
+   href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=6321828946529404786" target="_blank" rel="noopener"
+   title="Citing articles on Google Scholar (count via OpenAlex)">
+  Cited by <span class="js-citation-value">9</span>
 </a>
 
 
@@ -6453,8 +7360,8 @@
     
     
     
-    <a href="/publication/tetteh-2022-rm/" >
-            <img src="/publication/tetteh-2022-rm/featured_hu8295a31b918fc75cf93decc82ab9b40f_80327_500x0_resize_lanczos_2.png" alt="" height="500" width="500">
+    <a href="/publication/kim-2022-sv/" >
+            <img src="/publication/kim-2022-sv/featured_hu_a145616371b19e30.png" alt="" height="500" width="500">
     </a>
     
   </div>
@@ -6529,8 +7436,25 @@
 
 
 
+
+
+
   
-  <span><b>S.  Ringe†*</b></span>, <span>N. G.  Hörmann†</span>, <span>H.  Oberhofer</span>, <span>K.  Reuter*</span>
+  
+    
+      
+        
+        
+          
+        
+      
+    
+  
+
+
+
+  
+  <span><a href="/authors/admin/"><b>S.  Ringe†*</b></a></span>, <span>N. G.  Hörmann†</span>, <span>H.  Oberhofer</span>, <span>K.  Reuter*</span>
 
   </div>
   
@@ -6560,18 +7484,16 @@
   
 
   
-  <span class="article-volume">
-    <span>,</span>
-    
-    <span><i>122</i></span>
-  </span>
+  
+  
+  <span class="article-volume"><span>,</span> <span><i>122</i></span></span>
+  
+  
+  <span class="article-pages"><span>,</span> 10777 - 10820</span>
+  
+  <span>.</span>
 
-  <span class="article-pages">
-    <span>,</span>
-    
-    10777 - 10820
-    <span>.</span>
-  </span>
+  
 
   
   
@@ -6609,8 +7531,10 @@
 
 
 
+
 <button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/ringe-2022-xd/cite.bib">
+        data-filename="/publication/ringe-2022-xd/cite.bib"
+        data-citation="S. Ringe et al., Chem. Rev. 2022, 122, 10777 - 10820.">
   Cite
 </button>
 
@@ -6634,6 +7558,25 @@
 
 
 
+  
+  
+    
+      
+      
+    
+  
+
+<a class="btn btn-outline-secondary my-1 mr-1 js-citation-count btn-sm"
+   data-doi="10.1021/acs.chemrev.1c00675"
+   href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=13042548347132668631" target="_blank" rel="noopener"
+   title="Citing articles on Google Scholar (count via OpenAlex)">
+  Cited by <span class="js-citation-value">297</span>
+</a>
+
+
+
+
+
 
     </div>
     
@@ -6645,7 +7588,239 @@
     
     
     <a href="/publication/ringe-2022-xd/" >
-            <img src="/publication/ringe-2022-xd/featured_hu00fc377492d9dafb219ccac39615ead2_312325_500x0_resize_lanczos_2.png" alt="" height="500" width="500">
+            <img src="/publication/ringe-2022-xd/featured_hu_5bc49d9659e92a8.png" alt="" height="500" width="500">
+    </a>
+    
+  </div>
+</div>
+
+ 
+<hr style="height:2px;border-width:0;color:gray;background-color:gray">
+
+
+      
+    
+      
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+  
+
+
+
+<div class="media stream-item">
+  <div class="media-body">
+      <h1 class="article-title mb-0 mt-0">
+       <a href="/publication/tetteh-2022-rm/" >Strained Pt(221) Facet in a PtCo@Pt-Rich Catalyst Boosts Oxygen Reduction and Hydrogen Evolution Activity</a>
+         
+      </h1>
+
+
+
+
+    <div class="stream-meta article-metadata">
+
+      
+       
+        
+
+
+
+
+<div class="metadata">
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+
+
+
+
+  
+  
+    
+      
+        
+        
+          
+        
+      
+        
+        
+          
+        
+      
+    
+  
+
+
+
+  
+  <span>E. B.  Tetteh†</span>, <span>C.  Gyan-Barimah†</span>, <span>H.  Lee†</span>, <span>T.  Kang</span>, <span><a href="/authors/gang-seonghyeon/">S.  Kang</a></span>, <span><a href="/authors/admin/"><b>S.  Ringe*</b></a></span>, <span>J.  Yu*</span>
+
+  </div>
+  
+  
+
+
+  
+  
+  <span class="pub-publication">
+    
+      <em>ACS Appl. Mater. Interfaces</em>
+     
+  </span>
+  
+
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <span><b>2022</b></span>
+  </span>
+  
+  
+
+  
+  
+  
+  <span class="article-volume"><span>,</span> <span><i>14</i></span></span>
+  
+  
+  <span class="article-pages"><span>,</span> 25246 - 25256</span>
+  
+  <span>.</span>
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+
+
+  
+  
+</div>
+
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/tetteh-2022-rm/cite.bib"
+        data-citation="E. B. Tetteh et al., ACS Appl. Mater. Interfaces 2022, 14, 25246 - 25256.">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1021/acsami.2c00398" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+
+
+  
+  
+    
+      
+      
+    
+  
+
+<a class="btn btn-outline-secondary my-1 mr-1 js-citation-count btn-sm"
+   data-doi="10.1021/acsami.2c00398"
+   href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=4615610459459857816" target="_blank" rel="noopener"
+   title="Citing articles on Google Scholar (count via OpenAlex)">
+  Cited by <span class="js-citation-value">67</span>
+</a>
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-4">
+    
+    
+    
+    
+    <a href="/publication/tetteh-2022-rm/" >
+            <img src="/publication/tetteh-2022-rm/featured_hu_4958d2e2283f4db.png" alt="" height="500" width="500">
     </a>
     
   </div>
@@ -6720,8 +7895,25 @@
 
 
 
+
+
+
   
-  <span>G.  Kastlunger*</span>, <span>L.  Wang</span>, <span>N.  Govindarajan</span>, <span>H. H.  Heenen</span>, <span><b>S.  Ringe</b></span>, <span>T.  Jaramillo</span>, <span>C.  Hahn*</span>, <span>K.  Chan*</span>
+  
+    
+      
+        
+        
+          
+        
+      
+    
+  
+
+
+
+  
+  <span>G.  Kastlunger*</span>, <span>L.  Wang</span>, <span>N.  Govindarajan</span>, <span>H. H.  Heenen</span>, <span><a href="/authors/admin/"><b>S.  Ringe</b></a></span>, <span>T.  Jaramillo</span>, <span>C.  Hahn*</span>, <span>K.  Chan*</span>
 
   </div>
   
@@ -6751,18 +7943,16 @@
   
 
   
-  <span class="article-volume">
-    <span>,</span>
-    
-    <span><i>12</i></span>
-  </span>
+  
+  
+  <span class="article-volume"><span>,</span> <span><i>12</i></span></span>
+  
+  
+  <span class="article-pages"><span>,</span> 4344 - 4357</span>
+  
+  <span>.</span>
 
-  <span class="article-pages">
-    <span>,</span>
-    
-    4344 - 4357
-    <span>.</span>
-  </span>
+  
 
   
   
@@ -6800,8 +7990,10 @@
 
 
 
+
 <button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/kastlunger-2022-uy/cite.bib">
+        data-filename="/publication/kastlunger-2022-uy/cite.bib"
+        data-citation="G. Kastlunger et al., ACS Catal. 2022, 12, 4344 - 4357.">
   Cite
 </button>
 
@@ -6825,6 +8017,25 @@
 
 
 
+  
+  
+    
+      
+      
+    
+  
+
+<a class="btn btn-outline-secondary my-1 mr-1 js-citation-count btn-sm"
+   data-doi="10.1021/acscatal.1c05520"
+   href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=6280963925512515969" target="_blank" rel="noopener"
+   title="Citing articles on Google Scholar (count via OpenAlex)">
+  Cited by <span class="js-citation-value">159</span>
+</a>
+
+
+
+
+
 
     </div>
     
@@ -6836,7 +8047,7 @@
     
     
     <a href="/publication/kastlunger-2022-uy/" >
-            <img src="/publication/kastlunger-2022-uy/featured_hu4cfc20c5467078ecc620d0c497249731_35545_500x0_resize_lanczos.gif" alt="" height="500" width="500">
+            <img src="/publication/kastlunger-2022-uy/featured_hu_9d0f4d0bc60ea63a.gif" alt="" height="500" width="500">
     </a>
     
   </div>
@@ -6911,8 +8122,25 @@
 
 
 
+
+
+
   
-  <span>S.  Shin†</span>, <span>D. H.  Kim†</span>, <span>G.  Bae†</span>, <span><b>S.  Ringe</b></span>, <span>H.  Choi</span>, <span>H.  Lim</span>, <span>C. H.  Choi*</span>, <span>H.  Kim*</span>
+  
+    
+      
+        
+        
+          
+        
+      
+    
+  
+
+
+
+  
+  <span>S.  Shin†</span>, <span>D. H.  Kim†</span>, <span>G.  Bae†</span>, <span><a href="/authors/admin/"><b>S.  Ringe</b></a></span>, <span>H.  Choi</span>, <span>H.  Lim</span>, <span>C. H.  Choi*</span>, <span>H.  Kim*</span>
 
   </div>
   
@@ -6942,18 +8170,16 @@
   
 
   
-  <span class="article-volume">
-    <span>,</span>
-    
-    <span><i>13</i></span>
-  </span>
+  
+  
+  <span class="article-volume"><span>,</span> <span><i>13</i></span></span>
+  
+  
+  <span class="article-pages"><span>,</span> 174</span>
+  
+  <span>.</span>
 
-  <span class="article-pages">
-    <span>,</span>
-    
-    174
-    <span>.</span>
-  </span>
+  
 
   
   
@@ -6991,8 +8217,10 @@
 
 
 
+
 <button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/shin-2022-ks/cite.bib">
+        data-filename="/publication/shin-2022-ks/cite.bib"
+        data-citation="S. Shin et al., Nat. Commun. 2022, 13, 174.">
   Cite
 </button>
 
@@ -7016,6 +8244,25 @@
 
 
 
+  
+  
+    
+      
+      
+    
+  
+
+<a class="btn btn-outline-secondary my-1 mr-1 js-citation-count btn-sm"
+   data-doi="10.1038/s41467-021-27909-x"
+   href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=1609538805677554192,4879597973784660470" target="_blank" rel="noopener"
+   title="Citing articles on Google Scholar (count via OpenAlex)">
+  Cited by <span class="js-citation-value">308</span>
+</a>
+
+
+
+
+
 
     </div>
     
@@ -7027,7 +8274,7 @@
     
     
     <a href="/publication/shin-2022-ks/" >
-            <img src="/publication/shin-2022-ks/featured_hu6d7c9dbaa9634b2a732d1616aed7eb5b_4779338_500x0_resize_lanczos_2.png" alt="" height="500" width="500">
+            <img src="/publication/shin-2022-ks/featured_hu_800955e8707110e4.png" alt="" height="500" width="500">
     </a>
     
   </div>
@@ -7102,8 +8349,25 @@
 
 
 
+
+
+
   
-  <span><b>S.  Ringe*</b></span>
+  
+    
+      
+        
+        
+          
+        
+      
+    
+  
+
+
+
+  
+  <span><a href="/authors/admin/"><b>S.  Ringe*</b></a></span>
 
   </div>
   
@@ -7133,18 +8397,16 @@
   
 
   
-  <span class="article-volume">
-    <span>,</span>
-    
-    <span><i>1</i></span>
-  </span>
+  
+  
+  <span class="article-volume"><span>,</span> <span><i>1</i></span></span>
+  
+  
+  <span class="article-pages"><span>,</span> 1160 - 1162</span>
+  
+  <span>.</span>
 
-  <span class="article-pages">
-    <span>,</span>
-    
-    1160 - 1162
-    <span>.</span>
-  </span>
+  
 
   
   
@@ -7182,8 +8444,10 @@
 
 
 
+
 <button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/ringe-2021-iz/cite.bib">
+        data-filename="/publication/ringe-2021-iz/cite.bib"
+        data-citation="S. Ringe, Chem Catalysis 2021, 1, 1160 - 1162.">
   Cite
 </button>
 
@@ -7207,6 +8471,25 @@
 
 
 
+  
+  
+    
+      
+      
+    
+  
+
+<a class="btn btn-outline-secondary my-1 mr-1 js-citation-count btn-sm"
+   data-doi="10.1016/j.checat.2021.10.019"
+   href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=10121730058598630570,6229596228176122134" target="_blank" rel="noopener"
+   title="Citing articles on Google Scholar (count via OpenAlex)">
+  Cited by <span class="js-citation-value">4</span>
+</a>
+
+
+
+
+
 
     </div>
     
@@ -7218,7 +8501,7 @@
     
     
     <a href="/publication/ringe-2021-iz/" >
-            <img src="/publication/ringe-2021-iz/featured_huc619bac2ce878c234b1fb9131bd620fb_416809_500x0_resize_lanczos_2.png" alt="" height="500" width="500">
+            <img src="/publication/ringe-2021-iz/featured_hu_54f200e178ced6ad.png" alt="" height="500" width="500">
     </a>
     
   </div>
@@ -7293,8 +8576,25 @@
 
 
 
+
+
+
   
-  <span>H.  Song</span>, <span>Y. C.  Tan</span>, <span>B.  Kim</span>, <span><b>S.  Ringe*</b></span>, <span>J.  Oh*</span>
+  
+    
+      
+        
+        
+          
+        
+      
+    
+  
+
+
+
+  
+  <span>H.  Song</span>, <span>Y. C.  Tan</span>, <span>B.  Kim</span>, <span><a href="/authors/admin/"><b>S.  Ringe*</b></a></span>, <span>J.  Oh*</span>
 
   </div>
   
@@ -7324,18 +8624,16 @@
   
 
   
-  <span class="article-volume">
-    <span>,</span>
-    
-    <span><i>13</i></span>
-  </span>
+  
+  
+  <span class="article-volume"><span>,</span> <span><i>13</i></span></span>
+  
+  
+  <span class="article-pages"><span>,</span> 55272 - 55280</span>
+  
+  <span>.</span>
 
-  <span class="article-pages">
-    <span>,</span>
-    
-    55272 - 55280
-    <span>.</span>
-  </span>
+  
 
   
   
@@ -7373,8 +8671,10 @@
 
 
 
+
 <button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/song-2021-xo/cite.bib">
+        data-filename="/publication/song-2021-xo/cite.bib"
+        data-citation="H. Song et al., ACS Appl. Mater. Interfaces 2021, 13, 55272 - 55280.">
   Cite
 </button>
 
@@ -7398,6 +8698,25 @@
 
 
 
+  
+  
+    
+      
+      
+    
+  
+
+<a class="btn btn-outline-secondary my-1 mr-1 js-citation-count btn-sm"
+   data-doi="10.1021/acsami.1c19224"
+   href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=12596913598663957073" target="_blank" rel="noopener"
+   title="Citing articles on Google Scholar (count via OpenAlex)">
+  Cited by <span class="js-citation-value">42</span>
+</a>
+
+
+
+
+
 
     </div>
     
@@ -7409,7 +8728,7 @@
     
     
     <a href="/publication/song-2021-xo/" >
-            <img src="/publication/song-2021-xo/featured_hu0e75e00521e3cec3e893fcc7190104a3_54222_500x0_resize_lanczos.gif" alt="" height="500" width="500">
+            <img src="/publication/song-2021-xo/featured_hu_394f824353f3d2a1.gif" alt="" height="500" width="500">
     </a>
     
   </div>
@@ -7484,8 +8803,25 @@
 
 
 
+
+
+
   
-  <span>M. K.  Kim</span>, <span>H.  Lee</span>, <span>J. H.  Won</span>, <span>W.  Sim</span>, <span>S. J.  Kang</span>, <span>H.  Choi</span>, <span>M.  Sharma</span>, <span>H.  Oh</span>, <span><b>S.  Ringe*</b></span>, <span>Y.  Kwon*</span>, <span>H. M.  Jeong*</span>
+  
+    
+      
+        
+        
+          
+        
+      
+    
+  
+
+
+
+  
+  <span>M. K.  Kim</span>, <span>H.  Lee</span>, <span>J. H.  Won</span>, <span>W.  Sim</span>, <span>S. J.  Kang</span>, <span>H.  Choi</span>, <span>M.  Sharma</span>, <span>H.  Oh</span>, <span><a href="/authors/admin/"><b>S.  Ringe*</b></a></span>, <span>Y.  Kwon*</span>, <span>H. M.  Jeong*</span>
 
   </div>
   
@@ -7515,18 +8851,16 @@
   
 
   
-  <span class="article-volume">
-    <span>,</span>
-    
-    <span><i>32</i></span>
-  </span>
+  
+  
+  <span class="article-volume"><span>,</span> <span><i>32</i></span></span>
+  
+  
+  <span class="article-pages"><span>,</span> 2107349</span>
+  
+  <span>.</span>
 
-  <span class="article-pages">
-    <span>,</span>
-    
-    2107349
-    <span>.</span>
-  </span>
+  
 
   
   
@@ -7564,8 +8898,10 @@
 
 
 
+
 <button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/kim-2021-qz/cite.bib">
+        data-filename="/publication/kim-2021-qz/cite.bib"
+        data-citation="M. K. Kim et al., Adv. Funct. Mater. 2021, 32, 2107349.">
   Cite
 </button>
 
@@ -7589,6 +8925,25 @@
 
 
 
+  
+  
+    
+      
+      
+    
+  
+
+<a class="btn btn-outline-secondary my-1 mr-1 js-citation-count btn-sm"
+   data-doi="10.1002/adfm.202107349"
+   href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=2834940465904662300" target="_blank" rel="noopener"
+   title="Citing articles on Google Scholar (count via OpenAlex)">
+  Cited by <span class="js-citation-value">49</span>
+</a>
+
+
+
+
+
 
 <a class="btn btn-outline-secondary my-1 mr-1 btn-sm" href="../publication/kim-2021-qz/cover.jpg" target="_blank" rel="noopener">
   COVER
@@ -7606,7 +8961,7 @@
     
     
     <a href="/publication/kim-2021-qz/" >
-            <img src="/publication/kim-2021-qz/featured_hu19fa8d3935955f373f746c86dc4287e8_488629_500x0_resize_lanczos_2.png" alt="" height="500" width="500">
+            <img src="/publication/kim-2021-qz/featured_hu_876a8661ff136065.png" alt="" height="500" width="500">
     </a>
     
   </div>
@@ -7681,8 +9036,30 @@
 
 
 
+
+
+
   
-  <span>D. H.  Kim†</span>, <span><b>S.  Ringe†</b></span>, <span>H.  Kim</span>, <span><b>S.  Kim</b></span>, <span>B.  Kim</span>, <span>G.  Bae</span>, <span>H.  Oh</span>, <span>F.  Jaouen</span>, <span>W.  Kim*</span>, <span>H.  Kim*</span>, <span>C. H.  Choi*</span>
+  
+    
+      
+        
+        
+          
+        
+      
+        
+        
+          
+        
+      
+    
+  
+
+
+
+  
+  <span>D. H.  Kim†</span>, <span><a href="/authors/admin/"><b>S.  Ringe†</b></a></span>, <span>H.  Kim</span>, <span><a href="/authors/kim-sejun/"><b>S.  Kim</b></a></span>, <span>B.  Kim</span>, <span>G.  Bae</span>, <span>H.  Oh</span>, <span>F.  Jaouen</span>, <span>W.  Kim*</span>, <span>H.  Kim*</span>, <span>C. H.  Choi*</span>
 
   </div>
   
@@ -7712,18 +9089,16 @@
   
 
   
-  <span class="article-volume">
-    <span>,</span>
-    
-    <span><i>12</i></span>
-  </span>
+  
+  
+  <span class="article-volume"><span>,</span> <span><i>12</i></span></span>
+  
+  
+  <span class="article-pages"><span>,</span> 1 - 11</span>
+  
+  <span>.</span>
 
-  <span class="article-pages">
-    <span>,</span>
-    
-    1 - 11
-    <span>.</span>
-  </span>
+  
 
   
   
@@ -7761,8 +9136,10 @@
 
 
 
+
 <button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/kim-2021-mw/cite.bib">
+        data-filename="/publication/kim-2021-mw/cite.bib"
+        data-citation="D. H. Kim et al., Nat. Commun. 2021, 12, 1 - 11.">
   Cite
 </button>
 
@@ -7786,6 +9163,25 @@
 
 
 
+  
+  
+    
+      
+      
+    
+  
+
+<a class="btn btn-outline-secondary my-1 mr-1 js-citation-count btn-sm"
+   data-doi="10.1038/s41467-021-22147-7"
+   href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=1296832703784041839" target="_blank" rel="noopener"
+   title="Citing articles on Google Scholar (count via OpenAlex)">
+  Cited by <span class="js-citation-value">240</span>
+</a>
+
+
+
+
+
 
     </div>
     
@@ -7797,7 +9193,7 @@
     
     
     <a href="/publication/kim-2021-mw/" >
-            <img src="/publication/kim-2021-mw/featured_hu70652c638b47358add218705b1b18954_408235_500x0_resize_lanczos_2.png" alt="" height="500" width="500">
+            <img src="/publication/kim-2021-mw/featured_hu_28201bcb47780b00.png" alt="" height="500" width="500">
     </a>
     
   </div>
@@ -7873,8 +9269,25 @@
 
 
 
+
+
+
   
-  <span>T.  Ludwig</span>, <span>J. A.  Gauthier</span>, <span>C. F.  Dickens</span>, <span>K. S.  Brown</span>, <span><b>S.  Ringe</b></span>, <span>K.  Chan</span>, <span>J. K.  Nørskov*</span>
+  
+    
+      
+        
+        
+          
+        
+      
+    
+  
+
+
+
+  
+  <span>T.  Ludwig</span>, <span>J. A.  Gauthier</span>, <span>C. F.  Dickens</span>, <span>K. S.  Brown</span>, <span><a href="/authors/admin/"><b>S.  Ringe</b></a></span>, <span>K.  Chan</span>, <span>J. K.  Nørskov*</span>
 
   </div>
   
@@ -7904,18 +9317,16 @@
   
 
   
-  <span class="article-volume">
-    <span>,</span>
-    
-    <span><i>124</i></span>
-  </span>
+  
+  
+  <span class="article-volume"><span>,</span> <span><i>124</i></span></span>
+  
+  
+  <span class="article-pages"><span>,</span> 24765–24775</span>
+  
+  <span>.</span>
 
-  <span class="article-pages">
-    <span>,</span>
-    
-    24765–24775
-    <span>.</span>
-  </span>
+  
 
   
   
@@ -7953,8 +9364,10 @@
 
 
 
+
 <button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/ludwig-2020-atomistic/cite.bib">
+        data-filename="/publication/ludwig-2020-atomistic/cite.bib"
+        data-citation="T. Ludwig et al., J. Phys. Chem. C 2020, 124, 24765–24775.">
   Cite
 </button>
 
@@ -7978,6 +9391,25 @@
 
 
 
+  
+  
+    
+      
+      
+    
+  
+
+<a class="btn btn-outline-secondary my-1 mr-1 js-citation-count btn-sm"
+   data-doi="10.1021/acs.jpcc.0c07004"
+   href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=4275753652092456890" target="_blank" rel="noopener"
+   title="Citing articles on Google Scholar (count via OpenAlex)">
+  Cited by <span class="js-citation-value">40</span>
+</a>
+
+
+
+
+
 
     </div>
     
@@ -7989,7 +9421,7 @@
     
     
     <a href="/publication/ludwig-2020-atomistic/" >
-            <img src="/publication/ludwig-2020-atomistic/featured_hu2b0d90d0ed5320c2a51400a2a1a4a58c_545656_500x0_resize_lanczos_2.png" alt="" height="500" width="500">
+            <img src="/publication/ludwig-2020-atomistic/featured_hu_2740ca1f2038f30b.png" alt="" height="500" width="500">
     </a>
     
   </div>
@@ -8064,8 +9496,25 @@
 
 
 
+
+
+
   
-  <span>Y. J.  Sa†</span>, <span>H.  Jung†</span>, <span>D.  Shin†</span>, <span>H. Y.  Jeong</span>, <span><b>S.  Ringe</b></span>, <span>H.  Kim*</span>, <span>Y. J.  Hwang*</span>, <span>S. H.  Joo*</span>
+  
+    
+      
+        
+        
+          
+        
+      
+    
+  
+
+
+
+  
+  <span>Y. J.  Sa†</span>, <span>H.  Jung†</span>, <span>D.  Shin†</span>, <span>H. Y.  Jeong</span>, <span><a href="/authors/admin/"><b>S.  Ringe</b></a></span>, <span>H.  Kim*</span>, <span>Y. J.  Hwang*</span>, <span>S. H.  Joo*</span>
 
   </div>
   
@@ -8095,18 +9544,16 @@
   
 
   
-  <span class="article-volume">
-    <span>,</span>
-    
-    <span><i>10</i></span>
-  </span>
+  
+  
+  <span class="article-volume"><span>,</span> <span><i>10</i></span></span>
+  
+  
+  <span class="article-pages"><span>,</span> 10920 - 10931</span>
+  
+  <span>.</span>
 
-  <span class="article-pages">
-    <span>,</span>
-    
-    10920 - 10931
-    <span>.</span>
-  </span>
+  
 
   
   
@@ -8144,8 +9591,10 @@
 
 
 
+
 <button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/sa-2020-thermal/cite.bib">
+        data-filename="/publication/sa-2020-thermal/cite.bib"
+        data-citation="Y. J. Sa et al., ACS Catal. 2020, 10, 10920 - 10931.">
   Cite
 </button>
 
@@ -8169,6 +9618,25 @@
 
 
 
+  
+  
+    
+      
+      
+    
+  
+
+<a class="btn btn-outline-secondary my-1 mr-1 js-citation-count btn-sm"
+   data-doi="10.1021/acscatal.0c02325"
+   href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=13946832306819424633" target="_blank" rel="noopener"
+   title="Citing articles on Google Scholar (count via OpenAlex)">
+  Cited by <span class="js-citation-value">129</span>
+</a>
+
+
+
+
+
 
     </div>
     
@@ -8180,7 +9648,7 @@
     
     
     <a href="/publication/sa-2020-thermal/" >
-            <img src="/publication/sa-2020-thermal/featured_hu755ec365b03dc1b4a3c1c6a4f09480e7_47921_500x0_resize_lanczos.gif" alt="" height="500" width="500">
+            <img src="/publication/sa-2020-thermal/featured_hu_ce9e76a06d7b05cd.gif" alt="" height="500" width="500">
     </a>
     
   </div>
@@ -8255,8 +9723,25 @@
 
 
 
+
+
+
   
-  <span>M.  Lee†</span>, <span><b>S.  Ringe†</b></span>, <span>H.  Kim*</span>, <span>S.  Kang*</span>, <span>Y.  Kwon*</span>
+  
+    
+      
+        
+        
+          
+        
+      
+    
+  
+
+
+
+  
+  <span>M.  Lee†</span>, <span><a href="/authors/admin/"><b>S.  Ringe†</b></a></span>, <span>H.  Kim*</span>, <span>S.  Kang*</span>, <span>Y.  Kwon*</span>
 
   </div>
   
@@ -8286,18 +9771,16 @@
   
 
   
-  <span class="article-volume">
-    <span>,</span>
-    
-    <span><i>5</i></span>
-  </span>
+  
+  
+  <span class="article-volume"><span>,</span> <span><i>5</i></span></span>
+  
+  
+  <span class="article-pages"><span>,</span> 2987 - 2994</span>
+  
+  <span>.</span>
 
-  <span class="article-pages">
-    <span>,</span>
-    
-    2987 - 2994
-    <span>.</span>
-  </span>
+  
 
   
   
@@ -8335,8 +9818,10 @@
 
 
 
+
 <button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/lee-2020/cite.bib">
+        data-filename="/publication/lee-2020/cite.bib"
+        data-citation="M. Lee et al., ACS Energy Lett. 2020, 5, 2987 - 2994.">
   Cite
 </button>
 
@@ -8360,6 +9845,25 @@
 
 
 
+  
+  
+    
+      
+      
+    
+  
+
+<a class="btn btn-outline-secondary my-1 mr-1 js-citation-count btn-sm"
+   data-doi="10.1021/acsenergylett.0c01387"
+   href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=3558850402430169866" target="_blank" rel="noopener"
+   title="Citing articles on Google Scholar (count via OpenAlex)">
+  Cited by <span class="js-citation-value">57</span>
+</a>
+
+
+
+
+
 
 <a class="btn btn-outline-secondary my-1 mr-1 btn-sm" href="../publication/lee-2020/cover.jpg" target="_blank" rel="noopener">
   COVER
@@ -8377,7 +9881,7 @@
     
     
     <a href="/publication/lee-2020/" >
-            <img src="/publication/lee-2020/featured_hu2bcabc0a29da09565f056d8462eb9668_6047130_500x0_resize_q90_lanczos.jpg" alt="" height="500" width="500">
+            <img src="/publication/lee-2020/featured_hu_58da5f212c1d3637.jpg" alt="" height="500" width="500">
     </a>
     
   </div>
@@ -8452,8 +9956,25 @@
 
 
 
+
+
+
   
-  <span>C.  Xia†</span>, <span>S.  Back†</span>, <span><b>S.  Ringe†</b></span>, <span>K.  Jiang</span>, <span>F.  Chen</span>, <span>X.  Sun</span>, <span>S.  Siahrostami*</span>, <span>K.  Chan*</span>, <span>H.  Wang*</span>
+  
+    
+      
+        
+        
+          
+        
+      
+    
+  
+
+
+
+  
+  <span>C.  Xia†</span>, <span>S.  Back†</span>, <span><a href="/authors/admin/"><b>S.  Ringe†</b></a></span>, <span>K.  Jiang</span>, <span>F.  Chen</span>, <span>X.  Sun</span>, <span>S.  Siahrostami*</span>, <span>K.  Chan*</span>, <span>H.  Wang*</span>
 
   </div>
   
@@ -8483,18 +10004,16 @@
   
 
   
-  <span class="article-volume">
-    <span>,</span>
-    
-    <span><i>1</i></span>
-  </span>
+  
+  
+  <span class="article-volume"><span>,</span> <span><i>1</i></span></span>
+  
+  
+  <span class="article-pages"><span>,</span> 1 - 10</span>
+  
+  <span>.</span>
 
-  <span class="article-pages">
-    <span>,</span>
-    
-    1 - 10
-    <span>.</span>
-  </span>
+  
 
   
   
@@ -8532,8 +10051,10 @@
 
 
 
+
 <button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/xia-2020-ld/cite.bib">
+        data-filename="/publication/xia-2020-ld/cite.bib"
+        data-citation="C. Xia et al., Nat. Catal. 2020, 1, 1 - 10.">
   Cite
 </button>
 
@@ -8557,6 +10078,25 @@
 
 
 
+  
+  
+    
+      
+      
+    
+  
+
+<a class="btn btn-outline-secondary my-1 mr-1 js-citation-count btn-sm"
+   data-doi="10.1038/s41929-019-0402-8"
+   href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=4400984497698167050" target="_blank" rel="noopener"
+   title="Citing articles on Google Scholar (count via OpenAlex)">
+  Cited by <span class="js-citation-value">485</span>
+</a>
+
+
+
+
+
 
     </div>
     
@@ -8568,7 +10108,7 @@
     
     
     <a href="/publication/xia-2020-ld/" >
-            <img src="/publication/xia-2020-ld/featured_hu3e9cb50aac291e6c2931624855c0621a_103858_500x0_resize_lanczos_2.png" alt="" height="500" width="500">
+            <img src="/publication/xia-2020-ld/featured_hu_445469eed0317d88.png" alt="" height="500" width="500">
     </a>
     
   </div>
@@ -8643,8 +10183,25 @@
 
 
 
+
+
+
   
-  <span><b>S.  Ringe†*</b></span>, <span>C. G.  Morales-Guio†</span>, <span>L. D.  Chen</span>, <span>M.  Fields</span>, <span>T. F.  Jaramillo</span>, <span>C.  Hahn</span>, <span>K.  Chan*</span>
+  
+    
+      
+        
+        
+          
+        
+      
+    
+  
+
+
+
+  
+  <span><a href="/authors/admin/"><b>S.  Ringe†*</b></a></span>, <span>C. G.  Morales-Guio†</span>, <span>L. D.  Chen</span>, <span>M.  Fields</span>, <span>T. F.  Jaramillo</span>, <span>C.  Hahn</span>, <span>K.  Chan*</span>
 
   </div>
   
@@ -8674,18 +10231,16 @@
   
 
   
-  <span class="article-volume">
-    <span>,</span>
-    
-    <span><i>11</i></span>
-  </span>
+  
+  
+  <span class="article-volume"><span>,</span> <span><i>11</i></span></span>
+  
+  
+  <span class="article-pages"><span>,</span> 1 - 11</span>
+  
+  <span>.</span>
 
-  <span class="article-pages">
-    <span>,</span>
-    
-    1 - 11
-    <span>.</span>
-  </span>
+  
 
   
   
@@ -8723,8 +10278,10 @@
 
 
 
+
 <button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/ringe-2020-yl/cite.bib">
+        data-filename="/publication/ringe-2020-yl/cite.bib"
+        data-citation="S. Ringe et al., Nat. Commun. 2020, 11, 1 - 11.">
   Cite
 </button>
 
@@ -8748,6 +10305,25 @@
 
 
 
+  
+  
+    
+      
+      
+    
+  
+
+<a class="btn btn-outline-secondary my-1 mr-1 js-citation-count btn-sm"
+   data-doi="10.1038/s41467-019-13777-z"
+   href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=10567423626724019250" target="_blank" rel="noopener"
+   title="Citing articles on Google Scholar (count via OpenAlex)">
+  Cited by <span class="js-citation-value">386</span>
+</a>
+
+
+
+
+
 
     </div>
     
@@ -8759,7 +10335,7 @@
     
     
     <a href="/publication/ringe-2020-yl/" >
-            <img src="/publication/ringe-2020-yl/featured_hu0def5cedb1791a3c590e937c98e35945_1369627_500x0_resize_lanczos_2.png" alt="" height="500" width="500">
+            <img src="/publication/ringe-2020-yl/featured_hu_283a72a3a25fb74d.png" alt="" height="500" width="500">
     </a>
     
   </div>
@@ -8834,8 +10410,25 @@
 
 
 
+
+
+
   
-  <span>J. A.  Gauthier</span>, <span>C. F.  Dickens</span>, <span>H. H.  Heenen</span>, <span>S.  Vijay</span>, <span><b>S.  Ringe</b></span>, <span>K.  Chan*</span>
+  
+    
+      
+        
+        
+          
+        
+      
+    
+  
+
+
+
+  
+  <span>J. A.  Gauthier</span>, <span>C. F.  Dickens</span>, <span>H. H.  Heenen</span>, <span>S.  Vijay</span>, <span><a href="/authors/admin/"><b>S.  Ringe</b></a></span>, <span>K.  Chan*</span>
 
   </div>
   
@@ -8865,18 +10458,16 @@
   
 
   
-  <span class="article-volume">
-    <span>,</span>
-    
-    <span><i>15</i></span>
-  </span>
+  
+  
+  <span class="article-volume"><span>,</span> <span><i>15</i></span></span>
+  
+  
+  <span class="article-pages"><span>,</span> 6895 - 6906</span>
+  
+  <span>.</span>
 
-  <span class="article-pages">
-    <span>,</span>
-    
-    6895 - 6906
-    <span>.</span>
-  </span>
+  
 
   
   
@@ -8914,8 +10505,10 @@
 
 
 
+
 <button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/gauthier-2019-us/cite.bib">
+        data-filename="/publication/gauthier-2019-us/cite.bib"
+        data-citation="J. A. Gauthier et al., J. Chem. Theory Comput. 2019, 15, 6895 - 6906.">
   Cite
 </button>
 
@@ -8939,6 +10532,25 @@
 
 
 
+  
+  
+    
+      
+      
+    
+  
+
+<a class="btn btn-outline-secondary my-1 mr-1 js-citation-count btn-sm"
+   data-doi="10.1021/acs.jctc.9b00717"
+   href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=14161680438257572272,4589232601846049318" target="_blank" rel="noopener"
+   title="Citing articles on Google Scholar (count via OpenAlex)">
+  Cited by <span class="js-citation-value">166</span>
+</a>
+
+
+
+
+
 
     </div>
     
@@ -8950,7 +10562,7 @@
     
     
     <a href="/publication/gauthier-2019-us/" >
-            <img src="/publication/gauthier-2019-us/featured_hua50120e881df94b8c2b557dfb89145dd_110750_500x0_resize_lanczos.gif" alt="" height="500" width="500">
+            <img src="/publication/gauthier-2019-us/featured_hu_c1d7f9d0409e47a1.gif" alt="" height="500" width="500">
     </a>
     
   </div>
@@ -9025,8 +10637,25 @@
 
 
 
+
+
+
   
-  <span>J. A.  Gauthier†</span>, <span>C. F.  Dickens†</span>, <span><b>S.  Ringe</b></span>, <span>K.  Chan*</span>
+  
+    
+      
+        
+        
+          
+        
+      
+    
+  
+
+
+
+  
+  <span>J. A.  Gauthier†</span>, <span>C. F.  Dickens†</span>, <span><a href="/authors/admin/"><b>S.  Ringe</b></a></span>, <span>K.  Chan*</span>
 
   </div>
   
@@ -9056,18 +10685,16 @@
   
 
   
-  <span class="article-volume">
-    <span>,</span>
-    
-    <span><i>20</i></span>
-  </span>
+  
+  
+  <span class="article-volume"><span>,</span> <span><i>20</i></span></span>
+  
+  
+  <span class="article-pages"><span>,</span> 3074 - 3080</span>
+  
+  <span>.</span>
 
-  <span class="article-pages">
-    <span>,</span>
-    
-    3074 - 3080
-    <span>.</span>
-  </span>
+  
 
   
   
@@ -9105,8 +10732,10 @@
 
 
 
+
 <button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/gauthier-2019-ig/cite.bib">
+        data-filename="/publication/gauthier-2019-ig/cite.bib"
+        data-citation="J. A. Gauthier et al., Chemphyschem 2019, 20, 3074 - 3080.">
   Cite
 </button>
 
@@ -9130,6 +10759,25 @@
 
 
 
+  
+  
+    
+      
+      
+    
+  
+
+<a class="btn btn-outline-secondary my-1 mr-1 js-citation-count btn-sm"
+   data-doi="10.1002/cphc.201900536"
+   href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=7431684702973205235" target="_blank" rel="noopener"
+   title="Citing articles on Google Scholar (count via OpenAlex)">
+  Cited by <span class="js-citation-value">80</span>
+</a>
+
+
+
+
+
 
     </div>
     
@@ -9141,7 +10789,7 @@
     
     
     <a href="/publication/gauthier-2019-ig/" >
-            <img src="/publication/gauthier-2019-ig/featured_hu2b338dfda567c8c48b94c75b89769696_60259_500x0_resize_q90_lanczos.jpg" alt="" height="500" width="500">
+            <img src="/publication/gauthier-2019-ig/featured_hu_66877b7ad6228da3.jpg" alt="" height="500" width="500">
     </a>
     
   </div>
@@ -9216,8 +10864,25 @@
 
 
 
+
+
+
   
-  <span>Y.  Wu†</span>, <span><b>S.  Ringe†</b></span>, <span>C.  Wu</span>, <span>W.  Chen</span>, <span>A.  Yang</span>, <span>H.  Chen</span>, <span>M.  Tang</span>, <span>G.  Zhou</span>, <span>H. Y.  Hwang</span>, <span>K.  Chan*</span>, <span>Y.  Cui*</span>
+  
+    
+      
+        
+        
+          
+        
+      
+    
+  
+
+
+
+  
+  <span>Y.  Wu†</span>, <span><a href="/authors/admin/"><b>S.  Ringe†</b></a></span>, <span>C.  Wu</span>, <span>W.  Chen</span>, <span>A.  Yang</span>, <span>H.  Chen</span>, <span>M.  Tang</span>, <span>G.  Zhou</span>, <span>H. Y.  Hwang</span>, <span>K.  Chan*</span>, <span>Y.  Cui*</span>
 
   </div>
   
@@ -9247,18 +10912,16 @@
   
 
   
-  <span class="article-volume">
-    <span>,</span>
-    
-    <span><i>19</i></span>
-  </span>
+  
+  
+  <span class="article-volume"><span>,</span> <span><i>19</i></span></span>
+  
+  
+  <span class="article-pages"><span>,</span> 7293 - 7300</span>
+  
+  <span>.</span>
 
-  <span class="article-pages">
-    <span>,</span>
-    
-    7293 - 7300
-    <span>.</span>
-  </span>
+  
 
   
   
@@ -9296,8 +10959,10 @@
 
 
 
+
 <button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/wu-2019-bq/cite.bib">
+        data-filename="/publication/wu-2019-bq/cite.bib"
+        data-citation="Y. Wu et al., Nano Lett. 2019, 19, 7293 - 7300.">
   Cite
 </button>
 
@@ -9321,6 +10986,25 @@
 
 
 
+  
+  
+    
+      
+      
+    
+  
+
+<a class="btn btn-outline-secondary my-1 mr-1 js-citation-count btn-sm"
+   data-doi="10.1021/acs.nanolett.9b02888"
+   href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=6552682375404048940" target="_blank" rel="noopener"
+   title="Citing articles on Google Scholar (count via OpenAlex)">
+  Cited by <span class="js-citation-value">56</span>
+</a>
+
+
+
+
+
 
     </div>
     
@@ -9332,7 +11016,7 @@
     
     
     <a href="/publication/wu-2019-bq/" >
-            <img src="/publication/wu-2019-bq/featured_hu8f0760f153e3ba58fa69b87d1bc42579_38209_500x0_resize_lanczos.gif" alt="" height="500" width="500">
+            <img src="/publication/wu-2019-bq/featured_hu_59ca9853382bbb91.gif" alt="" height="500" width="500">
     </a>
     
   </div>
@@ -9407,8 +11091,25 @@
 
 
 
+
+
+
   
-  <span><b>S.  Ringe†*</b></span>, <span>E. L.  Clark†</span>, <span>J.  Resasco</span>, <span>A.  Walton</span>, <span>B.  Seger</span>, <span>A. T.  Bell</span>, <span>K.  Chan*</span>
+  
+    
+      
+        
+        
+          
+        
+      
+    
+  
+
+
+
+  
+  <span><a href="/authors/admin/"><b>S.  Ringe†*</b></a></span>, <span>E. L.  Clark†</span>, <span>J.  Resasco</span>, <span>A.  Walton</span>, <span>B.  Seger</span>, <span>A. T.  Bell</span>, <span>K.  Chan*</span>
 
   </div>
   
@@ -9438,18 +11139,16 @@
   
 
   
-  <span class="article-volume">
-    <span>,</span>
-    
-    <span><i>12</i></span>
-  </span>
+  
+  
+  <span class="article-volume"><span>,</span> <span><i>12</i></span></span>
+  
+  
+  <span class="article-pages"><span>,</span> 3001 - 3014</span>
+  
+  <span>.</span>
 
-  <span class="article-pages">
-    <span>,</span>
-    
-    3001 - 3014
-    <span>.</span>
-  </span>
+  
 
   
   
@@ -9487,8 +11186,10 @@
 
 
 
+
 <button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/ringe-2019-dm/cite.bib">
+        data-filename="/publication/ringe-2019-dm/cite.bib"
+        data-citation="S. Ringe et al., Energy Environ. Sci. 2019, 12, 3001 - 3014.">
   Cite
 </button>
 
@@ -9506,6 +11207,25 @@
 
 <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1039/C9EE01341E" target="_blank" rel="noopener">
   DOI
+</a>
+
+
+
+
+
+  
+  
+    
+      
+      
+    
+  
+
+<a class="btn btn-outline-secondary my-1 mr-1 js-citation-count btn-sm"
+   data-doi="10.1039/C9EE01341E"
+   href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=7593604340492991539,15556948353393644307,17768505040222989954,12807117108855698980,9499783731250413716" target="_blank" rel="noopener"
+   title="Citing articles on Google Scholar (count via OpenAlex)">
+  Cited by <span class="js-citation-value">825</span>
 </a>
 
 
@@ -9537,7 +11257,7 @@
     
     
     <a href="/publication/ringe-2019-dm/" >
-            <img src="/publication/ringe-2019-dm/featured_hu9f01c7bfcbe3e74ac82956659cc67870_37279_500x0_resize_q90_lanczos.jpeg" alt="" height="500" width="500">
+            <img src="/publication/ringe-2019-dm/featured_hu_b25ff6c19d6dddfd.jpeg" alt="" height="500" width="500">
     </a>
     
   </div>
@@ -9612,8 +11332,25 @@
 
 
 
+
+
+
   
-  <span>E. L.  Clark†</span>, <span><b>S.  Ringe†</b></span>, <span>M.  Tang</span>, <span>A.  Walton</span>, <span>C.  Hahn</span>, <span>T. F.  Jaramillo</span>, <span>K.  Chan</span>, <span>A. T.  Bell*</span>
+  
+    
+      
+        
+        
+          
+        
+      
+    
+  
+
+
+
+  
+  <span>E. L.  Clark†</span>, <span><a href="/authors/admin/"><b>S.  Ringe†</b></a></span>, <span>M.  Tang</span>, <span>A.  Walton</span>, <span>C.  Hahn</span>, <span>T. F.  Jaramillo</span>, <span>K.  Chan</span>, <span>A. T.  Bell*</span>
 
   </div>
   
@@ -9643,18 +11380,16 @@
   
 
   
-  <span class="article-volume">
-    <span>,</span>
-    
-    <span><i>9</i></span>
-  </span>
+  
+  
+  <span class="article-volume"><span>,</span> <span><i>9</i></span></span>
+  
+  
+  <span class="article-pages"><span>,</span> 4006 - 4014</span>
+  
+  <span>.</span>
 
-  <span class="article-pages">
-    <span>,</span>
-    
-    4006 - 4014
-    <span>.</span>
-  </span>
+  
 
   
   
@@ -9692,8 +11427,10 @@
 
 
 
+
 <button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/clark-2019-xk/cite.bib">
+        data-filename="/publication/clark-2019-xk/cite.bib"
+        data-citation="E. L. Clark et al., ACS Catal. 2019, 9, 4006 - 4014.">
   Cite
 </button>
 
@@ -9717,6 +11454,25 @@
 
 
 
+  
+  
+    
+      
+      
+    
+  
+
+<a class="btn btn-outline-secondary my-1 mr-1 js-citation-count btn-sm"
+   data-doi="10.1021/acscatal.9b00260"
+   href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=10758560818228698712" target="_blank" rel="noopener"
+   title="Citing articles on Google Scholar (count via OpenAlex)">
+  Cited by <span class="js-citation-value">188</span>
+</a>
+
+
+
+
+
 
     </div>
     
@@ -9728,7 +11484,7 @@
     
     
     <a href="/publication/clark-2019-xk/" >
-            <img src="/publication/clark-2019-xk/featured_huf98cf7207f90b8523c9e3a39299319b2_92974_500x0_resize_lanczos.gif" alt="" height="500" width="500">
+            <img src="/publication/clark-2019-xk/featured_hu_f54609515eeeda9d.gif" alt="" height="500" width="500">
     </a>
     
   </div>
@@ -9803,8 +11559,25 @@
 
 
 
+
+
+
   
-  <span>T.  Ludwig</span>, <span>J. A.  Gauthier</span>, <span>K. S.  Brown</span>, <span><b>S.  Ringe</b></span>, <span>J. K.  Nørskov</span>, <span>K.  Chan*</span>
+  
+    
+      
+        
+        
+          
+        
+      
+    
+  
+
+
+
+  
+  <span>T.  Ludwig</span>, <span>J. A.  Gauthier</span>, <span>K. S.  Brown</span>, <span><a href="/authors/admin/"><b>S.  Ringe</b></a></span>, <span>J. K.  Nørskov</span>, <span>K.  Chan*</span>
 
   </div>
   
@@ -9834,18 +11607,16 @@
   
 
   
-  <span class="article-volume">
-    <span>,</span>
-    
-    <span><i>123</i></span>
-  </span>
+  
+  
+  <span class="article-volume"><span>,</span> <span><i>123</i></span></span>
+  
+  
+  <span class="article-pages"><span>,</span> 5999 - 6009</span>
+  
+  <span>.</span>
 
-  <span class="article-pages">
-    <span>,</span>
-    
-    5999 - 6009
-    <span>.</span>
-  </span>
+  
 
   
   
@@ -9883,8 +11654,10 @@
 
 
 
+
 <button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/ludwig-2019-gt/cite.bib">
+        data-filename="/publication/ludwig-2019-gt/cite.bib"
+        data-citation="T. Ludwig et al., J. Phys. Chem. C 2019, 123, 5999 - 6009.">
   Cite
 </button>
 
@@ -9908,6 +11681,25 @@
 
 
 
+  
+  
+    
+      
+      
+    
+  
+
+<a class="btn btn-outline-secondary my-1 mr-1 js-citation-count btn-sm"
+   data-doi="10.1021/acs.jpcc.8b11571"
+   href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=10428105626086387538" target="_blank" rel="noopener"
+   title="Citing articles on Google Scholar (count via OpenAlex)">
+  Cited by <span class="js-citation-value">95</span>
+</a>
+
+
+
+
+
 
     </div>
     
@@ -9919,7 +11711,7 @@
     
     
     <a href="/publication/ludwig-2019-gt/" >
-            <img src="/publication/ludwig-2019-gt/featured_hu8eb700fd9df280abfaf74e586b0cc304_51473_500x0_resize_lanczos.gif" alt="" height="500" width="500">
+            <img src="/publication/ludwig-2019-gt/featured_hu_664bf67218a587b.gif" alt="" height="500" width="500">
     </a>
     
   </div>
@@ -9994,8 +11786,25 @@
 
 
 
+
+
+
   
-  <span>J. A.  Gauthier</span>, <span><b>S.  Ringe</b></span>, <span>C. F.  Dickens</span>, <span>A. J.  Garza</span>, <span>A. T.  Bell</span>, <span>M.  Head-Gordon</span>, <span>J. K.  Nørskov</span>, <span>K.  Chan*</span>
+  
+    
+      
+        
+        
+          
+        
+      
+    
+  
+
+
+
+  
+  <span>J. A.  Gauthier</span>, <span><a href="/authors/admin/"><b>S.  Ringe</b></a></span>, <span>C. F.  Dickens</span>, <span>A. J.  Garza</span>, <span>A. T.  Bell</span>, <span>M.  Head-Gordon</span>, <span>J. K.  Nørskov</span>, <span>K.  Chan*</span>
 
   </div>
   
@@ -10025,18 +11834,16 @@
   
 
   
-  <span class="article-volume">
-    <span>,</span>
-    
-    <span><i>9</i></span>
-  </span>
+  
+  
+  <span class="article-volume"><span>,</span> <span><i>9</i></span></span>
+  
+  
+  <span class="article-pages"><span>,</span> 920 - 931</span>
+  
+  <span>.</span>
 
-  <span class="article-pages">
-    <span>,</span>
-    
-    920 - 931
-    <span>.</span>
-  </span>
+  
 
   
   
@@ -10074,8 +11881,10 @@
 
 
 
+
 <button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/gauthier-2019-wt/cite.bib">
+        data-filename="/publication/gauthier-2019-wt/cite.bib"
+        data-citation="J. A. Gauthier et al., ACS Catal. 2019, 9, 920 - 931.">
   Cite
 </button>
 
@@ -10099,6 +11908,25 @@
 
 
 
+  
+  
+    
+      
+      
+    
+  
+
+<a class="btn btn-outline-secondary my-1 mr-1 js-citation-count btn-sm"
+   data-doi="10.1021/acscatal.8b02793"
+   href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=15447189684392602697" target="_blank" rel="noopener"
+   title="Citing articles on Google Scholar (count via OpenAlex)">
+  Cited by <span class="js-citation-value">271</span>
+</a>
+
+
+
+
+
 
     </div>
     
@@ -10110,7 +11938,7 @@
     
     
     <a href="/publication/gauthier-2019-wt/" >
-            <img src="/publication/gauthier-2019-wt/featured_hudbb3d6bfed9be6effe717dcee37872ae_102326_500x0_resize_lanczos.gif" alt="" height="500" width="500">
+            <img src="/publication/gauthier-2019-wt/featured_hu_a128f05b2dfad7c0.gif" alt="" height="500" width="500">
     </a>
     
   </div>
@@ -10185,8 +12013,25 @@
 
 
 
+
+
+
   
-  <span>C.  Hille†</span>, <span><b>S.  Ringe†*</b></span>, <span>M.  Deimel</span>, <span>C.  Kunkel</span>, <span>W. E.  Acree</span>, <span>K.  Reuter</span>, <span>H.  Oberhofer</span>
+  
+    
+      
+        
+        
+          
+        
+      
+    
+  
+
+
+
+  
+  <span>C.  Hille†</span>, <span><a href="/authors/admin/"><b>S.  Ringe†*</b></a></span>, <span>M.  Deimel</span>, <span>C.  Kunkel</span>, <span>W. E.  Acree</span>, <span>K.  Reuter</span>, <span>H.  Oberhofer</span>
 
   </div>
   
@@ -10216,18 +12061,16 @@
   
 
   
-  <span class="article-volume">
-    <span>,</span>
-    
-    <span><i>150</i></span>
-  </span>
+  
+  
+  <span class="article-volume"><span>,</span> <span><i>150</i></span></span>
+  
+  
+  <span class="article-pages"><span>,</span> 041710</span>
+  
+  <span>.</span>
 
-  <span class="article-pages">
-    <span>,</span>
-    
-    041710
-    <span>.</span>
-  </span>
+  
 
   
   
@@ -10265,8 +12108,10 @@
 
 
 
+
 <button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/hille-2019-fn/cite.bib">
+        data-filename="/publication/hille-2019-fn/cite.bib"
+        data-citation="C. Hille et al., J. Chem. Phys. 2019, 150, 041710.">
   Cite
 </button>
 
@@ -10290,6 +12135,25 @@
 
 
 
+  
+  
+    
+      
+      
+    
+  
+
+<a class="btn btn-outline-secondary my-1 mr-1 js-citation-count btn-sm"
+   data-doi="10.1063/1.5050938"
+   href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=9860667512006524630" target="_blank" rel="noopener"
+   title="Citing articles on Google Scholar (count via OpenAlex)">
+  Cited by <span class="js-citation-value">62</span>
+</a>
+
+
+
+
+
 
     </div>
     
@@ -10301,7 +12165,7 @@
     
     
     <a href="/publication/hille-2019-fn/" >
-            <img src="/publication/hille-2019-fn/featured_hu4fff79700283019ea5a44c856330a87b_510641_500x0_resize_lanczos_2.png" alt="" height="500" width="500">
+            <img src="/publication/hille-2019-fn/featured_hu_b8323ef922f9db08.png" alt="" height="500" width="500">
     </a>
     
   </div>
@@ -10376,8 +12240,25 @@
 
 
 
+
+
+
   
-  <span>X.  Liu</span>, <span>P.  Schlexer</span>, <span>J.  Xiao</span>, <span>Y.  Ji</span>, <span>L.  Wang</span>, <span>R. B.  Sandberg</span>, <span>M.  Tang</span>, <span>K. S.  Brown</span>, <span>H.  Peng</span>, <span><b>S.  Ringe</b></span>, <span>C.  Hahn</span>, <span>T. F.  Jaramillo</span>, <span>J. K.  Nørskov</span>, <span>K.  Chan*</span>
+  
+    
+      
+        
+        
+          
+        
+      
+    
+  
+
+
+
+  
+  <span>X.  Liu</span>, <span>P.  Schlexer</span>, <span>J.  Xiao</span>, <span>Y.  Ji</span>, <span>L.  Wang</span>, <span>R. B.  Sandberg</span>, <span>M.  Tang</span>, <span>K. S.  Brown</span>, <span>H.  Peng</span>, <span><a href="/authors/admin/"><b>S.  Ringe</b></a></span>, <span>C.  Hahn</span>, <span>T. F.  Jaramillo</span>, <span>J. K.  Nørskov</span>, <span>K.  Chan*</span>
 
   </div>
   
@@ -10407,18 +12288,16 @@
   
 
   
-  <span class="article-volume">
-    <span>,</span>
-    
-    <span><i>10</i></span>
-  </span>
+  
+  
+  <span class="article-volume"><span>,</span> <span><i>10</i></span></span>
+  
+  
+  <span class="article-pages"><span>,</span> 32</span>
+  
+  <span>.</span>
 
-  <span class="article-pages">
-    <span>,</span>
-    
-    32
-    <span>.</span>
-  </span>
+  
 
   
   
@@ -10456,8 +12335,10 @@
 
 
 
+
 <button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/liu-2019-ng/cite.bib">
+        data-filename="/publication/liu-2019-ng/cite.bib"
+        data-citation="X. Liu et al., Nat. Commun. 2019, 10, 32.">
   Cite
 </button>
 
@@ -10481,6 +12362,25 @@
 
 
 
+  
+  
+    
+      
+      
+    
+  
+
+<a class="btn btn-outline-secondary my-1 mr-1 js-citation-count btn-sm"
+   data-doi="10.1038/s41467-018-07970-9"
+   href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=434340269877787949" target="_blank" rel="noopener"
+   title="Citing articles on Google Scholar (count via OpenAlex)">
+  Cited by <span class="js-citation-value">628</span>
+</a>
+
+
+
+
+
 
     </div>
     
@@ -10492,7 +12392,7 @@
     
     
     <a href="/publication/liu-2019-ng/" >
-            <img src="/publication/liu-2019-ng/featured_hu35d7b3e8ae87cea44bca93fe7410f9ed_720516_500x0_resize_lanczos_2.png" alt="" height="500" width="500">
+            <img src="/publication/liu-2019-ng/featured_hu_22a2c63f9011c775.png" alt="" height="500" width="500">
     </a>
     
   </div>
@@ -10567,8 +12467,25 @@
 
 
 
+
+
+
   
-  <span>A. M.  Patel</span>, <span><b>S.  Ringe</b></span>, <span>S.  Siahrostami</span>, <span>M.  Bajdich</span>, <span>J. K.  Nørskov</span>, <span>A. R.  Kulkarni*</span>
+  
+    
+      
+        
+        
+          
+        
+      
+    
+  
+
+
+
+  
+  <span>A. M.  Patel</span>, <span><a href="/authors/admin/"><b>S.  Ringe</b></a></span>, <span>S.  Siahrostami</span>, <span>M.  Bajdich</span>, <span>J. K.  Nørskov</span>, <span>A. R.  Kulkarni*</span>
 
   </div>
   
@@ -10598,18 +12515,16 @@
   
 
   
-  <span class="article-volume">
-    <span>,</span>
-    
-    <span><i>122</i></span>
-  </span>
+  
+  
+  <span class="article-volume"><span>,</span> <span><i>122</i></span></span>
+  
+  
+  <span class="article-pages"><span>,</span> 29307 - 29318</span>
+  
+  <span>.</span>
 
-  <span class="article-pages">
-    <span>,</span>
-    
-    29307 - 29318
-    <span>.</span>
-  </span>
+  
 
   
   
@@ -10647,8 +12562,10 @@
 
 
 
+
 <button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/patel-2018-tq/cite.bib">
+        data-filename="/publication/patel-2018-tq/cite.bib"
+        data-citation="A. M. Patel et al., J. Phys. Chem. C 2018, 122, 29307 - 29318.">
   Cite
 </button>
 
@@ -10672,6 +12589,25 @@
 
 
 
+  
+  
+    
+      
+      
+    
+  
+
+<a class="btn btn-outline-secondary my-1 mr-1 js-citation-count btn-sm"
+   data-doi="10.1021/acs.jpcc.8b09430"
+   href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=14964579512151439473" target="_blank" rel="noopener"
+   title="Citing articles on Google Scholar (count via OpenAlex)">
+  Cited by <span class="js-citation-value">115</span>
+</a>
+
+
+
+
+
 
     </div>
     
@@ -10683,7 +12619,7 @@
     
     
     <a href="/publication/patel-2018-tq/" >
-            <img src="/publication/patel-2018-tq/featured_hub1c60b16bde6015158957473bde12dae_37212_500x0_resize_lanczos.gif" alt="" height="500" width="500">
+            <img src="/publication/patel-2018-tq/featured_hu_dbaa26c673471e89.gif" alt="" height="500" width="500">
     </a>
     
   </div>
@@ -10758,8 +12694,25 @@
 
 
 
+
+
+
   
-  <span><b>S.  Ringe†*</b></span>, <span>H.  Oberhofer</span>, <span>K.  Reuter</span>
+  
+    
+      
+        
+        
+          
+        
+      
+    
+  
+
+
+
+  
+  <span><a href="/authors/admin/"><b>S.  Ringe†*</b></a></span>, <span>H.  Oberhofer</span>, <span>K.  Reuter</span>
 
   </div>
   
@@ -10789,18 +12742,16 @@
   
 
   
-  <span class="article-volume">
-    <span>,</span>
-    
-    <span><i>146</i></span>
-  </span>
+  
+  
+  <span class="article-volume"><span>,</span> <span><i>146</i></span></span>
+  
+  
+  <span class="article-pages"><span>,</span> 134103</span>
+  
+  <span>.</span>
 
-  <span class="article-pages">
-    <span>,</span>
-    
-    134103
-    <span>.</span>
-  </span>
+  
 
   
   
@@ -10838,8 +12789,10 @@
 
 
 
+
 <button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/ringe-2017-dm/cite.bib">
+        data-filename="/publication/ringe-2017-dm/cite.bib"
+        data-citation="S. Ringe et al., J. Chem. Phys. 2017, 146, 134103.">
   Cite
 </button>
 
@@ -10863,6 +12816,25 @@
 
 
 
+  
+  
+    
+      
+      
+    
+  
+
+<a class="btn btn-outline-secondary my-1 mr-1 js-citation-count btn-sm"
+   data-doi="10.1063/1.4978850"
+   href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=8416782153736499087" target="_blank" rel="noopener"
+   title="Citing articles on Google Scholar (count via OpenAlex)">
+  Cited by <span class="js-citation-value">51</span>
+</a>
+
+
+
+
+
 
 <a class="btn btn-outline-secondary my-1 mr-1 btn-sm" href="../publication/ringe-2017-dm/cover.pdf" target="_blank" rel="noopener">
   COVER
@@ -10880,7 +12852,7 @@
     
     
     <a href="/publication/ringe-2017-dm/" >
-            <img src="/publication/ringe-2017-dm/featured_hub2aa997a6dca79ec47bd6a949ecc588e_1069503_500x0_resize_lanczos_2.png" alt="" height="500" width="500">
+            <img src="/publication/ringe-2017-dm/featured_hu_ebcf1f0e37ee8cdc.png" alt="" height="500" width="500">
     </a>
     
   </div>
@@ -10955,8 +12927,25 @@
 
 
 
+
+
+
   
-  <span><b>S.  Ringe†</b></span>, <span>H.  Oberhofer*</span>, <span>C.  Hille</span>, <span>S.  Matera</span>, <span>K.  Reuter</span>
+  
+    
+      
+        
+        
+          
+        
+      
+    
+  
+
+
+
+  
+  <span><a href="/authors/admin/"><b>S.  Ringe†</b></a></span>, <span>H.  Oberhofer*</span>, <span>C.  Hille</span>, <span>S.  Matera</span>, <span>K.  Reuter</span>
 
   </div>
   
@@ -10986,18 +12975,16 @@
   
 
   
-  <span class="article-volume">
-    <span>,</span>
-    
-    <span><i>12</i></span>
-  </span>
+  
+  
+  <span class="article-volume"><span>,</span> <span><i>12</i></span></span>
+  
+  
+  <span class="article-pages"><span>,</span> 4052 - 4066</span>
+  
+  <span>.</span>
 
-  <span class="article-pages">
-    <span>,</span>
-    
-    4052 - 4066
-    <span>.</span>
-  </span>
+  
 
   
   
@@ -11035,8 +13022,10 @@
 
 
 
+
 <button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/ringe-2016-ti/cite.bib">
+        data-filename="/publication/ringe-2016-ti/cite.bib"
+        data-citation="S. Ringe et al., J. Chem. Theory Comput. 2016, 12, 4052 - 4066.">
   Cite
 </button>
 
@@ -11060,6 +13049,25 @@
 
 
 
+  
+  
+    
+      
+      
+    
+  
+
+<a class="btn btn-outline-secondary my-1 mr-1 js-citation-count btn-sm"
+   data-doi="10.1021/acs.jctc.6b00435"
+   href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=16199676875704404123" target="_blank" rel="noopener"
+   title="Citing articles on Google Scholar (count via OpenAlex)">
+  Cited by <span class="js-citation-value">88</span>
+</a>
+
+
+
+
+
 
     </div>
     
@@ -11071,7 +13079,7 @@
     
     
     <a href="/publication/ringe-2016-ti/" >
-            <img src="/publication/ringe-2016-ti/featured_hu5cfc5f26ab7c895d4dab264efde51ed5_73309_500x0_resize_lanczos.gif" alt="" height="500" width="500">
+            <img src="/publication/ringe-2016-ti/featured_hu_4906060ee763a004.gif" alt="" height="500" width="500">
     </a>
     
   </div>
@@ -11192,9 +13200,25 @@
       
     
     
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
     
     
-    <script src="/js/academic.min.a8d7005002cb4a052fd6d721e83df9ba.js"></script>
+    
+    <script src="/js/academic.min.46d5098e53045fd052145079ba3b66bd.js"></script>
 
     
 

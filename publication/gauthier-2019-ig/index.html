@@ -18,6 +18,7 @@
     
     
     
+    
   
   
 
@@ -199,7 +200,8 @@
   
   
   
-  <link rel="stylesheet" href="/css/academic.css">
+  
+  <link rel="stylesheet" href="/css/academic.bdd07d44c50687628b5c45f71138b39a.css">
 
   
 
@@ -212,8 +214,8 @@
   
 
   <link rel="manifest" href="/index.webmanifest">
-  <link rel="icon" type="image/png" href="/images/icon_hub4511a7a53b68a692bfd3505f81db8a7_1687_32x32_fill_lanczos_center_2.png">
-  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hub4511a7a53b68a692bfd3505f81db8a7_1687_192x192_fill_lanczos_center_2.png">
+  <link rel="icon" type="image/png" href="/images/icon_hu_2b0fb8393afb65ff.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu_9bbf6088c36a8587.png">
 
   <link rel="canonical" href="https://ringelab.com/publication/gauthier-2019-ig/">
 
@@ -279,7 +281,7 @@
     "name": "RingeLab",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://ringelab.com/images/icon_hub4511a7a53b68a692bfd3505f81db8a7_1687_192x192_fill_lanczos_center_2.png"
+      "url": "https://ringelab.com/images/logo_hu_d952def6dee28164.png"
     }
   },
   "description": "Modelling the electrolyte at the electrochemical interface remains a major challenge in ab initio simulations of charge transfer processes at surfaces. Recently, the development of hybrid polarizable continuum models/ab initio models have allowed for the treatment of solvation and electrolyte charge in a computationally efficient way. However, challenges remain in its application. Recent literature has reported that large cell heights are required to reach convergence, which presents a serious computational cost. Furthermore, calculations of reaction energetics require costly iterations to tune the surface charge to the desired potential. In this work, we present a simple capacitor model of the interface that illuminates how to circumvent both of these challenges. We derive a correction to the energy for finite cell heights to obtain the large cell energies at no additional computational expense. We furthermore demonstrate that the reaction energetics determined at constant charge are easily mapped to those at constant potential, which eliminates the need to apply iterative schemes to tune the system to a constant potential. These developments together represent more than an order of magnitude reduction of the computational overhead required for the application of polarizable continuum models to surface electrochemistry."
@@ -345,6 +347,8 @@
 
 
 
+  
+
 
 <link href="https://fonts.googleapis.com/css?family=Baloo+2&display=swap" rel="stylesheet">
 
@@ -353,9 +357,9 @@
 
     
     <div class="d-none d-lg-inline-flex">
-        <a class="navbar-brand" href="/"><span style="font-family: 'Baloo 2', cursive;font-size:28px;text-align: center;">Ringe<span style="color: #b0b0b0">Lab</span><span style="font-size: 0.7rem;color: #b0b0b0"><i>Computational Modeling Lab</i></span></span>
-        
-        </a>
+        <a class="navbar-brand" href="/">
+          <img class="navbar-logo" src="/images/logo_hu_67d9881c3bd53ecd.png" alt="RingeLab">
+	  </a>
     </div>
     
 
@@ -369,8 +373,7 @@
     
     
     <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
-      <a class="navbar-brand" href="/">
-      <span style="font-family: 'Baloo 2'">Ringe<span style="color: #b0b0b0">Lab</span></span></a>
+      <a class="navbar-brand" href="/"><img src="/images/logo_hu_67d9881c3bd53ecd.png" alt="RingeLab"></a>
     </div>
     
 
@@ -387,38 +390,44 @@
         
         
         
-          
-        
 
         
         
         
         
         
-        
-          
-          
-          
-            
-          
-          
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#about"><span>Home</span></a>
+          <a class="nav-link  active" href="/"><span>Home</span></a>
         </li>
 
         
         
 
         
+        
+        
+        
+        
+          
+        
+          
+        
         <li class="nav-item dropdown">
-          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>Members</span><span class="caret"></span>
+          <a href="/people/" class="nav-link dropdown-toggle"
+             aria-haspopup="true" aria-expanded="false"><span>Members</span><span class="caret"></span>
           </a>
           <div class="dropdown-menu">
             
-              <a class="dropdown-item" href="/people/"><span>Current Members</span></a>
+              
+              
+              
+              <a class="dropdown-item is-overview" href="/people/"><span>Current Members</span></a>
             
+              
+              
+              
               <a class="dropdown-item" href="/alumni/"><span>Alumni</span></a>
             
           </div>
@@ -428,17 +437,42 @@
         
 
         
+        
+        
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
         <li class="nav-item dropdown">
-          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>Research</span><span class="caret"></span>
+          <a href="/research/" class="nav-link dropdown-toggle"
+             aria-haspopup="true" aria-expanded="false"><span>Research</span><span class="caret"></span>
           </a>
           <div class="dropdown-menu">
             
-              <a class="dropdown-item" href="/research/"><span>Research Overview</span></a>
+              
+              
+              
+              <a class="dropdown-item is-overview" href="/research/"><span>Research Overview</span></a>
             
+              
+              
+              
               <a class="dropdown-item" href="/project/solvationandelectrifiedinterfaces/"><span>Solvation and Electrified Interfaces</span></a>
             
+              
+              
+              
               <a class="dropdown-item" href="/project/materialscreening/"><span>Materials Screening</span></a>
             
+              
+              
+              
               <a class="dropdown-item" href="/project/multiscalemodeling/"><span>Multiscale modeling</span></a>
             
           </div>
@@ -448,14 +482,43 @@
         
 
         
+        
+        
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
         <li class="nav-item dropdown">
-          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>Software</span><span class="caret"></span>
+          <a href="/development/" class="nav-link dropdown-toggle"
+             aria-haspopup="true" aria-expanded="false"><span>Software</span><span class="caret"></span>
           </a>
           <div class="dropdown-menu">
             
-              <a class="dropdown-item" href="/software/mpbe/"><span>MPBE/FHI-aims</span></a>
+              
+              
+              
+              <a class="dropdown-item is-overview" href="/development/"><span>Software Overview</span></a>
             
+              
+              
+              
+              <a class="dropdown-item" href="/software/catmapinterface/"><span>CatmapInterface.jl</span></a>
+            
+              
+              
+              
               <a class="dropdown-item" href="/software/catint/"><span>CatINT/COMSOL</span></a>
+            
+              
+              
+              
+              <a class="dropdown-item" href="/software/mpbe/"><span>MPBE/FHI-aims</span></a>
             
           </div>
         </li>
@@ -543,6 +606,24 @@
       
 
       
+      
+      
+      <li class="nav-item nav-item-translate">
+        
+        <button type="button" class="nav-link js-translate-toggle notranslate"
+                translate="no" aria-pressed="false"
+                data-source="en"
+                data-target="ko"
+                data-label-target="한국어"
+                data-label-original="EN">
+          <i class="fas fa-language" aria-hidden="true"></i>
+          <span class="js-translate-label">한국어</span>
+        </button>
+      </li>
+      
+      
+
+      
 
       
 
@@ -610,8 +691,25 @@
 
 
 
+
+
+
   
-  <span>J. A.  Gauthier†</span>, <span>C. F.  Dickens†</span>, <span><b>S.  Ringe</b></span>, <span>K.  Chan*</span>
+  
+    
+      
+        
+        
+          
+        
+      
+    
+  
+
+
+
+  
+  <span>J. A.  Gauthier†</span>, <span>C. F.  Dickens†</span>, <span><a href="/authors/admin/"><b>S.  Ringe</b></a></span>, <span>K.  Chan*</span>
 
   </div>
   
@@ -640,18 +738,16 @@
   
 
   
-  <span class="article-volume">
-    <span>,</span>
-    
-    <span><i>20</i></span>
-  </span>
+  
+  
+  <span class="article-volume"><span>,</span> <span><i>20</i></span></span>
+  
+  
+  <span class="article-pages"><span>,</span> 3074 - 3080</span>
+  
+  <span>.</span>
 
-  <span class="article-pages">
-    <span>,</span>
-    
-    3074 - 3080
-    <span>.</span>
-  </span>
+  
 
   
   
@@ -702,8 +798,10 @@
 
 
 
+
 <button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
-        data-filename="/publication/gauthier-2019-ig/cite.bib">
+        data-filename="/publication/gauthier-2019-ig/cite.bib"
+        data-citation="J. A. Gauthier et al., Chemphyschem 2019, 20, 3074 - 3080.">
   Cite
 </button>
 
@@ -721,6 +819,25 @@
 
 <a class="btn btn-outline-primary my-1 mr-1" href="https://doi.org/10.1002/cphc.201900536" target="_blank" rel="noopener">
   DOI
+</a>
+
+
+
+
+
+  
+  
+    
+      
+      
+    
+  
+
+<a class="btn btn-outline-secondary my-1 mr-1 js-citation-count"
+   data-doi="10.1002/cphc.201900536"
+   href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=7431684702973205235" target="_blank" rel="noopener"
+   title="Citing articles on Google Scholar (count via OpenAlex)">
+  Cited by <span class="js-citation-value">80</span>
 </a>
 
 
@@ -876,9 +993,25 @@
       
     
     
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
     
     
-    <script src="/js/academic.min.a8d7005002cb4a052fd6d721e83df9ba.js"></script>
+    
+    <script src="/js/academic.min.46d5098e53045fd052145079ba3b66bd.js"></script>
 
     
 

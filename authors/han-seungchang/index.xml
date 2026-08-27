@@ -7,10 +7,18 @@
     <description>RingeLab</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 08 May 2026 10:20:10 +0900</lastBuildDate>
     <image>
-      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <url>https://ringelab.com/images/logo_hu_ba2ad517f46bfe15.png</url>
       <title>RingeLab</title>
       <link>https://ringelab.com/authors/han-seungchang/</link>
     </image>
+    
+    <item>
+      <title></title>
+      <link>https://ringelab.com/authors/han-seungchang/</link>
+      <pubDate>Fri, 08 May 2026 10:20:10 +0900</pubDate>
+      <guid>https://ringelab.com/authors/han-seungchang/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Another week, another cake!</title>
