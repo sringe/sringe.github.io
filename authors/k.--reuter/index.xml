@@ -22,3 +22,23 @@
     
   </channel>
 </rss>
+  </item>
+    
+    <item>
+      <title>Transferable ionic parameters for first-principles Poisson-Boltzmann solvation calculations: Neutral solutes in aqueous monovalent salt solutions</title>
+      <link>https://ringelab.com/publication/ringe-2017-dm/</link>
+      <pubDate>Sat, 01 Apr 2017 00:00:00 +0000</pubDate>
+      <guid>https://ringelab.com/publication/ringe-2017-dm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Function-Space-Based Solution Scheme for the Size-Modified Poisson-Boltzmann Equation in Full-Potential DFT</title>
+      <link>https://ringelab.com/publication/ringe-2016-ti/</link>
+      <pubDate>Mon, 01 Aug 2016 00:00:00 +0000</pubDate>
+      <guid>https://ringelab.com/publication/ringe-2016-ti/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
