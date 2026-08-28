@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RingeLab</title>
+    <link>https://ringelab.com/ko/</link>
+      <atom:link href="https://ringelab.com/ko/index.xml" rel="self" type="application/rss+xml" />
+    <description>RingeLab</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ko-kr</language><lastBuildDate>Thu, 27 Aug 2026 10:00:00 +0900</lastBuildDate>
+    <image>
+      <url>https://ringelab.com/images/logo_hu_bd4ef38c755ea2e8.png</url>
+      <title>RingeLab</title>
+      <link>https://ringelab.com/ko/</link>
+    </image>
+    
+    <item>
+      <title>CatmapInterface.jl</title>
+      <link>https://ringelab.com/ko/software/catmapinterface/</link>
+      <pubDate>Thu, 27 Aug 2026 10:00:00 +0900</pubDate>
+      <guid>https://ringelab.com/ko/software/catmapinterface/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>졸업생</title>
+      <link>https://ringelab.com/ko/alumni/</link>
+      <pubDate>Wed, 18 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://ringelab.com/ko/alumni/</guid>
+      <description>&lt;p&gt;연구실을 거쳐 간 구성원들입니다. 각 프로필에는 재직 중 공동 저자로 참여한 논문이 함께 정리되어 있습니다.&lt;/p&gt;
+
+
+
+
+
+  
+  
+
+
+
+&lt;div class=&#34;alumni-grid&#34;&gt;
+  
+    
+      
+      
+      
+      &lt;div class=&#34;alumni-card&#34;&gt;
+        &lt;a class=&#34;alumni-avatar&#34; href=&#34;https://ringelab.com/authors/abbas/&#34; tabindex=&#34;-1&#34; aria-hidden=&#34;true&#34;&gt;
+          
+            
+              &lt;img src=&#34;https://ringelab.com/authors/abbas/avatar_hu_ef90e23d659a53d.jpg&#34; width=&#34;80&#34; height=&#34;80&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;
+            
+          
+        &lt;/a&gt;
+
+        &lt;div class=&#34;alumni-body&#34;&gt;
+          &lt;h3 class=&#34;alumni-name&#34;&gt;&lt;a href=&#34;https://ringelab.com/authors/abbas/&#34;&gt;Hafiz Ghulam Abbas&lt;/a&gt;&lt;/h3&gt;
+
+          &lt;div class=&#34;alumni-role&#34;&gt;Postdoctoral researcher&lt;/div&gt;
+          &lt;div class=&#34;alumni-period&#34;&gt;Mar 2021 - Mar 2024&lt;/div&gt;
+          &lt;div class=&#34;alumni-position&#34;&gt;Researcher at KIMM, Daejeon&lt;/div&gt;
+
+          &lt;div class=&#34;alumni-links&#34;&gt;
+            
+            
+              
+                &lt;a href=&#34;https://ringelab.com/authors/abbas/&#34;&gt;7 publications&lt;/a&gt;
+              
+            
+            
+              &lt;a href=&#34;https://www.linkedin.com/in/hafiz-ghulam-abbas-29206790/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LinkedIn&lt;/a&gt;
+            
+            
+              &lt;a href=&#34;mailto:%20&#34;&gt;Email&lt;/a&gt;
+            
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    
+  
+    
+      
+      
+      
+      &lt;div class=&#34;alumni-card&#34;&gt;
+        &lt;a class=&#34;alumni-avatar&#34; href=&#34;https://ringelab.com/authors/ashgar-kamal/&#34; tabindex=&#34;-1&#34; aria-hidden=&#34;true&#34;&gt;
+          
+            
+              &lt;img src=&#34;https://ringelab.com/authors/ashgar-kamal/avatar_hu_9f54a4a70cc9e076.jpg&#34; width=&#34;80&#34; height=&#34;80&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;
+            
+          
+        &lt;/a&gt;
+
+        &lt;div class=&#34;alumni-body&#34;&gt;
+          &lt;h3 class=&#34;alumni-name&#34;&gt;&lt;a href=&#34;https://ringelab.com/authors/ashgar-kamal/&#34;&gt;Kamal Asghar&lt;/a&gt;&lt;/h3&gt;
+
+          &lt;div class=&#34;alumni-role&#34;&gt;Master Student&lt;/div&gt;
+          &lt;div class=&#34;alumni-period&#34;&gt;Sept 2020 - Aug 2022&lt;/div&gt;
+          &lt;div class=&#34;alumni-position&#34;&gt;PhD Student at KAERI (Prof. Chungyun Roh&amp;rsquo;s group)&lt;/div&gt;
+
+          &lt;div class=&#34;alumni-links&#34;&gt;
+            
+            
+              
+                &lt;a href=&#34;https://ringelab.com/authors/ashgar-kamal/&#34;&gt;1 publication&lt;/a&gt;
+              
+            
+            
+              &lt;a href=&#34;https://kaeri.ust.ac.kr/post/kamal-asghar-%EC%B9%B4%EB%A7%90-%EC%95%84%EC%8A%A4%EA%B0%80%EB%A5%B4&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Profile&lt;/a&gt;
+            
+            
+              &lt;a href=&#34;mailto:%20&#34;&gt;Email&lt;/a&gt;
+            
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    
+  
+    
+      
+      
+      
+      &lt;div class=&#34;alumni-card&#34;&gt;
+        &lt;a class=&#34;alumni-avatar&#34; href=&#34;https://ringelab.com/authors/kim-sejun/&#34; tabindex=&#34;-1&#34; aria-hidden=&#34;true&#34;&gt;
+          
+            &lt;span class=&#34;alumni-avatar-blank&#34;&gt;S&lt;/span&gt;
+          
+        &lt;/a&gt;
+
+        &lt;div class=&#34;alumni-body&#34;&gt;
+          &lt;h3 class=&#34;alumni-name&#34;&gt;&lt;a href=&#34;https://ringelab.com/authors/kim-sejun/&#34;&gt;Sejun Kim&lt;/a&gt;&lt;/h3&gt;
+
+          &lt;div class=&#34;alumni-role&#34;&gt;Alumnus&lt;/div&gt;
+          
+          
+
+          &lt;div class=&#34;alumni-links&#34;&gt;
+            
+            
+              
+                &lt;a href=&#34;https://ringelab.com/authors/kim-sejun/&#34;&gt;4 publications&lt;/a&gt;
+              
+            
+            
+            
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    
+  
+    
+      
+      
+      
+      &lt;div class=&#34;alumni-card&#34;&gt;
+        &lt;a class=&#34;alumni-avatar&#34; href=&#34;https://ringelab.com/authors/kwak-dongvin/&#34; tabindex=&#34;-1&#34; aria-hidden=&#34;true&#34;&gt;
+          
+            
+              &lt;img src=&#34;https://ringelab.com/authors/kwak-dongvin/avatar_hu_9db746ffd19d1dac.png&#34; width=&#34;80&#34; height=&#34;80&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;
+            
+          
+        &lt;/a&gt;
+
+        &lt;div class=&#34;alumni-body&#34;&gt;
+          &lt;h3 class=&#34;alumni-name&#34;&gt;&lt;a href=&#34;https://ringelab.com/authors/kwak-dongvin/&#34;&gt;곽동빈&lt;br/&gt; Dongvin Kwak&lt;/a&gt;&lt;/h3&gt;
+
+          &lt;div class=&#34;alumni-role&#34;&gt;Co-supervised PhD Student&lt;/div&gt;
+          &lt;div class=&#34;alumni-period&#34;&gt;Mar 2023 - Aug 2024&lt;/div&gt;
+          &lt;div class=&#34;alumni-position&#34;&gt;PhD Student at Korea University (Prof. Hugh I. Kim&amp;rsquo;s group)&lt;/div&gt;
+
+          &lt;div class=&#34;alumni-links&#34;&gt;
+            
+            
+              
+                &lt;a href=&#34;https://ringelab.com/authors/kwak-dongvin/&#34;&gt;1 publication&lt;/a&gt;
+              
+            
+            
+              &lt;a href=&#34;https://www.hughkimlab.com/currentmembers&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Lab Page&lt;/a&gt;
+            
+            
+              &lt;a href=&#34;mailto:%20&#34;&gt;Email&lt;/a&gt;
+            
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    
+  
+    
+      
+      
+      
+      &lt;div class=&#34;alumni-card&#34;&gt;
+        &lt;a class=&#34;alumni-avatar&#34; href=&#34;https://ringelab.com/authors/dongjin/&#34; tabindex=&#34;-1&#34; aria-hidden=&#34;true&#34;&gt;
+          
+            
+              &lt;img src=&#34;https://ringelab.com/authors/dongjin/avatar_hu_200415f558bd89e2.jpeg&#34; width=&#34;80&#34; height=&#34;80&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;
+            
+          
+        &lt;/a&gt;
+
+        &lt;div class=&#34;alumni-body&#34;&gt;
+          &lt;h3 class=&#34;alumni-name&#34;&gt;&lt;a href=&#34;https://ringelab.com/authors/dongjin/&#34;&gt;김동진&lt;br/&gt; Dongjin Kim&lt;/a&gt;&lt;/h3&gt;
+
+          &lt;div class=&#34;alumni-role&#34;&gt;Undergrad Intern&lt;/div&gt;
+          &lt;div class=&#34;alumni-period&#34;&gt;Feb 2023 - Jun 2024&lt;/div&gt;
+          &lt;div class=&#34;alumni-position&#34;&gt;PhD Student at UC Berkeley (Prof. Bingqing Cheng&amp;rsquo;s group)&lt;/div&gt;
+
+          &lt;div class=&#34;alumni-links&#34;&gt;
+            
+            
+              
+            
+            
+              &lt;a href=&#34;https://www.linkedin.com/in/dongjin-kim-5aaa7330a/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LinkedIn&lt;/a&gt;
+            
+            
+              &lt;a href=&#34;mailto:&#34;&gt;Email&lt;/a&gt;
+            
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    
+  
+    
+      
+      
+      
+      &lt;div class=&#34;alumni-card&#34;&gt;
+        &lt;a class=&#34;alumni-avatar&#34; href=&#34;https://ringelab.com/authors/seoyeong-kim/&#34; tabindex=&#34;-1&#34; aria-hidden=&#34;true&#34;&gt;
+          
+            
+              &lt;img src=&#34;https://ringelab.com/authors/seoyeong-kim/avatar_hu_468b86fa27ae3c23.jpg&#34; width=&#34;80&#34; height=&#34;80&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;
+            
+          
+        &lt;/a&gt;
+
+        &lt;div class=&#34;alumni-body&#34;&gt;
+          &lt;h3 class=&#34;alumni-name&#34;&gt;&lt;a href=&#34;https://ringelab.com/authors/seoyeong-kim/&#34;&gt;김서영&lt;br/&gt; Seoyeong Kim&lt;/a&gt;&lt;/h3&gt;
+
+          &lt;div class=&#34;alumni-role&#34;&gt;Co-supervised Master Student (Prof. Jiwoong Yang)&lt;/div&gt;
+          
+          
+
+          &lt;div class=&#34;alumni-links&#34;&gt;
+            
+            
+              
+                &lt;a href=&#34;https://ringelab.com/authors/seoyeong-kim/&#34;&gt;2 publications&lt;/a&gt;
+              
+            
+            
+            
+              &lt;a href=&#34;mailto:%20&#34;&gt;Email&lt;/a&gt;
+            
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    
+  
+    
+      
+      
+      
+      &lt;div class=&#34;alumni-card&#34;&gt;
+        &lt;a class=&#34;alumni-avatar&#34; href=&#34;https://ringelab.com/authors/hoseong/&#34; tabindex=&#34;-1&#34; aria-hidden=&#34;true&#34;&gt;
+          
+            
+              &lt;img src=&#34;https://ringelab.com/authors/hoseong/avatar_hu_326f71d969a97adc.png&#34; width=&#34;80&#34; height=&#34;80&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;
+            
+          
+        &lt;/a&gt;
+
+        &lt;div class=&#34;alumni-body&#34;&gt;
+          &lt;h3 class=&#34;alumni-name&#34;&gt;&lt;a href=&#34;https://ringelab.com/authors/hoseong/&#34;&gt;설호성&lt;br/&gt; Hoseong Seol&lt;/a&gt;&lt;/h3&gt;
+
+          &lt;div class=&#34;alumni-role&#34;&gt;Master Student&lt;/div&gt;
+          &lt;div class=&#34;alumni-period&#34;&gt;Mar 2024 - Feb 2026&lt;/div&gt;
+          &lt;div class=&#34;alumni-position&#34;&gt;Engineer at Samsung SDI, Small Sized Li-ion Battery business, Development Team, Simulation group&lt;/div&gt;
+
+          &lt;div class=&#34;alumni-links&#34;&gt;
+            
+            
+              
+            
+            
+            
+              &lt;a href=&#34;mailto:%20&#34;&gt;Email&lt;/a&gt;
+            
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    
+  
+    
+      
+      
+      
+      &lt;div class=&#34;alumni-card&#34;&gt;
+        &lt;a class=&#34;alumni-avatar&#34; href=&#34;https://ringelab.com/authors/dayun-hwang/&#34; tabindex=&#34;-1&#34; aria-hidden=&#34;true&#34;&gt;
+          
+            
+              &lt;img src=&#34;https://ringelab.com/authors/dayun-hwang/avatar_hu_65d0d9d64f052e8.jpg&#34; width=&#34;80&#34; height=&#34;80&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;
+            
+          
+        &lt;/a&gt;
+
+        &lt;div class=&#34;alumni-body&#34;&gt;
+          &lt;h3 class=&#34;alumni-name&#34;&gt;&lt;a href=&#34;https://ringelab.com/authors/dayun-hwang/&#34;&gt;황다윤&lt;br/&gt; Dayun Hwang&lt;/a&gt;&lt;/h3&gt;
+
+          &lt;div class=&#34;alumni-role&#34;&gt;Undergrad Intern&lt;/div&gt;
+          &lt;div class=&#34;alumni-period&#34;&gt;Feb 2023 - Nov 2023&lt;/div&gt;
+          &lt;div class=&#34;alumni-position&#34;&gt;PhD Student at Cornell University (Prof. Andrew J Musser&amp;rsquo;s group)&lt;/div&gt;
+
+          &lt;div class=&#34;alumni-links&#34;&gt;
+            
+            
+              
+            
+            
+              &lt;a href=&#34;https://www.linkedin.com/in/dayun-hwang-b84478211/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LinkedIn&lt;/a&gt;
+            
+            
+              &lt;a href=&#34;mailto:&#34;&gt;Email&lt;/a&gt;
+            
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    
+  
+&lt;/div&gt;
+
+
+</description>
+    </item>
+    
+    <item>
+      <title>고성능 에너지 소재를 찾기 위한 고속 대량 계산 탐색</title>
+      <link>https://ringelab.com/ko/project/materialscreening/</link>
+      <pubDate>Tue, 05 Apr 2022 10:52:49 +0900</pubDate>
+      <guid>https://ringelab.com/ko/project/materialscreening/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>다중스케일 모델링</title>
+      <link>https://ringelab.com/ko/project/multiscalemodeling/</link>
+      <pubDate>Tue, 05 Apr 2022 10:52:49 +0900</pubDate>
+      <guid>https://ringelab.com/ko/project/multiscalemodeling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>밀도범함수이론과 기계학습으로 다루는 전기화학 계면</title>
+      <link>https://ringelab.com/ko/project/solvationandelectrifiedinterfaces/</link>
+      <pubDate>Tue, 05 Apr 2022 10:52:49 +0900</pubDate>
+      <guid>https://ringelab.com/ko/project/solvationandelectrifiedinterfaces/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FHI-aims의 (크기 보정) Poisson-Boltzmann 암시적 용매화 모듈 — (S)MPBE</title>
+      <link>https://ringelab.com/ko/software/mpbe/</link>
+      <pubDate>Wed, 20 May 2020 10:52:49 +0900</pubDate>
+      <guid>https://ringelab.com/ko/software/mpbe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>다중스케일 전기화학 모델링</title>
+      <link>https://ringelab.com/ko/software/catint/</link>
+      <pubDate>Thu, 13 Feb 2020 10:52:49 +0900</pubDate>
+      <guid>https://ringelab.com/ko/software/catint/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://ringelab.com/ko/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ringelab.com/ko/contact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://ringelab.com/ko/development/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ringelab.com/ko/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://ringelab.com/ko/gallery/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ringelab.com/ko/gallery/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://ringelab.com/ko/my-publications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ringelab.com/ko/my-publications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://ringelab.com/ko/people/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ringelab.com/ko/people/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://ringelab.com/ko/research/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ringelab.com/ko/research/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
