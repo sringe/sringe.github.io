@@ -7,7 +7,7 @@
     <description>C. F.  Dickens†</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 Nov 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://ringelab.com/images/logo_hu_bd4ef38c755ea2e8.png</url>
+      <url>https://ringelab.com/images/logo_hu_512b219fdaa8c8ee.png</url>
       <title>C. F.  Dickens†</title>
       <link>https://ringelab.com/authors/c.-f.--dickens/</link>
     </image>
@@ -17,6 +17,24 @@
       <link>https://ringelab.com/publication/gauthier-2019-ig/</link>
       <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
       <guid>https://ringelab.com/publication/gauthier-2019-ig/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
+  <item>
+      <title>Unified Approach to Implicit and Explicit Solvent Simulations of Electrochemical Reaction Energetics</title>
+      <link>https://ringelab.com/publication/gauthier-2019-us/</link>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://ringelab.com/publication/gauthier-2019-us/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Challenges in Modeling Electrochemical Reaction Energetics with Polarizable Continuum Models</title>
+      <link>https://ringelab.com/publication/gauthier-2019-wt/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://ringelab.com/publication/gauthier-2019-wt/</guid>
       <description></description>
     </item>
     
