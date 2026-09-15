@@ -22,21 +22,3 @@
     
   </channel>
 </rss>
-  <item>
-      <title>Unified Approach to Implicit and Explicit Solvent Simulations of Electrochemical Reaction Energetics</title>
-      <link>https://ringelab.com/publication/gauthier-2019-us/</link>
-      <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>https://ringelab.com/publication/gauthier-2019-us/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Challenges in Modeling Electrochemical Reaction Energetics with Polarizable Continuum Models</title>
-      <link>https://ringelab.com/publication/gauthier-2019-wt/</link>
-      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://ringelab.com/publication/gauthier-2019-wt/</guid>
-      <description></description>
-    </item>
-    
-  </channel>
-</rss>
