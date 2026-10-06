@@ -1,30 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>&lt;b&gt;S.  Kim&lt;/b&gt; | RingeLab</title>
+    <title>&lt;B&gt;S. Kim†&lt;/B&gt; | RingeLab</title>
     <link>https://ringelab.com/authors/bs.-kim/b/</link>
       <atom:link href="https://ringelab.com/authors/bs.-kim/b/index.xml" rel="self" type="application/rss+xml" />
-    <description>&lt;b&gt;S.  Kim&lt;/b&gt;</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <description>&lt;B&gt;S. Kim†&lt;/B&gt;</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 20 Oct 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
-      <title>&lt;b&gt;S.  Kim&lt;/b&gt;</title>
+      <url>https://ringelab.com/images/logo_hu_512b219fdaa8c8ee.png</url>
+      <title>&lt;B&gt;S. Kim†&lt;/B&gt;</title>
       <link>https://ringelab.com/authors/bs.-kim/b/</link>
     </image>
     
     <item>
-      <title>GW Quasiparticle Energies and Bandgaps of Two-Dimensional Materials Immersed in Water</title>
-      <link>https://ringelab.com/publication/kim-2022-sv/</link>
-      <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>https://ringelab.com/publication/kim-2022-sv/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Selective electrochemical reduction of nitric oxide to hydroxylamine by atomically dispersed iron catalyst</title>
-      <link>https://ringelab.com/publication/kim-2021-mw/</link>
-      <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>https://ringelab.com/publication/kim-2021-mw/</guid>
+      <title>Understanding Electrochemical CO&lt;sub&gt;2&lt;/sub&gt; Reduction Selectivity of Cu Binary Alloys from Electronic Structure Descriptors</title>
+      <link>https://ringelab.com/publication/yujin-2025/</link>
+      <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://ringelab.com/publication/yujin-2025/</guid>
       <description></description>
     </item>
     

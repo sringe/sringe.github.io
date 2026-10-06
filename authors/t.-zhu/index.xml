@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>T. Zhu | RingeLab</title>
+    <link>https://ringelab.com/authors/t.-zhu/</link>
+      <atom:link href="https://ringelab.com/authors/t.-zhu/index.xml" rel="self" type="application/rss+xml" />
+    <description>T. Zhu</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 22 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ringelab.com/images/logo_hu_512b219fdaa8c8ee.png</url>
+      <title>T. Zhu</title>
+      <link>https://ringelab.com/authors/t.-zhu/</link>
+    </image>
+    
+    <item>
+      <title>Roadmap on Advancements of the FHI-aims Software Package</title>
+      <link>https://ringelab.com/publication/abbott-2026/</link>
+      <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://ringelab.com/publication/abbott-2026/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
