@@ -5,12 +5,20 @@
     <link>https://ringelab.com/</link>
       <atom:link href="https://ringelab.com/index.xml" rel="self" type="application/rss+xml" />
     <description>RingeLab</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 24 Oct 2026 10:20:10 +0900</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 23 Oct 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ringelab.com/images/logo_hu_512b219fdaa8c8ee.png</url>
       <title>RingeLab</title>
       <link>https://ringelab.com/</link>
     </image>
+    
+    <item>
+      <title>Ringelab group outing 2026!</title>
+      <link>https://ringelab.com/post/28th_post/</link>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>https://ringelab.com/post/28th_post/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Fully integrated, finite-volume-based, time-dependent multi-scale modeling of electrochemical CO&lt;sub&gt;2&lt;/sub&gt; reduction</title>
@@ -297,6 +305,14 @@
       <link>https://ringelab.com/post/3rd_post/</link>
       <pubDate>Mon, 13 Oct 2025 10:20:10 +0900</pubDate>
       <guid>https://ringelab.com/post/3rd_post/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Invited talks in China!</title>
+      <link>https://ringelab.com/post/2nd_post/</link>
+      <pubDate>Thu, 04 Sep 2025 10:20:10 +0900</pubDate>
+      <guid>https://ringelab.com/post/2nd_post/</guid>
       <description></description>
     </item>
     
